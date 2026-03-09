@@ -1,0 +1,31 @@
+name: Dev Build Check
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run build script (check only — no deploy)
+        run: python build.py
+
+      - name: Verify output exists
+        run: |
+          test -f calculators/salary-in-hand-calculator/index.html && echo "✓ salary page built"
+          test -f calculators/loan-emi-calculator/index.html && echo "✓ emi page built"
+          test -f calculators/fuel-cost-per-km-calculator/index.html && echo "✓ fuel page built"
+          test -f sitemap.xml && echo "✓ sitemap generated"

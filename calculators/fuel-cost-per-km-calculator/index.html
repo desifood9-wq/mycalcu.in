@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO: Title & Description (unique per page) -->
+  <title>Fuel Cost Per KM Calculator — Petrol & Diesel 2025 | mycalcu.in</title>
+  <meta name="description" content="Calculate exact fuel cost per kilometre for your car, bike, or truck. Enter fuel price and mileage to find your per-km running cost.">
+
+  <!-- SEO: Canonical -->
+  <link rel="canonical" href="https://mycalcu.in/calculators/fuel-cost-per-km-calculator">
+
+  <!-- SEO: Open Graph -->
+  <meta property="og:title" content="Fuel Cost Per KM Calculator | mycalcu.in">
+  <meta property="og:description" content="Find out how much it costs to travel each kilometre. Works for petrol, diesel, and CNG vehicles.">
+  <meta property="og:url" content="https://mycalcu.in/calculators/fuel-cost-per-km-calculator">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="mycalcu.in">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Shared header (analytics etc.) -->
+  <!-- Fonts: loaded via <link> in <head>, not CSS @import -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="/assets/icons/favicon.png">
+<link rel="shortcut icon" href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+
+<!-- Robots -->
+<meta name="robots" content="index, follow">
+
+<!-- Google Analytics placeholder — add GA4 snippet here when ready -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+
+  <!-- Structured Data: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Fuel Cost Per KM Calculator",
+    "url": "https://mycalcu.in/calculators/fuel-cost-per-km-calculator",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Calculate fuel cost per kilometre for petrol, diesel, and CNG vehicles based on current fuel prices and vehicle mileage.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How is fuel cost per km calculated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fuel cost per km = Fuel price per litre ÷ Mileage (km per litre). For example, if petrol is ₹106/litre and your car gives 15 km/litre, the cost per km is ₹106 ÷ 15 = ₹7.07 per km."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a good mileage for a petrol car in India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a petrol hatchback or sedan, 15–20 km/litre is considered good mileage under city conditions. SUVs return 12–16 km/litre. Bikes and scooters generally offer 40–60 km/litre."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find the current petrol or diesel price?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fuel prices in India change daily and vary by city. Check via Indian Oil, BPCL, or HPCL websites, or SMS 'RSP' to 9224992249 (Indian Oil). The price shown at petrol pumps already includes all taxes and dealer margins."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does driving style affect fuel cost per km?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aggressive acceleration and hard braking can reduce mileage by 15–30%. Driving at 60–80 km/h gives optimal mileage. Properly inflated tyres, clean air filters, and regular servicing also improve fuel efficiency significantly."
+      }
+    }
+  ]
+}
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mycalcu.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Calculators",
+        "item": "https://mycalcu.in/calculators/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Fuel Cost Per KM Calculator",
+        "item": "https://mycalcu.in/calculators/fuel-cost-per-km-calculator"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar__inner">
+    <a href="/" class="navbar__logo" aria-label="mycalcu.in home">
+      <div class="navbar__logo-mark" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <text x="10" y="15" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="15" fill="white">M</text>
+        </svg>
+      </div>
+      <span class="navbar__logo-text">MyCalcu<em>.in</em></span>
+    </a>
+    <button class="navbar__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar-links" onclick="var n=document.getElementById('navbar-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <ul class="navbar__links" id="navbar-links" role="list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/calculators/">Calculators</a></li>
+      <li><a href="/guides/">Guides</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span aria-hidden="true">›</span>
+    <a href="/calculators/">Calculators</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">Fuel Cost Per KM Calculator</span>
+  </div>
+
+  <!-- ── Page Header ─────────────────────────────────────── -->
+  <header class="page-header">
+    <p class="page-header__eyebrow">Free Online Calculator</p>
+    <h1>Fuel Cost Per KM Calculator</h1>
+    <p class="page-header__sub">Find your vehicle's exact running cost per kilometre. Enter the current fuel price and your vehicle's mileage.</p>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ── Calculator Widget ─────────────────────────────── -->
+    <section aria-label="Calculator" class="container">
+      <div class="calc-card">
+        <!-- CALCULATOR_INPUTS_START -->
+        <div class="form-group">
+  <label for="fuel-price">Fuel Price (₹ per litre)</label>
+  <div class="input-wrap"><span class="input-wrap__prefix">₹</span>
+  <input type="number" id="fuel-price" name="fuel-price" min="50" max="200" step="0.01" value="106.00" aria-describedby="fuel-price-hint"></div>
+  <p class="hint" id="fuel-price-hint">Enter today's fuel price in your city</p>
+</div>
+<div class="form-group">
+  <label for="mileage">Vehicle Mileage (km per litre)</label>
+  <input type="number" id="mileage" name="mileage" min="5" max="100" step="0.5" value="15" aria-describedby="mileage-hint">
+  <p class="hint" id="mileage-hint">Use real-world mileage, not ARAI certified figures</p>
+</div>
+<div class="form-group">
+  <label for="monthly-km">Monthly Distance (km)</label>
+  <input type="number" id="monthly-km" name="monthly-km" min="0" max="10000" step="50" value="1500" aria-describedby="monthly-km-hint">
+  <p class="hint" id="monthly-km-hint">Optional: enter to calculate monthly fuel cost</p>
+</div>
+        <!-- CALCULATOR_INPUTS_END -->
+
+        <button class="btn-calc" id="calc-btn" type="button" aria-label="Calculate result">
+          Calculate
+        </button>
+
+        <!-- Result Box -->
+        <div class="result-box" id="result-box" aria-live="polite" aria-label="Calculation result">
+          <div class="result-box__label">Fuel Cost Per KM</div>
+          <div class="result-box__value" id="result-primary">—</div>
+          <div class="result-box__breakdown" id="result-breakdown">
+            <!-- JS populates rows here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── What is this calculator? ─────────────────────── -->
+    <section class="content-section" aria-labelledby="about-heading">
+      <h2 id="about-heading">What is a Fuel Cost Per KM Calculator?</h2>
+      <p>A fuel cost per km calculator helps you understand the exact running cost of your vehicle for every kilometre you travel. This is one of the most practical tools for vehicle owners in India, where fuel prices vary daily and significantly impact monthly budgets.</p><p>Whether you own a petrol car, diesel car, CNG vehicle, or a two-wheeler, knowing your per-km fuel cost helps you budget travel expenses, compare the cost of driving versus public transport, and evaluate the true cost of a new vehicle purchase.</p><p>This calculator works for all fuel types and any vehicle class — from city hatchbacks to heavy trucks.</p>
+    </section>
+
+    <!-- ── Formula & How it Works ───────────────────────── -->
+    <section class="content-section" aria-labelledby="formula-heading">
+      <h2 id="formula-heading">How is Fuel Cost Per KM Calculated?</h2>
+      <p>The formula is straightforward:</p><div class="formula-box">Fuel Cost Per KM = Fuel Price (₹/litre) ÷ Mileage (km/litre)</div><h3>To calculate monthly fuel cost:</h3><div class="formula-box">Monthly Fuel Cost = Fuel Cost Per KM × Monthly Distance (km)</div><h3>Factors that affect real-world mileage:</h3><ul><li><strong>Driving conditions:</strong> City traffic vs. highway — highway gives 20–30% better mileage.</li><li><strong>Vehicle age and maintenance:</strong> Worn spark plugs, dirty air filters, and low tyre pressure all reduce efficiency.</li><li><strong>Air conditioning:</strong> Running AC increases fuel consumption by 8–15%.</li><li><strong>Driving speed:</strong> Most petrol cars achieve peak efficiency between 60–80 km/h.</li></ul>
+    </section>
+
+    <!-- ── Example Calculation ──────────────────────────── -->
+    <section class="content-section" aria-labelledby="example-heading">
+      <h2 id="example-heading">Example Calculation</h2>
+      <div class="example-box"><div class="example-box__title">📋 Example: Petrol car in Pune</div><div class="example-step"><span class="example-step__num">1</span><span>Current petrol price in Pune: ₹106.51/litre</span></div><div class="example-step"><span class="example-step__num">2</span><span>Vehicle mileage (Maruti Swift): 21 km/litre (ARAI certified)</span></div><div class="example-step"><span class="example-step__num">3</span><span>Real-world mileage (city driving ~75% of ARAI): ~15.75 km/litre</span></div><div class="example-step"><span class="example-step__num">4</span><span>Fuel cost per km = ₹106.51 ÷ 15.75 = <strong>₹6.76 per km</strong></span></div><div class="example-step"><span class="example-step__num">5</span><span>Monthly distance: 1,500 km → Monthly cost = <strong>₹10,143</strong></span></div></div><p>Tip: Always use real-world mileage (70–80% of ARAI figures) for accurate estimates.</p>
+    </section>
+
+    <!-- ── FAQ Section ──────────────────────────────────── -->
+    <section class="content-section" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list" role="list">
+        <div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-0">
+    How is fuel cost per km calculated?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-0" role="region">
+    <p>Fuel cost per km = Fuel price per litre ÷ Mileage (km per litre). For example, if petrol is ₹106/litre and your car gives 15 km/litre, the cost per km is ₹106 ÷ 15 = ₹7.07 per km.</p>
+  </div>
+</div>
+<div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+    What is a good mileage for a petrol car in India?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-1" role="region">
+    <p>For a petrol hatchback or sedan, 15–20 km/litre is considered good mileage under city conditions. SUVs return 12–16 km/litre. Bikes and scooters generally offer 40–60 km/litre.</p>
+  </div>
+</div>
+<div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+    How do I find the current petrol or diesel price?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-2" role="region">
+    <p>Fuel prices in India change daily and vary by city. Check via Indian Oil, BPCL, or HPCL websites, or SMS 'RSP' to 9224992249 (Indian Oil). The price shown at petrol pumps already includes all taxes and dealer margins.</p>
+  </div>
+</div>
+<div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+    How does driving style affect fuel cost per km?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-3" role="region">
+    <p>Aggressive acceleration and hard braking can reduce mileage by 15–30%. Driving at 60–80 km/h gives optimal mileage. Properly inflated tyres, clean air filters, and regular servicing also improve fuel efficiency significantly.</p>
+  </div>
+</div>
+      </div>
+    </section>
+
+    <!-- ── Related Calculators ──────────────────────────── -->
+    <section class="content-section" aria-labelledby="related-heading">
+      <h2 id="related-heading">Related Calculators</h2>
+      <nav aria-label="Related calculators">
+        <div class="related-grid">
+          <a href="/calculators/loan-emi-calculator" class="related-card">
+  <span class="related-card__label">Loans</span>
+  <span class="related-card__name">Loan EMI Calculator</span>
+  <span class="related-card__desc">Calculate your exact monthly EMI for home, personal, or car loans. See total interest and principal breakdown instantly.</span>
+</a>
+<a href="/calculators/salary-in-hand-calculator" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">Salary In Hand Calculator</span>
+  <span class="related-card__desc">Enter your CTC and instantly see your take-home pay after all deductions — PF, professional tax, and income tax.</span>
+</a>
+        </div>
+      </nav>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <div class="footer__logo">
+        <div class="footer__logo-mark" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+            <text x="10" y="15" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="15" fill="white">M</text>
+          </svg>
+        </div>
+        <span class="footer__logo-text">MyCalcu<em>.in</em></span>
+      </div>
+      <p class="footer__tagline">Fast, accurate, and friendly calculators for everyday money decisions — built for India.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Calculators</h4>
+      <ul>
+        <li><a href="/calculators/salary-in-hand-calculator">Salary Calculator</a></li>
+        <li><a href="/calculators/loan-emi-calculator">EMI Calculator</a></li>
+        <li><a href="/calculators/fuel-cost-per-km-calculator">Fuel Cost Calculator</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Site</h4>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>&copy; 2025 mycalcu.in &mdash; All calculators are for informational purposes only.</span>
+    <span>Made with care for India 🇮🇳</span>
+  </div>
+</footer>
+
+  <!-- Calculator Logic (page-specific) -->
+  <script src="/assets/js/faq.js" defer></script>
+  <script src="/assets/js/calculators/fuel-calculator.js" defer></script>
+
+</body>
+</html>

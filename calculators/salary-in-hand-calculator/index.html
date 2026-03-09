@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO: Title & Description (unique per page) -->
+  <title>Salary In Hand Calculator — Take-Home Pay 2025 | mycalcu.in</title>
+  <meta name="description" content="Calculate your exact in-hand salary after PF, professional tax, and income tax deductions. Supports both new and old tax regimes for FY 2025-26.">
+
+  <!-- SEO: Canonical -->
+  <link rel="canonical" href="https://mycalcu.in/calculators/salary-in-hand-calculator">
+
+  <!-- SEO: Open Graph -->
+  <meta property="og:title" content="Salary In Hand Calculator | mycalcu.in">
+  <meta property="og:description" content="Find your take-home salary instantly. Enter your CTC and get a complete breakdown of deductions for FY 2025-26.">
+  <meta property="og:url" content="https://mycalcu.in/calculators/salary-in-hand-calculator">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="mycalcu.in">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Shared header (analytics etc.) -->
+  <!-- Fonts: loaded via <link> in <head>, not CSS @import -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="/assets/icons/favicon.png">
+<link rel="shortcut icon" href="/assets/icons/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+
+<!-- Robots -->
+<meta name="robots" content="index, follow">
+
+<!-- Google Analytics placeholder — add GA4 snippet here when ready -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+
+  <!-- Structured Data: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Salary In Hand Calculator",
+    "url": "https://mycalcu.in/calculators/salary-in-hand-calculator",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "All",
+    "description": "Calculate in-hand salary from CTC with PF, professional tax, and income tax deductions for FY 2025-26.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is CTC and how does it differ from in-hand salary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CTC (Cost to Company) is the total amount your employer spends on you annually, including your salary, PF contributions, gratuity, and other benefits. In-hand salary (or take-home pay) is the amount actually credited to your bank account after all deductions like employee PF (12% of basic), professional tax, and income tax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is PF calculated on salary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Employee Provident Fund (EPF) is calculated at 12% of your basic salary plus DA. The employer also contributes 12%, but 8.33% goes to EPS and 3.67% to EPF. Only the employee's 12% is deducted from your in-hand salary."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which tax regime is better — new or old?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The new tax regime (default from FY 2023-24) offers lower slab rates but no deductions. The old regime allows deductions like HRA, 80C (up to ₹1.5L), 80D, and home loan interest. Generally, if your total deductions exceed ₹3.75 lakh, the old regime is better."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is professional tax and who pays it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Professional tax is a state-level tax levied on salaried employees. The amount varies by state — in Maharashtra it is ₹200/month for salaries above ₹10,000. Some states like Delhi and Haryana do not levy professional tax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is HRA fully tax-exempt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. HRA exemption is the minimum of: actual HRA received, 50% of basic salary if metro (40% for non-metro), or actual rent paid minus 10% of basic salary. The remainder is taxable."
+      }
+    }
+  ]
+}
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mycalcu.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Calculators",
+        "item": "https://mycalcu.in/calculators/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Salary In Hand Calculator",
+        "item": "https://mycalcu.in/calculators/salary-in-hand-calculator"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar__inner">
+    <a href="/" class="navbar__logo" aria-label="mycalcu.in home">
+      <div class="navbar__logo-mark" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <text x="10" y="15" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="15" fill="white">M</text>
+        </svg>
+      </div>
+      <span class="navbar__logo-text">MyCalcu<em>.in</em></span>
+    </a>
+    <button class="navbar__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar-links" onclick="var n=document.getElementById('navbar-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <ul class="navbar__links" id="navbar-links" role="list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/calculators/">Calculators</a></li>
+      <li><a href="/guides/">Guides</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span aria-hidden="true">›</span>
+    <a href="/calculators/">Calculators</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">Salary In Hand Calculator</span>
+  </div>
+
+  <!-- ── Page Header ─────────────────────────────────────── -->
+  <header class="page-header">
+    <p class="page-header__eyebrow">Free Online Calculator</p>
+    <h1>Salary In Hand Calculator</h1>
+    <p class="page-header__sub">Enter your CTC and instantly see your take-home pay after all deductions — PF, professional tax, and income tax.</p>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ── Calculator Widget ─────────────────────────────── -->
+    <section aria-label="Calculator" class="container">
+      <div class="calc-card">
+        <!-- CALCULATOR_INPUTS_START -->
+        <div class="form-group">
+  <label for="ctc">Annual CTC (₹)</label>
+  <div class="input-wrap"><span class="input-wrap__prefix">₹</span>
+  <input type="number" id="ctc" name="ctc" min="100000" max="100000000" step="10000" value="1000000" aria-describedby="ctc-hint"></div>
+  <p class="hint" id="ctc-hint">Enter your total annual Cost to Company</p>
+</div>
+<div class="form-group">
+  <label for="basic-pct">Basic Salary (% of CTC)</label>
+  <input type="range" id="basic-pct" name="basic-pct" min="30" max="60" value="40" aria-describedby="basic-pct-val">
+  <div class="range-labels"><span>30%</span><span id="basic-pct-val">40%</span><span>60%</span></div>
+</div>
+<div class="form-group">
+  <label>Tax Regime</label>
+  <div class="toggle-group" role="group" aria-label="Select tax regime">
+    <input type="radio" id="regime-new" name="regime" value="new" checked>
+    <label for="regime-new">New Regime</label>
+    <input type="radio" id="regime-old" name="regime" value="old">
+    <label for="regime-old">Old Regime</label>
+  </div>
+</div>
+<div class="form-group">
+  <label for="metro">City Type</label>
+  <select id="metro" name="metro">
+    <option value="metro">Metro (Mumbai, Delhi, Kolkata, Chennai)</option>
+    <option value="non-metro">Non-Metro</option>
+  </select>
+</div>
+        <!-- CALCULATOR_INPUTS_END -->
+
+        <button class="btn-calc" id="calc-btn" type="button" aria-label="Calculate result">
+          Calculate
+        </button>
+
+        <!-- Result Box -->
+        <div class="result-box" id="result-box" aria-live="polite" aria-label="Calculation result">
+          <div class="result-box__label">Monthly In-Hand Salary</div>
+          <div class="result-box__value" id="result-primary">—</div>
+          <div class="result-box__breakdown" id="result-breakdown">
+            <!-- JS populates rows here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── What is this calculator? ─────────────────────── -->
+    <section class="content-section" aria-labelledby="about-heading">
+      <h2 id="about-heading">What is an In-Hand Salary Calculator?</h2>
+      <p>An in-hand salary calculator helps you find out exactly how much money will be credited to your bank account each month after all statutory deductions. In India, your CTC (Cost to Company) and your actual take-home salary can differ significantly — sometimes by 20% to 30%.</p><p>This calculator accounts for all standard deductions applicable under Indian salary structure for FY 2025-26, including Employee Provident Fund (EPF), Professional Tax, and income tax under both the new and old tax regimes.</p><p>Understanding your in-hand salary is essential for budgeting, planning loan EMIs, calculating monthly savings, and evaluating job offers accurately.</p>
+    </section>
+
+    <!-- ── Formula & How it Works ───────────────────────── -->
+    <section class="content-section" aria-labelledby="formula-heading">
+      <h2 id="formula-heading">How is In-Hand Salary Calculated?</h2>
+      <p>The basic formula for calculating monthly in-hand salary is:</p><div class="formula-box">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − Professional Tax − Income Tax</div><h3>Step 1: Calculate Gross Monthly Salary</h3><p>Gross monthly salary = Annual CTC ÷ 12. This is before any deductions.</p><h3>Step 2: Calculate EPF Deduction</h3><p>Employee's EPF contribution = 12% of Basic Salary. Basic salary is typically 40–50% of CTC. So on a ₹10 LPA CTC with ₹4 LPA basic, EPF = 12% × ₹33,333 = ₹4,000/month.</p><h3>Step 3: Subtract Professional Tax</h3><p>Professional tax varies by state. In Maharashtra: ₹200/month for salaries above ₹10,000. In some states it is nil.</p><h3>Step 4: Calculate and Deduct Income Tax</h3><p>Income tax is calculated on taxable income (gross salary minus applicable exemptions and deductions). The resulting annual tax is divided by 12 to get monthly TDS (Tax Deducted at Source).</p>
+    </section>
+
+    <!-- ── Example Calculation ──────────────────────────── -->
+    <section class="content-section" aria-labelledby="example-heading">
+      <h2 id="example-heading">Example Calculation</h2>
+      <div class="example-box"><div class="example-box__title">📋 Example: ₹10 LPA CTC — New Tax Regime</div><div class="example-step"><span class="example-step__num">1</span><span>Annual CTC: ₹10,00,000</span></div><div class="example-step"><span class="example-step__num">2</span><span>Basic Salary (40% of CTC): ₹4,00,000/year = ₹33,333/month</span></div><div class="example-step"><span class="example-step__num">3</span><span>Employee EPF (12% of basic): ₹4,000/month</span></div><div class="example-step"><span class="example-step__num">4</span><span>Gross Monthly Salary: ₹10,00,000 ÷ 12 = ₹83,333</span></div><div class="example-step"><span class="example-step__num">5</span><span>Professional Tax (Maharashtra): ₹200/month</span></div><div class="example-step"><span class="example-step__num">6</span><span>Income Tax (new regime, standard deduction ₹75,000): approx. ₹5,417/month TDS</span></div><div class="example-step"><span class="example-step__num">7</span><span><strong>Monthly In-Hand ≈ ₹83,333 − ₹4,000 − ₹200 − ₹5,417 = ₹73,716</strong></span></div></div><p>Note: Actual in-hand salary may vary based on your HRA, special allowances, and exact tax computation.</p>
+    </section>
+
+    <!-- ── FAQ Section ──────────────────────────────────── -->
+    <section class="content-section" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list" role="list">
+        <div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-0">
+    What is CTC and how does it differ from in-hand salary?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-0" role="region">
+    <p>CTC (Cost to Company) is the total amount your employer spends on you annually, including your salary, PF contributions, gratuity, and other benefits. In-hand salary (or take-home pay) is the amount actually credited to your bank account after all deductions like employee PF (12% of basic), professional tax, and income tax.</p>
+  </div>
+</div>
+<div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+    How is PF calculated on salary?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-1" role="region">
+    <p>Employee Provident Fund (EPF) is calculated at 12% of your basic salary plus DA. The employer also contributes 12%, but 8.33% goes to EPS and 3.67% to EPF. Only the employee's 12% is deducted from your in-hand salary.</p>
+  </div>
+</div>
+<div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+    Which tax regime is better — new or old?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-2" role="region">
+    <p>The new tax regime (default from FY 2023-24) offers lower slab rates but no deductions. The old regime allows deductions like HRA, 80C (up to ₹1.5L), 80D, and home loan interest. Generally, if your total deductions exceed ₹3.75 lakh, the old regime is better.</p>
+  </div>
+</div>
+<div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+    What is professional tax and who pays it?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-3" role="region">
+    <p>Professional tax is a state-level tax levied on salaried employees. The amount varies by state — in Maharashtra it is ₹200/month for salaries above ₹10,000. Some states like Delhi and Haryana do not levy professional tax.</p>
+  </div>
+</div>
+<div class="faq-item" role="listitem">
+  <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+    Is HRA fully tax-exempt?
+    <span class="faq-icon" aria-hidden="true">+</span>
+  </button>
+  <div class="faq-answer" id="faq-answer-4" role="region">
+    <p>No. HRA exemption is the minimum of: actual HRA received, 50% of basic salary if metro (40% for non-metro), or actual rent paid minus 10% of basic salary. The remainder is taxable.</p>
+  </div>
+</div>
+      </div>
+    </section>
+
+    <!-- ── Related Calculators ──────────────────────────── -->
+    <section class="content-section" aria-labelledby="related-heading">
+      <h2 id="related-heading">Related Calculators</h2>
+      <nav aria-label="Related calculators">
+        <div class="related-grid">
+          <a href="/calculators/salary-in-hand-calculator-5-lpa" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">5 LPA In Hand Salary Calculator</span>
+  <span class="related-card__desc">See your exact monthly take-home on a ₹5 lakh per annum salary after all deductions for FY 2025-26.</span>
+</a>
+<a href="/calculators/salary-in-hand-calculator-7-lpa" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">7 LPA In Hand Salary Calculator</span>
+  <span class="related-card__desc">Find your exact monthly take-home on a ₹7 lakh per annum salary for FY 2025-26.</span>
+</a>
+<a href="/calculators/salary-in-hand-calculator-10-lpa" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">10 LPA In Hand Salary Calculator</span>
+  <span class="related-card__desc">See exactly how much you take home on a ₹10 lakh per annum salary after all deductions for FY 2025-26.</span>
+</a>
+<a href="/calculators/salary-in-hand-calculator-15-lpa" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">15 LPA In Hand Salary Calculator</span>
+  <span class="related-card__desc">Find your exact monthly take-home on a ₹15 lakh per annum CTC for FY 2025-26.</span>
+</a>
+<a href="/calculators/salary-in-hand-calculator-20-lpa" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">20 LPA In Hand Salary Calculator</span>
+  <span class="related-card__desc">Find your exact monthly take-home on a ₹20 lakh per annum salary for FY 2025-26.</span>
+</a>
+<a href="/calculators/salary-in-hand-calculator-25-lpa" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">25 LPA In Hand Salary Calculator</span>
+  <span class="related-card__desc">Find your exact monthly take-home on a ₹25 lakh per annum salary for FY 2025-26.</span>
+</a>
+<a href="/calculators/salary-in-hand-calculator-30-lpa" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">30 LPA In Hand Salary Calculator</span>
+  <span class="related-card__desc">Find your exact monthly take-home on a ₹30 lakh per annum salary for FY 2025-26.</span>
+</a>
+<a href="/calculators/salary-in-hand-calculator-50-lpa" class="related-card">
+  <span class="related-card__label">Salary</span>
+  <span class="related-card__name">50 LPA In Hand Salary Calculator</span>
+  <span class="related-card__desc">Find your exact monthly take-home on a ₹50 lakh per annum salary — including surcharge — for FY 2025-26.</span>
+</a>
+        </div>
+      </nav>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <div class="footer__logo">
+        <div class="footer__logo-mark" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+            <text x="10" y="15" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="15" fill="white">M</text>
+          </svg>
+        </div>
+        <span class="footer__logo-text">MyCalcu<em>.in</em></span>
+      </div>
+      <p class="footer__tagline">Fast, accurate, and friendly calculators for everyday money decisions — built for India.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Calculators</h4>
+      <ul>
+        <li><a href="/calculators/salary-in-hand-calculator">Salary Calculator</a></li>
+        <li><a href="/calculators/loan-emi-calculator">EMI Calculator</a></li>
+        <li><a href="/calculators/fuel-cost-per-km-calculator">Fuel Cost Calculator</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Site</h4>
+      <ul>
+        <li><a href="/about">About</a></li>
+        <li><a href="/privacy">Privacy Policy</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>&copy; 2025 mycalcu.in &mdash; All calculators are for informational purposes only.</span>
+    <span>Made with care for India 🇮🇳</span>
+  </div>
+</footer>
+
+  <!-- Calculator Logic (page-specific) -->
+  <script src="/assets/js/faq.js" defer></script>
+  <script src="/assets/js/calculators/salary-calculator.js" defer></script>
+
+</body>
+</html>

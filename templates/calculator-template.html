@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO: Title & Description (unique per page) -->
+  <title>{{META_TITLE}}</title>
+  <meta name="description" content="{{META_DESCRIPTION}}">
+
+  <!-- SEO: Canonical -->
+  <link rel="canonical" href="https://mycalcu.in/calculators/{{SLUG}}">
+
+  <!-- SEO: Open Graph -->
+  <meta property="og:title" content="{{OG_TITLE}}">
+  <meta property="og:description" content="{{OG_DESCRIPTION}}">
+  <meta property="og:url" content="https://mycalcu.in/calculators/{{SLUG}}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="mycalcu.in">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Shared header (analytics etc.) -->
+  <!-- INJECT:header -->
+
+  <!-- Structured Data: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "{{SCHEMA_NAME}}",
+    "url": "https://mycalcu.in/calculators/{{SLUG}}",
+    "applicationCategory": "{{SCHEMA_CATEGORY}}",
+    "operatingSystem": "All",
+    "description": "{{SCHEMA_DESCRIPTION}}",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    }
+  }
+  </script>
+
+  <!-- Structured Data: FAQPage -->
+  <script type="application/ld+json">
+  {{FAQ_SCHEMA_JSON}}
+  </script>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://mycalcu.in/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Calculators",
+        "item": "https://mycalcu.in/calculators/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "{{BREADCRUMB_NAME}}",
+        "item": "https://mycalcu.in/calculators/{{SLUG}}"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- INJECT:navbar -->
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span aria-hidden="true">›</span>
+    <a href="/calculators/">Calculators</a>
+    <span aria-hidden="true">›</span>
+    <span aria-current="page">{{BREADCRUMB_NAME}}</span>
+  </div>
+
+  <!-- ── Page Header ─────────────────────────────────────── -->
+  <header class="page-header">
+    <p class="page-header__eyebrow">Free Online Calculator</p>
+    <h1>{{H1_TITLE}}</h1>
+    <p class="page-header__sub">{{SUBTITLE}}</p>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ── Calculator Widget ─────────────────────────────── -->
+    <section aria-label="Calculator" class="container">
+      <div class="calc-card">
+        <!-- CALCULATOR_INPUTS_START -->
+        {{CALCULATOR_INPUTS_HTML}}
+        <!-- CALCULATOR_INPUTS_END -->
+
+        <button class="btn-calc" id="calc-btn" type="button" aria-label="Calculate result">
+          Calculate
+        </button>
+
+        <!-- Result Box -->
+        <div class="result-box" id="result-box" aria-live="polite" aria-label="Calculation result">
+          <div class="result-box__label">{{RESULT_LABEL}}</div>
+          <div class="result-box__value" id="result-primary">—</div>
+          <div class="result-box__breakdown" id="result-breakdown">
+            <!-- JS populates rows here -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── What is this calculator? ─────────────────────── -->
+    <section class="content-section" aria-labelledby="about-heading">
+      <h2 id="about-heading">{{ABOUT_HEADING}}</h2>
+      {{ABOUT_CONTENT_HTML}}
+    </section>
+
+    <!-- ── Formula & How it Works ───────────────────────── -->
+    <section class="content-section" aria-labelledby="formula-heading">
+      <h2 id="formula-heading">{{FORMULA_HEADING}}</h2>
+      {{FORMULA_CONTENT_HTML}}
+    </section>
+
+    <!-- ── Example Calculation ──────────────────────────── -->
+    <section class="content-section" aria-labelledby="example-heading">
+      <h2 id="example-heading">Example Calculation</h2>
+      {{EXAMPLE_CONTENT_HTML}}
+    </section>
+
+    <!-- ── FAQ Section ──────────────────────────────────── -->
+    <section class="content-section" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <div class="faq-list" role="list">
+        {{FAQ_HTML}}
+      </div>
+    </section>
+
+    <!-- ── Related Calculators ──────────────────────────── -->
+    <section class="content-section" aria-labelledby="related-heading">
+      <h2 id="related-heading">Related Calculators</h2>
+      <nav aria-label="Related calculators">
+        <div class="related-grid">
+          {{RELATED_HTML}}
+        </div>
+      </nav>
+    </section>
+
+  </main>
+
+  <!-- INJECT:footer -->
+
+  <!-- Calculator Logic (page-specific) -->
+  <script src="/assets/js/faq.js" defer></script>
+  <script src="/assets/js/{{JS_FILE}}" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myCalcu.in — Free Online Calculators for India</title>
+  <meta name="description" content="Fast, accurate, and free calculators for salary, EMI, fuel cost, and more. Built for India. No sign-up required.">
+  <link rel="canonical" href="https://mycalcu.in/">
+  <meta property="og:title" content="myCalcu.in — Free Online Calculators for India">
+  <meta property="og:description" content="Fast, accurate, and free calculators for salary, EMI, fuel cost, and more.">
+  <meta property="og:url" content="https://mycalcu.in/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="mycalcu.in">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "mycalcu.in",
+    "url": "https://mycalcu.in/",
+    "description": "Free online calculators for salary, EMI, fuel cost, and more — built for India.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://mycalcu.in/calculators/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar__inner">
+      <a href="/" class="navbar__logo" aria-label="mycalcu.in home">
+        <div class="navbar__logo-mark" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <rect x="2" y="2" width="5" height="5" rx="1" fill="white"/>
+            <rect x="9" y="2" width="5" height="5" rx="1" fill="white" opacity="0.6"/>
+            <rect x="2" y="9" width="5" height="5" rx="1" fill="white" opacity="0.6"/>
+            <rect x="9" y="9" width="5" height="5" rx="1" fill="white"/>
+          </svg>
+        </div>
+        <span class="navbar__logo-text">MyCalcu<em>.in</em></span>
+      </a>
+      <button class="navbar__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar-links" onclick="var n=document.getElementById('navbar-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <ul class="navbar__links" id="navbar-links" role="list">
+        <li><a href="/" class="active">Home</a></li>
+        <li><a href="/calculators/">Calculators</a></li>
+        <li><a href="/guides/">Guides</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content">
+
+    <!-- ── Hero ──────────────────────────────────────────── -->
+    <section class="hero" aria-label="Site introduction">
+      <div class="hero__eyebrow">Free · No sign-up · Made for India</div>
+      <h1>Calculate <em>anything</em><br>in seconds</h1>
+      <p class="hero__sub">Salary breakdowns, loan EMIs, fuel costs — clear answers without the confusion.</p>
+      <div class="hero__search" role="search">
+        <svg class="hero__search-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <circle cx="7.5" cy="7.5" r="5.5" stroke="currentColor" stroke-width="1.75"/>
+          <path d="M13 13l3 3" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+        </svg>
+        <input
+          type="search"
+          id="hero-search"
+          placeholder="Try &ldquo;salary&rdquo; or &ldquo;EMI&rdquo;&hellip;"
+          aria-label="Search calculators"
+          autocomplete="off"
+        >
+      </div>
+    </section>
+
+    <!-- ── Trust Strip ────────────────────────────────────── -->
+    <div class="trust-strip" aria-label="Site features">
+      <div class="trust-strip__inner">
+        <div class="trust-item">
+          <div class="trust-item__icon" aria-hidden="true">⚡</div>
+          Instant results
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon" aria-hidden="true">🔒</div>
+          No data stored
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon" aria-hidden="true">📱</div>
+          Works on mobile
+        </div>
+        <div class="trust-item">
+          <div class="trust-item__icon" aria-hidden="true">🇮🇳</div>
+          Built for India
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Calculator Grid ────────────────────────────────── -->
+    <section class="calc-section" aria-labelledby="calculators-heading">
+      <div class="calc-section__header">
+        <h2 class="calc-section__title" id="calculators-heading">All Calculators</h2>
+        <a href="/calculators/" class="calc-section__all">
+          View all
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="calc-grid" id="calc-grid">
+
+        <a href="/calculators/salary-in-hand-calculator" class="calc-grid-card" data-search="salary ctc take home tax pf">
+          <div class="calc-grid-card__icon" aria-hidden="true">💼</div>
+          <div class="calc-grid-card__name">Salary In-Hand Calculator</div>
+          <div class="calc-grid-card__desc">Find your exact take-home pay after PF, professional tax, and income tax — new and old regime.</div>
+          <span class="calc-grid-card__cta">
+            Calculate
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+              <path d="M2.5 6h7M6 2.5l3.5 3.5L6 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </a>
+
+        <a href="/calculators/loan-emi-calculator" class="calc-grid-card" data-search="loan emi home personal car interest monthly">
+          <div class="calc-grid-card__icon" aria-hidden="true">🏦</div>
+          <div class="calc-grid-card__name">Loan EMI Calculator</div>
+          <div class="calc-grid-card__desc">Calculate monthly EMI for any loan. See total interest payable and full repayment breakdown.</div>
+          <span class="calc-grid-card__cta">
+            Calculate
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+              <path d="M2.5 6h7M6 2.5l3.5 3.5L6 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </a>
+
+        <a href="/calculators/fuel-cost-per-km-calculator" class="calc-grid-card" data-search="fuel petrol diesel cost km mileage car bike">
+          <div class="calc-grid-card__icon" aria-hidden="true">⛽</div>
+          <div class="calc-grid-card__name">Fuel Cost Per KM</div>
+          <div class="calc-grid-card__desc">Know exactly what it costs to drive each kilometre. Works for petrol, diesel, and CNG vehicles.</div>
+          <span class="calc-grid-card__cta">
+            Calculate
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+              <path d="M2.5 6h7M6 2.5l3.5 3.5L6 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </a>
+
+      </div>
+
+      <!-- No results message (hidden by default) -->
+      <p id="no-results" class="no-results-msg" hidden>
+        No calculators found for that search. <a href="/calculators/">Browse all calculators →</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <div class="footer__logo-mark" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="none">
+              <rect x="2" y="2" width="5" height="5" rx="1" fill="white"/>
+              <rect x="9" y="2" width="5" height="5" rx="1" fill="white" opacity="0.6"/>
+              <rect x="2" y="9" width="5" height="5" rx="1" fill="white" opacity="0.6"/>
+              <rect x="9" y="9" width="5" height="5" rx="1" fill="white"/>
+            </svg>
+          </div>
+          <span class="footer__logo-text">MyCalcu<em>.in</em></span>
+        </div>
+        <p class="footer__tagline">Fast, accurate, and friendly calculators for everyday money decisions — built for India.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Calculators</h4>
+        <ul>
+          <li><a href="/calculators/salary-in-hand-calculator">Salary Calculator</a></li>
+          <li><a href="/calculators/loan-emi-calculator">EMI Calculator</a></li>
+          <li><a href="/calculators/fuel-cost-per-km-calculator">Fuel Cost Calculator</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2025 mycalcu.in &mdash; All calculators are for informational purposes only.</span>
+      <span>Made with care for India 🇮🇳</span>
+    </div>
+  </footer>
+
+  <script>
+    // Hero search — filters calculator cards live
+    (function () {
+      var input  = document.getElementById('hero-search');
+      var cards  = document.querySelectorAll('.calc-grid-card');
+      var noRes  = document.getElementById('no-results');
+      if (!input) return;
+      input.addEventListener('input', function () {
+        var q = this.value.trim().toLowerCase();
+        var visible = 0;
+        cards.forEach(function (card) {
+          var text = (card.dataset.search + ' ' + card.textContent).toLowerCase();
+          var show = !q || text.includes(q);
+          card.style.display = show ? '' : 'none';
+          if (show) visible++;
+        });
+        noRes.hidden = (q && visible === 0);
+      });
+    }());
+  </script>
+
+</body>
+</html>

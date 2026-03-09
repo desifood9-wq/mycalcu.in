@@ -1,0 +1,22 @@
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="navbar__inner">
+    <a href="/" class="navbar__logo" aria-label="mycalcu.in home">
+      <div class="navbar__logo-mark" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <text x="10" y="15" text-anchor="middle" font-family="Georgia, serif" font-weight="700" font-size="15" fill="white">M</text>
+        </svg>
+      </div>
+      <span class="navbar__logo-text">MyCalcu<em>.in</em></span>
+    </a>
+    <button class="navbar__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar-links" onclick="var n=document.getElementById('navbar-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <ul class="navbar__links" id="navbar-links" role="list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/calculators/">Calculators</a></li>
+      <li><a href="/guides/">Guides</a></li>
+    </ul>
+  </div>
+</nav>
