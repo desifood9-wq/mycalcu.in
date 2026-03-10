@@ -1353,5 +1353,154 @@
         "a": "Surcharge applies at 10% for income ₹50L–₹1Cr, 15% for ₹1–2Cr, 25% for ₹2–5Cr, and 37% above ₹5Cr (25% in new regime). Surcharge is applied on the tax amount, and then 4% health and education cess is added on top."
       }
     ]
+  },
+  {
+    "slug": "fd-calculator",
+    "category": "investment",
+    "variant_of": null,
+    "year": "2025",
+    "meta_title": "FD Calculator 2025 — Fixed Deposit Maturity Amount | mycalcu.in",
+    "meta_description": "Calculate FD maturity amount and total interest for any bank. Enter your deposit, rate, and tenure — instant results for FY 2025-26.",
+    "og_title": "FD Calculator 2025 | mycalcu.in",
+    "og_description": "Calculate fixed deposit maturity amount and interest. Any bank, any tenure.",
+    "h1_title": "FD Calculator",
+    "subtitle": "Calculate your fixed deposit maturity amount and total interest for any bank, rate, and tenure — instantly.",
+    "breadcrumb_name": "FD Calculator",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate fixed deposit maturity amount and interest for any bank.",
+    "result_label": "Maturity Amount",
+    "js_file": "calculators/fd-calculator.js",
+    "prefill": {
+      "principal": "100000",
+      "rate": "6.5",
+      "years": "2"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"principal\">Deposit Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"principal\" name=\"principal\" min=\"1000\" max=\"100000000\" step=\"1000\" value=\"100000\"></div><p class=\"hint\">Minimum ₹1,000. Most banks accept up to any amount.</p></div><div class=\"form-group\"><label for=\"fd-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"fd-rate\" name=\"fd-rate\" min=\"3\" max=\"10\" step=\"0.1\" value=\"6.5\" aria-describedby=\"fd-rate-val\"><div class=\"range-labels\"><span>3%</span><span id=\"fd-rate-val\">6.5%</span><span>10%</span></div><p class=\"hint\">Check your bank's current FD rate. Rates change frequently.</p></div><div class=\"form-group\"><label for=\"tenure-years\">Tenure — Years</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-years-val\">2 yrs</span><span>10 yrs</span></div></div><div class=\"form-group\"><label for=\"tenure-months\">Tenure — Additional Months</label><input type=\"range\" id=\"tenure-months\" name=\"tenure-months\" min=\"0\" max=\"11\" step=\"1\" value=\"0\" aria-describedby=\"tenure-months-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-months-val\">0 mo</span><span>11 mo</span></div></div><div class=\"form-group\"><label for=\"compound-freq\">Compounding Frequency</label><select id=\"compound-freq\" name=\"compound-freq\"><option value=\"monthly\">Monthly</option><option value=\"quarterly\" selected>Quarterly</option><option value=\"halfyearly\">Half-yearly</option><option value=\"annually\">Annual</option><option value=\"cumulative\" >Cumulative (at maturity)</option></select></div>",
+    "about_heading": "What is a Fixed Deposit and How is Interest Calculated?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>FD rates change frequently — always enter your bank's current rate.</strong> This calculator works for any bank (SBI, HDFC, ICICI, Axis, Post Office) at any rate. Do not rely on rates from articles — they go stale within weeks.</div><p>A Fixed Deposit (FD) is a savings instrument where you deposit a lump sum with a bank for a fixed tenure at a predetermined interest rate. Unlike a savings account, the rate is locked at the time of deposit.</p><p>Interest can be paid out periodically (monthly, quarterly) or accumulated and paid at maturity (cumulative FD). Cumulative FDs always give higher maturity amounts because interest is compounded.</p><p><strong>TDS on FD:</strong> If your total FD interest from one bank exceeds ₹40,000 in a financial year (₹50,000 for senior citizens), the bank deducts 10% TDS. Submit Form 15G/15H if your income is below the taxable limit to avoid TDS deduction.</p>",
+    "formula_heading": "FD Maturity Formula",
+    "formula_html": "<div class=\"formula-box\">A = P × (1 + r/n)^(n×t)</div><p>Where: A = Maturity amount, P = Principal, r = Annual interest rate (decimal), n = Compounding frequency per year, t = Tenure in years.</p><h3>Compounding frequency matters</h3><p>For ₹1 lakh at 6.5% for 2 years: Monthly compounding gives ₹1,13,883. Quarterly gives ₹1,13,825. Annual gives ₹1,13,423. The difference is small but grows significantly with larger amounts and longer tenures.</p><h3>Cumulative vs Non-cumulative</h3><p>Cumulative FD: Interest compounds and is paid at maturity — best for wealth building. Non-cumulative FD: Interest paid monthly or quarterly — best for regular income needs.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹1 Lakh FD — Maturity at Different Rates</div><div class=\"example-step\"><span class=\"example-step__num\">5.5%</span><span>2 years, quarterly: Maturity ₹1,11,353 | Interest ₹11,353</span></div><div class=\"example-step\"><span class=\"example-step__num\">6.5%</span><span>2 years, quarterly: Maturity ₹1,13,825 | Interest ₹13,825</span></div><div class=\"example-step\"><span class=\"example-step__num\">7.5%</span><span>2 years, quarterly: Maturity ₹1,16,136 | Interest ₹16,136</span></div><div class=\"example-step\"><span class=\"example-step__num\">7.5%</span><span><strong>5 years, quarterly: Maturity ₹1,44,995 | Interest ₹44,995</strong></span></div></div>",
+    "related_slugs": [
+      "ppf-calculator",
+      "sip-calculator",
+      "fd-calculator-1-lakh"
+    ],
+    "faqs": [
+      {
+        "q": "How is FD interest calculated?",
+        "a": "FD interest is calculated using compound interest: A = P × (1 + r/n)^(n×t). For a ₹1 lakh FD at 6.5% for 2 years with quarterly compounding, maturity amount is ₹1,13,825. The compounding frequency (monthly, quarterly, annual) affects the final amount — more frequent compounding gives slightly higher returns."
+      },
+      {
+        "q": "Is FD interest taxable?",
+        "a": "Yes — FD interest is fully taxable as 'Income from Other Sources' at your applicable slab rate. If total FD interest from one bank exceeds ₹40,000 in a year (₹50,000 for senior citizens), the bank deducts 10% TDS. Submit Form 15G (or 15H for seniors) at the start of each financial year to avoid TDS if your total income is below the taxable limit."
+      },
+      {
+        "q": "Is FD better than PPF or SIP?",
+        "a": "It depends on your goal. FD: guaranteed returns, flexible tenure, fully taxable. PPF: slightly lower rate (7.1%) but completely tax-free — better for long-term (15+ years). SIP: market-linked, no guarantee but historically 10–12% returns over 10+ years. For short-term goals (1–3 years) FD is ideal. For long-term wealth, PPF and SIP typically outperform FD on post-tax returns."
+      },
+      {
+        "q": "What is the difference between cumulative and non-cumulative FD?",
+        "a": "Cumulative FD: Interest is compounded and paid at maturity along with principal — higher total payout, best for wealth building. Non-cumulative FD: Interest paid out monthly, quarterly, or annually — lower total payout but provides regular income. Choose cumulative if you don't need regular income from the FD."
+      },
+      {
+        "q": "Can I break an FD before maturity?",
+        "a": "Yes, but most banks charge a penalty of 0.5–1% on premature withdrawal, reducing your effective interest rate. Some banks offer no-penalty FDs. Liquid funds or short-term debt funds are better alternatives if you might need the money before maturity."
+      }
+    ]
+  },
+  {
+    "slug": "fd-calculator-1-lakh",
+    "category": "investment",
+    "variant_of": "fd-calculator",
+    "year": "2025",
+    "meta_title": "FD Calculator ₹1 Lakh — Maturity Amount & Interest | mycalcu.in",
+    "meta_description": "Calculate exact maturity amount for ₹1 lakh fixed deposit at any rate and tenure. Instant FD interest calculation.",
+    "og_title": "₹1 Lakh FD Calculator | mycalcu.in",
+    "og_description": "Exact maturity amount for ₹1 lakh FD at any rate.",
+    "h1_title": "₹1 Lakh FD Calculator",
+    "subtitle": "Calculate exact maturity amount and interest for a ₹1 lakh fixed deposit at any bank rate and tenure.",
+    "breadcrumb_name": "₹1L FD",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate ₹1 lakh FD maturity amount.",
+    "result_label": "Maturity Amount",
+    "js_file": "calculators/fd-calculator.js",
+    "prefill": {
+      "principal": "100000",
+      "rate": "6.5",
+      "years": "1"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"principal\">Deposit Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"principal\" name=\"principal\" min=\"1000\" max=\"100000000\" step=\"1000\" value=\"100000\"></div><p class=\"hint\">Minimum ₹1,000. Most banks accept up to any amount.</p></div><div class=\"form-group\"><label for=\"fd-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"fd-rate\" name=\"fd-rate\" min=\"3\" max=\"10\" step=\"0.1\" value=\"6.5\" aria-describedby=\"fd-rate-val\"><div class=\"range-labels\"><span>3%</span><span id=\"fd-rate-val\">6.5%</span><span>10%</span></div><p class=\"hint\">Check your bank's current FD rate. Rates change frequently.</p></div><div class=\"form-group\"><label for=\"tenure-years\">Tenure — Years</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-years-val\">1 yrs</span><span>10 yrs</span></div></div><div class=\"form-group\"><label for=\"tenure-months\">Tenure — Additional Months</label><input type=\"range\" id=\"tenure-months\" name=\"tenure-months\" min=\"0\" max=\"11\" step=\"1\" value=\"0\" aria-describedby=\"tenure-months-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-months-val\">0 mo</span><span>11 mo</span></div></div><div class=\"form-group\"><label for=\"compound-freq\">Compounding Frequency</label><select id=\"compound-freq\" name=\"compound-freq\"><option value=\"monthly\">Monthly</option><option value=\"quarterly\" selected>Quarterly</option><option value=\"halfyearly\">Half-yearly</option><option value=\"annually\">Annual</option><option value=\"cumulative\" >Cumulative (at maturity)</option></select></div>",
+    "about_heading": "₹1 Lakh FD — What You Can Expect",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹1 lakh at 6.5% for 1 year (quarterly) = ₹1,06,654 maturity.</strong> For 2 years: ₹1,13,825. For 5 years: ₹1,37,993. Always use your bank's current rate — it changes.</div><p>₹1 lakh is the most common FD amount in India — it's at the TDS threshold, easy to track, and most banks offer their standard rates without minimum balance requirements.</p><p>At ₹1 lakh, annual FD interest is typically ₹6,500–₹7,500 — just below the ₹40,000 TDS threshold. You won't face TDS on a single ₹1L FD unless you have multiple FDs at the same bank.</p>",
+    "formula_heading": "₹1 Lakh FD Calculation",
+    "formula_html": "<div class=\"formula-box\">A = 1,00,000 × (1 + r/4)^(4×t)</div><p>Where r = annual rate (decimal), t = tenure in years, 4 = quarterly compounding.</p><h3>At 6.5% quarterly compounding</h3><p>1 year: ₹1,06,654 | 2 years: ₹1,13,825 | 3 years: ₹1,21,539 | 5 years: ₹1,37,993</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹1 Lakh FD — Rate & Tenure Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">6% / 1yr</span><span>Maturity: ₹1,06,136 | Interest: ₹6,136</span></div><div class=\"example-step\"><span class=\"example-step__num\">6.5% / 2yr</span><span>Maturity: ₹1,13,825 | Interest: ₹13,825</span></div><div class=\"example-step\"><span class=\"example-step__num\">7% / 3yr</span><span>Maturity: ₹1,23,144 | Interest: ₹23,144</span></div><div class=\"example-step\"><span class=\"example-step__num\">7.5% / 5yr</span><span><strong>Maturity: ₹1,44,995 | Interest: ₹44,995</strong></span></div></div>",
+    "related_slugs": [
+      "fd-calculator",
+      "fd-calculator-5-lakh",
+      "ppf-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the maturity amount for ₹1 lakh FD for 1 year?",
+        "a": "At 6.5% interest with quarterly compounding, ₹1 lakh FD for 1 year gives a maturity amount of approximately ₹1,06,654. At 7%, it's ₹1,07,186. Use the rate slider to enter your bank's exact current rate."
+      },
+      {
+        "q": "Will TDS be deducted on ₹1 lakh FD?",
+        "a": "Typically no — annual interest on a single ₹1 lakh FD is ₹6,000–₹7,500, well below the ₹40,000 TDS threshold. TDS applies only if total FD interest from one bank exceeds ₹40,000 in a financial year (₹50,000 for senior citizens)."
+      },
+      {
+        "q": "Which bank gives the highest FD rate on ₹1 lakh?",
+        "a": "FD rates change frequently and vary by tenure. Small finance banks (like AU, Ujjivan, ESAF) often offer 0.5–1% higher rates than major banks. However, ensure the bank is RBI-regulated and DICGC-insured (deposits up to ₹5 lakh are insured). Always check the bank's website for current rates before deciding."
+      }
+    ]
+  },
+  {
+    "slug": "fd-calculator-5-lakh",
+    "category": "investment",
+    "variant_of": "fd-calculator",
+    "year": "2025",
+    "meta_title": "FD Calculator ₹5 Lakh — Maturity Amount & TDS | mycalcu.in",
+    "meta_description": "Calculate exact maturity amount for ₹5 lakh fixed deposit. TDS threshold alert included. Any rate and tenure.",
+    "og_title": "₹5 Lakh FD Calculator | mycalcu.in",
+    "og_description": "Exact maturity amount for ₹5 lakh FD. TDS alert if interest exceeds ₹40,000.",
+    "h1_title": "₹5 Lakh FD Calculator",
+    "subtitle": "Calculate exact maturity amount and TDS implications for a ₹5 lakh fixed deposit at any rate and tenure.",
+    "breadcrumb_name": "₹5L FD",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate ₹5 lakh FD maturity amount with TDS alert.",
+    "result_label": "Maturity Amount",
+    "js_file": "calculators/fd-calculator.js",
+    "prefill": {
+      "principal": "500000",
+      "rate": "6.5",
+      "years": "2"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"principal\">Deposit Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"principal\" name=\"principal\" min=\"1000\" max=\"100000000\" step=\"1000\" value=\"500000\"></div><p class=\"hint\">Minimum ₹1,000. Most banks accept up to any amount.</p></div><div class=\"form-group\"><label for=\"fd-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"fd-rate\" name=\"fd-rate\" min=\"3\" max=\"10\" step=\"0.1\" value=\"6.5\" aria-describedby=\"fd-rate-val\"><div class=\"range-labels\"><span>3%</span><span id=\"fd-rate-val\">6.5%</span><span>10%</span></div><p class=\"hint\">Check your bank's current FD rate. Rates change frequently.</p></div><div class=\"form-group\"><label for=\"tenure-years\">Tenure — Years</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-years-val\">2 yrs</span><span>10 yrs</span></div></div><div class=\"form-group\"><label for=\"tenure-months\">Tenure — Additional Months</label><input type=\"range\" id=\"tenure-months\" name=\"tenure-months\" min=\"0\" max=\"11\" step=\"1\" value=\"0\" aria-describedby=\"tenure-months-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-months-val\">0 mo</span><span>11 mo</span></div></div><div class=\"form-group\"><label for=\"compound-freq\">Compounding Frequency</label><select id=\"compound-freq\" name=\"compound-freq\"><option value=\"monthly\">Monthly</option><option value=\"quarterly\" selected>Quarterly</option><option value=\"halfyearly\">Half-yearly</option><option value=\"annually\">Annual</option><option value=\"cumulative\" >Cumulative (at maturity)</option></select></div>",
+    "about_heading": "₹5 Lakh FD — TDS and Tax Planning",
+    "about_html": "<div class=\"info-callout\">⚠️ <strong>At ₹5 lakh, annual FD interest likely exceeds ₹40,000 — TDS will apply.</strong> At 6.5%, annual interest is ~₹32,500 on ₹5L. At 7.5% it's ~₹37,500. If you hold multiple FDs at the same bank, TDS kicks in at ₹40,000 total interest/year.</div><p>₹5 lakh is the DICGC insurance limit — the maximum amount insured per depositor per bank. If you have more than ₹5 lakh to deposit, spreading across multiple banks protects your capital.</p><p><strong>Tax tip:</strong> If your total income is below the taxable limit, submit Form 15G at the start of each financial year to prevent TDS deduction on FD interest. Senior citizens use Form 15H.</p>",
+    "formula_heading": "₹5 Lakh FD Calculation",
+    "formula_html": "<div class=\"formula-box\">A = 5,00,000 × (1 + r/4)^(4×t)</div><h3>At 6.5% quarterly compounding</h3><p>1 year: ₹5,33,270 | 2 years: ₹5,69,123 | 3 years: ₹6,07,696 | 5 years: ₹6,89,966</p><h3>TDS note</h3><p>Annual interest on ₹5L at 6.5% = ₹32,500. This is below ₹40,000 so no TDS for just this FD. But if you have other FDs at the same bank, total interest may cross the threshold.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹5 Lakh FD — Different Rates & Tenure</div><div class=\"example-step\"><span class=\"example-step__num\">6% / 1yr</span><span>Maturity: ₹5,30,679 | Interest: ₹30,679</span></div><div class=\"example-step\"><span class=\"example-step__num\">6.5% / 2yr</span><span>Maturity: ₹5,69,123 | Interest: ₹69,123</span></div><div class=\"example-step\"><span class=\"example-step__num\">7% / 3yr</span><span>Maturity: ₹6,15,719 | Interest: ₹1,15,719</span></div><div class=\"example-step\"><span class=\"example-step__num\">7.5% / 5yr</span><span><strong>Maturity: ₹7,24,974 | Interest: ₹2,24,974</strong></span></div></div>",
+    "related_slugs": [
+      "fd-calculator",
+      "fd-calculator-1-lakh",
+      "ppf-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the maturity amount for ₹5 lakh FD for 2 years?",
+        "a": "At 6.5% with quarterly compounding, ₹5 lakh FD for 2 years gives approximately ₹5,69,123 at maturity. Total interest earned is ₹69,123. Use the rate slider to enter your bank's exact current rate."
+      },
+      {
+        "q": "Will TDS be deducted on ₹5 lakh FD?",
+        "a": "It depends on total FD interest at that bank. At 6.5%, annual interest on ₹5L is ~₹32,500 — below the ₹40,000 TDS threshold. If you have additional FDs at the same bank and total annual interest crosses ₹40,000, the bank will deduct 10% TDS. Submit Form 15G to avoid TDS if your income is below the taxable limit."
+      },
+      {
+        "q": "Is ₹5 lakh the DICGC insurance limit?",
+        "a": "Yes — DICGC (Deposit Insurance and Credit Guarantee Corporation) insures up to ₹5 lakh per depositor per bank, covering principal and interest combined. If your total deposits at one bank exceed ₹5 lakh, the amount above is uninsured. Consider spreading large deposits across multiple banks."
+      }
+    ]
   }
 ]
