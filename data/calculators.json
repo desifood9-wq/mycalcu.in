@@ -472,7 +472,7 @@
       },
       {
         "q": "Is 25 LPA a good salary in India?",
-        "a": "Yes — ₹25 LPA places you in the top 1% of Indian earners. With monthly in-hand of ₹1.7L+, it comfortably supports home loan EMIs, investments, and a high standard of living in any Indian city."
+        "a": "Yes — ₹25 LPA is a high income by Indian standards. With monthly in-hand of ₹1.7L+, it comfortably supports home loan EMIs, investments, and a high standard of living in any Indian city."
       }
     ]
   },
@@ -524,7 +524,7 @@
       },
       {
         "q": "Is 30 LPA a good salary in India?",
-        "a": "Absolutely — ₹30 LPA puts you in the top 0.5% of Indian earners. With ₹2L+ monthly in-hand, it supports premium housing EMIs, substantial investments, and a high-quality lifestyle in any Indian city."
+        "a": "Absolutely — ₹30 LPA is among the highest salaries in India. With ₹2L+ monthly in-hand, it supports premium housing EMIs, substantial investments, and a high-quality lifestyle in any Indian city."
       }
     ]
   },
@@ -552,7 +552,7 @@
     },
     "inputs_html": "<div class=\"form-group\">\n  <label for=\"ctc\">Annual CTC (₹)</label>\n  <div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span>\n  <input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"{{PREFILL_CTC}}\" aria-describedby=\"ctc-hint\"></div>\n  <p class=\"hint\" id=\"ctc-hint\">Pre-filled with ₹50 LPA — adjust if needed</p>\n</div>\n<div class=\"form-group\">\n  <label for=\"basic-pct\">Basic Salary (% of CTC)</label>\n  <input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"{{PREFILL_BASIC_PCT}}\" aria-describedby=\"basic-pct-val\">\n  <div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">{{PREFILL_BASIC_PCT}}%</span><span>60%</span></div>\n</div>\n<div class=\"form-group\">\n  <label>Tax Regime</label>\n  <div class=\"toggle-group\" role=\"group\">\n    <input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked>\n    <label for=\"regime-new\">New Regime</label>\n    <input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\">\n    <label for=\"regime-old\">Old Regime</label>\n  </div>\n</div>\n<div class=\"form-group\">\n  <label for=\"metro\">City Type</label>\n  <select id=\"metro\" name=\"metro\">\n    <option value=\"metro\">Metro</option>\n    <option value=\"non-metro\">Non-Metro</option>\n  </select>\n</div>",
     "about_heading": "50 LPA In Hand Salary — What to Expect",
-    "about_html": "<div class=\"info-callout\">💡 <strong>Effective zero-tax CTC is ~₹13.7 LPA — not ₹12 LPA.</strong> Since employer EPF and gratuity are excluded from your taxable income, salaried employees with CTC up to approximately ₹13.5–₹13.7 lakh pay zero income tax under the new regime for FY 2025-26.</div>\n<p>₹50 LPA places you in India's top 0.1% of earners — typical for director-level professionals, senior partners, VP-level roles at MNCs, and FAANG engineers. At this income level, a 10% surcharge applies on income tax, making the effective tax rate substantially higher.</p><p>Under the new regime for FY {{YEAR}}-26, the effective tax rate at ₹50 LPA (including surcharge and cess) is approximately 27–29%. Monthly in-hand typically falls between ₹3,00,000 and ₹3,20,000 — nearly half the gross goes to tax at this bracket.</p>",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Effective zero-tax CTC is ~₹13.7 LPA — not ₹12 LPA.</strong> Since employer EPF and gratuity are excluded from your taxable income, salaried employees with CTC up to approximately ₹13.5–₹13.7 lakh pay zero income tax under the new regime for FY 2025-26.</div>\n<p>₹50 LPA is among India's highest salary packages — typical for director-level professionals, senior partners, VP-level roles at MNCs, and FAANG engineers. At this income level, a 10% surcharge applies on income tax, making the effective tax rate substantially higher.</p><p>Under the new regime for FY {{YEAR}}-26, the effective tax rate at ₹50 LPA (including surcharge and cess) is approximately 27–29%. Monthly in-hand typically falls between ₹3,00,000 and ₹3,20,000 — nearly half the gross goes to tax at this bracket.</p>",
     "formula_heading": "How is 50 LPA In-Hand Salary Calculated?",
     "formula_html": "<div class=\"formula-box\">Monthly In-Hand = Gross Monthly − EPF − Professional Tax − TDS (incl. surcharge)</div><h3>Surcharge at 50 LPA</h3><p>Income above ₹50 lakh attracts a 10% surcharge on income tax. On ₹50 LPA, this adds roughly ₹1.2–₹1.5 lakh annually to your tax bill. Marginal relief applies if income is just above ₹50L.</p><h3>Key numbers at ₹50 LPA</h3><p>With 40% basic (₹20 LPA = ₹1,66,667/month), EPF is capped effectively. Under the new regime, annual tax including surcharge and cess is approximately ₹13–₹14 lakh (₹1,08,333–₹1,16,667/month TDS).</p>",
     "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Example: ₹50 LPA — New Tax Regime, Metro</div><div class=\"example-step\"><span class=\"example-step__num\">1</span><span>Annual CTC: ₹50,00,000</span></div><div class=\"example-step\"><span class=\"example-step__num\">2</span><span>Basic (40%): ₹20,00,000/yr = ₹1,66,667/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">3</span><span>Employee EPF: ₹20,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">4</span><span>Professional Tax: ₹200/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">5</span><span>Income Tax + 10% surcharge + 4% cess: ≈ ₹1,12,500/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">6</span><span><strong>Monthly In-Hand ≈ ₹3,05,000 – ₹3,15,000</strong></span></div></div>",
@@ -836,6 +836,416 @@
       {
         "q": "What fund should I choose for ₹10,000/month SIP?",
         "a": "At this amount, consider splitting across 2–3 funds: 50% in a large-cap index fund (Nifty 50), 30% in a mid-cap fund, and 20% in an international fund for diversification. Review allocation every 2–3 years."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-20-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "20 Lakh Home Loan EMI Calculator 2025 — Monthly EMI | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹20 lakh home loan at any interest rate and tenure. Instant results for 2025 home loan rates.",
+    "og_title": "₹20 Lakh Home Loan EMI | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹20 lakh home loan. Full amortisation breakdown.",
+    "h1_title": "₹20 Lakh Home Loan EMI Calculator",
+    "subtitle": "Calculate your exact monthly EMI for a ₹20 lakh home loan at current interest rates.",
+    "breadcrumb_name": "₹20L Home Loan EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate monthly EMI for ₹20 lakh home loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "loan_amount": "2000000",
+      "tenure_years": "20",
+      "interest_rate": "8.5"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"2000000\" aria-describedby=\"loan-hint\"></div><p class=\"hint\" id=\"loan-hint\">Pre-filled with ₹20 lakh — adjust if needed</p></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% per annum)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"5\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>5%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div></div><div class=\"form-group\"><label for=\"tenure-years\">Loan Tenure</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"1\" max=\"30\" value=\"20\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-years-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹20 Lakh Home Loan — What to Expect",
+    "about_html": "<div class=\"info-callout\">⚠️ <strong>Rate used in examples is for illustration only.</strong> Home loan rates change frequently. Use the interest rate slider above to enter your actual bank rate. Examples below use 8.5% as a reference — verify current rates with your bank before making decisions.</div>\n<div class=\"info-callout\">💡 <strong>At 8.5% for 20 years, EMI on ₹20 lakh is approximately ₹17,356/month.</strong> Total interest paid over 20 years is ₹21.65 lakh — more than the loan itself. Shorter tenure saves significantly on interest.</div><p>A ₹20 lakh home loan is common for tier-2 and tier-3 city home purchases, plot loans, and top-up loans. At typical home loan rates, monthly EMI ranges from ₹17,000–₹18,500 for a 20-year tenure.</p><p>The tenure choice dramatically affects both your monthly cash flow and total interest paid. A 10-year tenure at 8.5% gives EMI of ₹24,797 but saves ₹12 lakh in interest compared to a 20-year tenure.</p>",
+    "formula_heading": "How is ₹20 Lakh EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹20,00,000, r = monthly interest rate (annual ÷ 12), n = tenure in months.</p><h3>At 8.5% for 20 years</h3><p>r = 8.5/12/100 = 0.007083. n = 240 months. EMI = ₹17,356. Total payment = ₹41,65,440. Total interest = ₹21,65,440.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹20 Lakh Loan at 8.5% — Tenure Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">10yr</span><span>EMI: ₹24,797 | Total interest: ₹9.76L</span></div><div class=\"example-step\"><span class=\"example-step__num\">15yr</span><span>EMI: ₹19,694 | Total interest: ₹15.45L</span></div><div class=\"example-step\"><span class=\"example-step__num\">20yr</span><span>EMI: ₹17,356 | Total interest: ₹21.65L</span></div><div class=\"example-step\"><span class=\"example-step__num\">30yr</span><span><strong>EMI: ₹15,370 | Total interest: ₹35.33L</strong></span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "loan-emi-calculator-30-lakh",
+      "loan-emi-calculator-50-lakh"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹20 lakh home loan for 20 years?",
+        "a": "At 8.5% interest, EMI for ₹20 lakh over 20 years is approximately ₹17,356/month. Total amount paid is ₹41.65 lakh, of which ₹21.65 lakh is interest."
+      },
+      {
+        "q": "What is the EMI for ₹20 lakh home loan for 10 years?",
+        "a": "At 8.5% interest, EMI for ₹20 lakh over 10 years is approximately ₹24,797/month. Though the EMI is higher, you save ₹11.89 lakh in interest compared to a 20-year tenure."
+      },
+      {
+        "q": "What salary do I need for a ₹20 lakh home loan?",
+        "a": "Banks typically allow EMI up to 40–50% of net monthly income. For an EMI of ₹17,356 (20 years at 8.5%), you need a net monthly income of approximately ₹35,000–₹45,000."
+      },
+      {
+        "q": "What is the current home loan interest rate in {{YEAR}}?",
+        "a": "Home loan rates vary by bank, credit score, and loan type. Compare at least 3 lenders before deciding. Rates vary based on credit score, income, and loan type. Use our calculator to compare EMIs at different rates."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-30-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "30 Lakh Home Loan EMI Calculator 2025 — Monthly EMI | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹30 lakh home loan at any interest rate and tenure.",
+    "og_title": "₹30 Lakh Home Loan EMI | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹30 lakh home loan.",
+    "h1_title": "₹30 Lakh Home Loan EMI Calculator",
+    "subtitle": "Calculate your exact monthly EMI for a ₹30 lakh home loan at current interest rates.",
+    "breadcrumb_name": "₹30L Home Loan EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate monthly EMI for ₹30 lakh home loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "loan_amount": "3000000",
+      "tenure_years": "20",
+      "interest_rate": "8.5"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"3000000\" aria-describedby=\"loan-hint\"></div><p class=\"hint\" id=\"loan-hint\">Pre-filled with ₹30 lakh — adjust if needed</p></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% per annum)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"5\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>5%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div></div><div class=\"form-group\"><label for=\"tenure-years\">Loan Tenure</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"1\" max=\"30\" value=\"20\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-years-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹30 Lakh Home Loan — What to Expect",
+    "about_html": "<div class=\"info-callout\">⚠️ <strong>Rate used in examples is for illustration only.</strong> Home loan rates change frequently. Use the interest rate slider above to enter your actual bank rate. Examples below use 8.5% as a reference — verify current rates with your bank before making decisions.</div>\n<div class=\"info-callout\">💡 <strong>At 8.5% for 20 years, EMI on ₹30 lakh is approximately ₹26,035/month.</strong> Total interest over 20 years is ₹32.48 lakh. Every 1% reduction in rate saves approximately ₹4,000/month.</div><p>₹30 lakh is one of the most common home loan amounts in India — typical for 2BHK apartments in tier-2 cities and affordable housing in metros. At 8.5%, monthly EMI ranges from ₹26,000–₹29,000 depending on tenure.</p>",
+    "formula_heading": "How is ₹30 Lakh EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><h3>At 8.5% for 20 years</h3><p>P = ₹30,00,000. EMI = ₹26,035/month. Total payment = ₹62.48L. Total interest = ₹32.48L.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹30 Lakh Loan at 8.5% — Tenure Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">10yr</span><span>EMI: ₹37,194 | Total interest: ₹14.63L</span></div><div class=\"example-step\"><span class=\"example-step__num\">15yr</span><span>EMI: ₹29,542 | Total interest: ₹23.18L</span></div><div class=\"example-step\"><span class=\"example-step__num\">20yr</span><span>EMI: ₹26,035 | Total interest: ₹32.48L</span></div><div class=\"example-step\"><span class=\"example-step__num\">30yr</span><span><strong>EMI: ₹23,055 | Total interest: ₹53.0L</strong></span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator-20-lakh",
+      "loan-emi-calculator-50-lakh",
+      "loan-emi-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹30 lakh home loan for 20 years?",
+        "a": "At 8.5% interest, EMI for ₹30 lakh over 20 years is approximately ₹26,035/month. Total interest paid is ₹32.48 lakh over the full tenure."
+      },
+      {
+        "q": "What salary do I need for a ₹30 lakh home loan?",
+        "a": "For an EMI of ₹26,035 (20 years at 8.5%), banks require a net monthly income of approximately ₹52,000–₹65,000. Higher credit score can improve eligibility."
+      },
+      {
+        "q": "How to reduce EMI on ₹30 lakh loan?",
+        "a": "Three ways: increase tenure (20yr vs 15yr saves ₹3,500/month), negotiate lower rate (8% vs 8.5% saves ₹1,000/month), or make partial prepayments to reduce principal."
+      },
+      {
+        "q": "What is the EMI for ₹30 lakh home loan for 15 years?",
+        "a": "At 8.5% for 15 years, EMI is approximately ₹29,542/month. You pay ₹9.3 lakh less in interest compared to a 20-year tenure, but EMI is ₹3,500 higher."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-50-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "50 Lakh Home Loan EMI Calculator 2025 — Monthly EMI | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹50 lakh home loan at any interest rate and tenure.",
+    "og_title": "₹50 Lakh Home Loan EMI | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹50 lakh home loan.",
+    "h1_title": "₹50 Lakh Home Loan EMI Calculator",
+    "subtitle": "Calculate your exact monthly EMI for a ₹50 lakh home loan at current interest rates.",
+    "breadcrumb_name": "₹50L Home Loan EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate monthly EMI for ₹50 lakh home loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "loan_amount": "5000000",
+      "tenure_years": "20",
+      "interest_rate": "8.5"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"5000000\" aria-describedby=\"loan-hint\"></div><p class=\"hint\" id=\"loan-hint\">Pre-filled with ₹50 lakh — adjust if needed</p></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% per annum)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"5\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>5%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div></div><div class=\"form-group\"><label for=\"tenure-years\">Loan Tenure</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"1\" max=\"30\" value=\"20\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-years-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹50 Lakh Home Loan — What to Expect",
+    "about_html": "<div class=\"info-callout\">⚠️ <strong>Rate used in examples is for illustration only.</strong> Home loan rates change frequently. Use the interest rate slider above to enter your actual bank rate. Examples below use 8.5% as a reference — verify current rates with your bank before making decisions.</div>\n<div class=\"info-callout\">💡 <strong>At 8.5% for 20 years, EMI on ₹50 lakh is approximately ₹43,391/month.</strong> This requires a net monthly income of ₹85,000–₹1,10,000. Total interest over 20 years is ₹54.14 lakh.</div><p>₹50 lakh is the standard home loan amount for 2–3 BHK apartments in major Indian cities. It sits at the threshold where loan processing, credit score, and income documentation become more stringent.</p><p>At this loan size, even a 0.5% difference in interest rate translates to ₹2,000/month in EMI — making rate negotiation and comparison genuinely worthwhile before choosing a lender.</p>",
+    "formula_heading": "How is ₹50 Lakh EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><h3>At 8.5% for 20 years</h3><p>P = ₹50,00,000. EMI = ₹43,391/month. Total payment = ₹1,04,13,840. Total interest = ₹54,13,840.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹50 Lakh Loan at 8.5% — Tenure Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">10yr</span><span>EMI: ₹61,993 | Total interest: ₹24.39L</span></div><div class=\"example-step\"><span class=\"example-step__num\">15yr</span><span>EMI: ₹49,237 | Total interest: ₹38.63L</span></div><div class=\"example-step\"><span class=\"example-step__num\">20yr</span><span>EMI: ₹43,391 | Total interest: ₹54.14L</span></div><div class=\"example-step\"><span class=\"example-step__num\">30yr</span><span><strong>EMI: ₹38,426 | Total interest: ₹88.33L</strong></span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator-30-lakh",
+      "loan-emi-calculator-1-crore",
+      "loan-emi-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹50 lakh home loan for 20 years?",
+        "a": "At 8.5% interest, EMI for ₹50 lakh over 20 years is approximately ₹43,391/month. Total amount repaid is ₹1.04 crore, of which ₹54.14 lakh is interest."
+      },
+      {
+        "q": "What salary do I need for a ₹50 lakh home loan?",
+        "a": "For ₹43,391 EMI (20 years at 8.5%), banks require net monthly income of ₹85,000–₹1,10,000. A co-applicant's income can be combined to improve eligibility."
+      },
+      {
+        "q": "How much does 0.5% lower rate save on ₹50 lakh loan?",
+        "a": "At 8% vs 8.5% for 20 years, EMI drops from ₹43,391 to ₹41,822 — saving ₹1,569/month and ₹3.77 lakh in total interest. Always compare at least 3 lenders."
+      },
+      {
+        "q": "Is ₹50 lakh home loan tax deductible?",
+        "a": "Yes — under Section 24(b), interest paid on home loan is deductible up to ₹2 lakh/year for a self-occupied property. Under 80C, principal repayment up to ₹1.5 lakh/year is deductible. Combined tax benefit can be ₹70,000–₹1 lakh annually."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-1-crore",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "1 Crore Home Loan EMI Calculator 2025 — Monthly EMI | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹1 crore home loan at any interest rate and tenure.",
+    "og_title": "₹1 Crore Home Loan EMI | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹1 crore home loan.",
+    "h1_title": "₹1 Crore Home Loan EMI Calculator",
+    "subtitle": "Calculate your exact monthly EMI for a ₹1 crore home loan at current interest rates.",
+    "breadcrumb_name": "₹1 Crore Home Loan EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate monthly EMI for ₹1 crore home loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "loan_amount": "10000000",
+      "tenure_years": "20",
+      "interest_rate": "8.5"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"10000000\" aria-describedby=\"loan-hint\"></div><p class=\"hint\" id=\"loan-hint\">Pre-filled with ₹1 crore — adjust if needed</p></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% per annum)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"5\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>5%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div></div><div class=\"form-group\"><label for=\"tenure-years\">Loan Tenure</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"1\" max=\"30\" value=\"20\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-years-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹1 Crore Home Loan — What to Expect",
+    "about_html": "<div class=\"info-callout\">⚠️ <strong>Rate used in examples is for illustration only.</strong> Home loan rates change frequently. Use the interest rate slider above to enter your actual bank rate. Examples below use 8.5% as a reference — verify current rates with your bank before making decisions.</div>\n<div class=\"info-callout\">💡 <strong>At 8.5% for 20 years, EMI on ₹1 crore is approximately ₹86,782/month.</strong> You need a net monthly income of ₹1.7–₹2.2 lakh. Total interest over 20 years is ₹1.08 crore — more than the loan amount itself.</div><p>₹1 crore home loans are standard for premium 3–4 BHK apartments in metros — Mumbai, Delhi NCR, Bengaluru, Pune, and Hyderabad. At this loan size, processing fees, legal charges, and documentation are substantial — typically ₹25,000–₹50,000 in upfront costs.</p><p>Tax benefits are particularly valuable at this loan size. Section 24(b) interest deduction of ₹2 lakh/year and 80C principal deduction of ₹1.5 lakh/year can reduce effective annual tax by ₹1–₹1.5 lakh for someone in the 30% bracket.</p>",
+    "formula_heading": "How is ₹1 Crore EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><h3>At 8.5% for 20 years</h3><p>P = ₹1,00,00,000. EMI = ₹86,782/month. Total payment = ₹2,08,27,680. Total interest = ₹1,08,27,680.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹1 Crore Loan at 8.5% — Tenure Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">10yr</span><span>EMI: ₹1,23,986 | Total interest: ₹48.78L</span></div><div class=\"example-step\"><span class=\"example-step__num\">15yr</span><span>EMI: ₹98,474 | Total interest: ₹77.25L</span></div><div class=\"example-step\"><span class=\"example-step__num\">20yr</span><span>EMI: ₹86,782 | Total interest: ₹1,08,28L</span></div><div class=\"example-step\"><span class=\"example-step__num\">30yr</span><span><strong>EMI: ₹76,891 | Total interest: ₹1,76,81L</strong></span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator-50-lakh",
+      "loan-emi-calculator",
+      "sip-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹1 crore home loan for 20 years?",
+        "a": "At 8.5% interest, EMI for ₹1 crore over 20 years is approximately ₹86,782/month. Total repayment is ₹2.08 crore — ₹1.08 crore of which is interest."
+      },
+      {
+        "q": "What salary is needed for ₹1 crore home loan?",
+        "a": "For ₹86,782 EMI (20 years at 8.5%), banks require net monthly income of ₹1.75–₹2.2 lakh. This typically means gross income of ₹30–₹40 LPA. Joint applications with spouse can combine income."
+      },
+      {
+        "q": "Is ₹1 crore home loan a good idea?",
+        "a": "At ₹1 crore, you pay ₹1.08 crore in interest over 20 years — 108% of the principal. Making 1–2 prepayments of ₹5–₹10 lakh in years 3–7 (when interest component is highest) can save ₹20–₹30 lakh in total interest."
+      },
+      {
+        "q": "What are tax benefits on ₹1 crore home loan?",
+        "a": "Section 24(b): Up to ₹2 lakh interest deduction/year. Section 80C: Up to ₹1.5 lakh principal repayment deduction/year. For someone in the 30% bracket, this saves approximately ₹1.05–₹1.3 lakh in tax annually."
+      }
+    ]
+  },
+  {
+    "slug": "ppf-calculator",
+    "category": "investment",
+    "variant_of": null,
+    "year": "2025",
+    "meta_title": "PPF Calculator 2025 — Maturity Amount & Interest | mycalcu.in",
+    "meta_description": "Calculate PPF maturity amount, yearly interest, and total returns for any annual investment. Updated for 7.1% PPF interest rate FY 2025-26.",
+    "og_title": "PPF Calculator 2025 | mycalcu.in",
+    "og_description": "Calculate PPF maturity amount at 7.1% interest rate. 15-year corpus, extension options.",
+    "h1_title": "PPF Calculator",
+    "subtitle": "Calculate your PPF maturity amount, total interest earned, and year-by-year balance at the current 7.1% interest rate.",
+    "breadcrumb_name": "PPF Calculator",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate PPF maturity amount and interest for FY 2025-26 at 7.1% rate.",
+    "result_label": "Maturity Amount (15 years)",
+    "js_file": "calculators/ppf-calculator.js",
+    "prefill": {
+      "annual_investment": "150000",
+      "tenure_years": "15"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"annual-investment\">Annual Investment (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"annual-investment\" name=\"annual-investment\" min=\"500\" max=\"150000\" step=\"500\" value=\"150000\" aria-describedby=\"invest-hint\"></div><p class=\"hint\" id=\"invest-hint\">Min ₹500 · Max ₹1,50,000 per year</p></div><div class=\"form-group\"><label for=\"ppf-rate\">PPF Interest Rate (%)</label><input type=\"range\" id=\"ppf-rate\" name=\"ppf-rate\" min=\"5\" max=\"12\" step=\"0.1\" value=\"7.1\" aria-describedby=\"ppf-rate-val\"><div class=\"range-labels\"><span>5%</span><span id=\"ppf-rate-val\">7.1%</span><span>12%</span></div><p class=\"hint\">Current rate: 7.1% (FY 2025-26). Adjust if rate changes.</p></div><div class=\"form-group\"><label for=\"tenure-years\">Investment Duration</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"15\" max=\"50\" step=\"5\" value=\"15\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>15 yrs</span><span id=\"tenure-years-val\">15 yrs</span><span>50 yrs</span></div></div>",
+    "about_heading": "What is PPF and Why Calculate It?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>PPF at max ₹1.5L/year for 15 years = ₹40.68 lakh maturity.</strong> You invest ₹22.5 lakh and earn ₹18.18 lakh tax-free interest. No other guaranteed instrument matches this risk-return profile.</div><p>PPF (Public Provident Fund) is India's most popular long-term savings instrument — government-backed, completely tax-free (EEE status), and currently earning 7.1% interest per annum compounded annually.</p><p>The EEE (Exempt-Exempt-Exempt) tax treatment means: investment is deductible under 80C, interest earned is tax-free, and maturity amount is tax-free. For someone in the 30% bracket, the effective return is closer to 10.1%.</p><p>PPF has a 15-year lock-in but can be extended in 5-year blocks indefinitely. Partial withdrawals are allowed from year 7 onwards.</p>",
+    "formula_heading": "How is PPF Maturity Calculated?",
+    "formula_html": "<div class=\"formula-box\">F = P × [((1+r)ⁿ − 1) / r] × (1+r)</div><p>Where F = Maturity amount, P = Annual investment, r = Annual interest rate (7.1%), n = Number of years.</p><h3>Current PPF Rate</h3><p>PPF interest rate for FY 2025-26 is 7.1% per annum, compounded annually. Interest is calculated on the lowest balance between 5th and last day of each month — so always invest before the 5th to earn interest for that month.</p><h3>EEE Tax Benefit</h3><p>For a 30% taxpayer investing ₹1.5L/year, the 80C deduction saves ₹46,800 in tax annually. Effective yield accounting for tax saved: approximately 10.1%.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 PPF at Max ₹1.5 Lakh/Year — 7.1% Rate</div><div class=\"example-step\"><span class=\"example-step__num\">15yr</span><span>Corpus: ₹40.68L | Invested: ₹22.5L | Interest: ₹18.18L</span></div><div class=\"example-step\"><span class=\"example-step__num\">20yr</span><span>Corpus: ₹66.58L | Invested: ₹30L | Interest: ₹36.58L</span></div><div class=\"example-step\"><span class=\"example-step__num\">25yr</span><span>Corpus: ₹1.03 Cr | Invested: ₹37.5L | Interest: ₹65.5L</span></div><div class=\"example-step\"><span class=\"example-step__num\">30yr</span><span><strong>Corpus: ₹1.54 Cr | Invested: ₹45L | Interest: ₹1.09 Cr</strong></span></div></div>",
+    "related_slugs": [
+      "sip-calculator",
+      "ppf-calculator-500-per-year",
+      "loan-emi-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the PPF interest rate for FY 2025-26?",
+        "a": "The PPF interest rate for FY 2025-26 is 7.1% per annum, compounded annually. The rate is reviewed quarterly by the government but has remained at 7.1% since April 2020."
+      },
+      {
+        "q": "How much will PPF give after 15 years at max investment?",
+        "a": "Investing ₹1.5 lakh/year for 15 years at 7.1% gives a maturity amount of approximately ₹40.68 lakh. Total invested is ₹22.5 lakh and interest earned is ₹18.18 lakh — all completely tax-free."
+      },
+      {
+        "q": "Can I extend PPF beyond 15 years?",
+        "a": "Yes — PPF can be extended in 5-year blocks after the initial 15-year period. You can extend with or without contributions. Extending with contributions at 7.1% for 5 more years (20 years total) on ₹1.5L/year investment grows corpus to ₹66.58 lakh."
+      },
+      {
+        "q": "Is PPF better than FD?",
+        "a": "For long-term savings, yes. PPF at 7.1% is tax-free, while FD interest is fully taxable. For a 30% taxpayer, a 7.1% PPF is equivalent to a 10.14% pre-tax FD — which no bank offers. PPF also carries zero default risk being government-backed."
+      },
+      {
+        "q": "When should I invest in PPF for maximum interest?",
+        "a": "Always invest before the 5th of April (beginning of financial year) to earn interest for the full year. PPF interest is calculated on the minimum balance between the 5th and last day of each month — investing after the 5th means losing one month's interest."
+      }
+    ]
+  },
+  {
+    "slug": "hra-calculator",
+    "category": "salary",
+    "variant_of": null,
+    "year": "2025",
+    "meta_title": "HRA Exemption Calculator 2025 — Tax-Free HRA | mycalcu.in",
+    "meta_description": "Calculate your HRA exemption for FY 2025-26. Find exact tax-free HRA amount for metro and non-metro cities instantly.",
+    "og_title": "HRA Exemption Calculator 2025 | mycalcu.in",
+    "og_description": "Calculate exact HRA tax exemption for metro and non-metro cities. FY 2025-26.",
+    "h1_title": "HRA Exemption Calculator",
+    "subtitle": "Calculate your exact HRA tax exemption for FY 2025-26 — metro and non-metro. Instant results.",
+    "breadcrumb_name": "HRA Calculator",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate HRA tax exemption for FY 2025-26.",
+    "result_label": "HRA Exemption (Tax-Free)",
+    "js_file": "calculators/hra-calculator.js",
+    "prefill": {
+      "basic_salary": "50000",
+      "hra_received": "25000",
+      "rent_paid": "20000",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"1000000\" step=\"1000\" value=\"50000\"></div></div><div class=\"form-group\"><label for=\"hra-received\">HRA Received (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-received\" name=\"hra-received\" min=\"0\" max=\"500000\" step=\"500\" value=\"25000\"></div></div><div class=\"form-group\"><label for=\"rent-paid\">Actual Rent Paid (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"rent-paid\" name=\"rent-paid\" min=\"0\" max=\"500000\" step=\"500\" value=\"20000\"></div></div><div class=\"form-group\"><label for=\"city-type\">City Type</label><select id=\"city-type\" name=\"city-type\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "What is HRA Exemption?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>HRA exemption is the lowest of 3 values.</strong> Many employees claim less HRA exemption than they're entitled to — use this calculator to find your exact tax-free amount.</div><p>HRA (House Rent Allowance) exemption under Section 10(13A) allows salaried employees to reduce taxable income by the HRA they receive — subject to certain limits. The exemption is only available under the old tax regime.</p><p>The exemption is the minimum of three amounts: (1) Actual HRA received, (2) 50% of basic salary for metro cities or 40% for non-metro, (3) Actual rent paid minus 10% of basic salary.</p><p>HRA exemption is only available under the old tax regime. Under the new regime, full HRA is taxable — making HRA a key reason some employees prefer the old regime.</p>",
+    "formula_heading": "How is HRA Exemption Calculated?",
+    "formula_html": "<div class=\"formula-box\">HRA Exempt = Min of: (1) HRA received, (2) 50%/40% of basic, (3) Rent − 10% of basic</div><h3>Metro vs Non-Metro</h3><p>Metro cities (Mumbai, Delhi, Kolkata, Chennai): 50% of basic salary. All other cities: 40% of basic salary. This is one of the few tax rules where city classification directly affects your tax bill.</p><h3>Example — ₹50,000 basic, ₹25,000 HRA, ₹20,000 rent, Metro</h3><p>(1) HRA received: ₹25,000. (2) 50% of basic: ₹25,000. (3) Rent − 10% of basic: ₹20,000 − ₹5,000 = ₹15,000. Exemption = Min(25,000, 25,000, 15,000) = <strong>₹15,000/month</strong>.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 HRA Exemption Examples — Metro City</div><div class=\"example-step\"><span class=\"example-step__num\">1</span><span>Basic ₹30K, HRA ₹15K, Rent ₹12K → Exempt: ₹9,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">2</span><span>Basic ₹50K, HRA ₹25K, Rent ₹20K → Exempt: ₹15,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">3</span><span>Basic ₹80K, HRA ₹40K, Rent ₹35K → Exempt: ₹27,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">4</span><span><strong>Basic ₹1L, HRA ₹50K, Rent ₹45K → Exempt: ₹35,000/month</strong></span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "hra-calculator-mumbai",
+      "hra-calculator-bangalore"
+    ],
+    "faqs": [
+      {
+        "q": "How is HRA exemption calculated?",
+        "a": "HRA exemption is the minimum of three amounts: (1) actual HRA received from employer, (2) 50% of basic salary for metro cities or 40% for non-metro, (3) actual rent paid minus 10% of basic salary. The lowest of these three is your tax-free HRA."
+      },
+      {
+        "q": "Is HRA available under new tax regime?",
+        "a": "No. HRA exemption under Section 10(13A) is only available under the old tax regime. Under the new regime, full HRA received is included in taxable income. This is a key reason to compare both regimes — if your HRA exemption is large, old regime may save more tax."
+      },
+      {
+        "q": "What are metro cities for HRA?",
+        "a": "Only four cities qualify as metro for HRA: Mumbai, Delhi, Kolkata, and Chennai. All other cities — including Bengaluru, Hyderabad, Pune, Ahmedabad — are classified as non-metro for HRA purposes, getting 40% of basic instead of 50%."
+      },
+      {
+        "q": "Can I claim HRA without rent receipts?",
+        "a": "For rent up to ₹1 lakh/year (₹8,333/month), no receipts are required — just a declaration. For rent above ₹1 lakh/year, you must submit rent receipts and landlord's PAN to your employer for TDS computation."
+      },
+      {
+        "q": "What if my rent is more than HRA received?",
+        "a": "You can only claim exemption up to the HRA amount received from your employer — paying more rent than HRA doesn't increase exemption beyond what's received. However, excess rent above 10% of basic is counted in calculation 3, so higher rent does help if HRA received is the binding constraint."
+      }
+    ]
+  },
+  {
+    "slug": "hra-calculator-mumbai",
+    "category": "salary",
+    "variant_of": "hra-calculator",
+    "year": "2025",
+    "meta_title": "HRA Exemption Calculator Mumbai 2025 — Metro City | mycalcu.in",
+    "meta_description": "Calculate HRA tax exemption for Mumbai salary. Metro city rates — 50% of basic. Instant HRA calculation for FY 2025-26.",
+    "og_title": "HRA Exemption Calculator Mumbai | mycalcu.in",
+    "og_description": "Exact HRA exemption for Mumbai salary. Metro city 50% rule applied.",
+    "h1_title": "HRA Exemption Calculator — Mumbai",
+    "subtitle": "Calculate your exact HRA tax exemption for Mumbai salary at 50% metro rate for FY 2025-26.",
+    "breadcrumb_name": "HRA Mumbai",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate HRA exemption for Mumbai salary FY 2025-26.",
+    "result_label": "Monthly HRA Exemption",
+    "js_file": "calculators/hra-calculator.js",
+    "prefill": {
+      "basic_salary": "60000",
+      "hra_received": "30000",
+      "rent_paid": "35000",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"1000000\" step=\"1000\" value=\"60000\"></div></div><div class=\"form-group\"><label for=\"hra-received\">HRA Received (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-received\" name=\"hra-received\" min=\"0\" max=\"500000\" step=\"500\" value=\"30000\"></div></div><div class=\"form-group\"><label for=\"rent-paid\">Actual Rent Paid (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"rent-paid\" name=\"rent-paid\" min=\"0\" max=\"500000\" step=\"500\" value=\"35000\"></div></div><div class=\"form-group\"><label for=\"city-type\">City Type</label><select id=\"city-type\" name=\"city-type\"><option value=\"metro\" selected>Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "HRA in Mumbai — Metro City Rules",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Mumbai qualifies as metro — you get 50% of basic as HRA benchmark.</strong> Bengaluru, Pune, Hyderabad do NOT qualify as metro for HRA despite being major cities.</div><p>Mumbai is one of four cities classified as metro for HRA exemption purposes — Mumbai, Delhi, Kolkata, and Chennai. This means the HRA benchmark is 50% of basic salary instead of 40% for non-metro cities.</p><p>With Mumbai's high rent costs, many employees pay rent well above HRA received — in which case calculation (3) (rent minus 10% of basic) usually determines the exemption. Our calculator pre-fills typical Mumbai rent values.</p>",
+    "formula_heading": "HRA Calculation for Mumbai",
+    "formula_html": "<div class=\"formula-box\">Exempt = Min of: HRA received · 50% of basic · (Rent − 10% of basic)</div><h3>Typical Mumbai scenario</h3><p>Basic ₹60,000, HRA ₹30,000, Rent ₹35,000: (1) ₹30,000 (2) ₹30,000 (3) ₹35,000 − ₹6,000 = ₹29,000. Exemption = ₹29,000/month = ₹3.48 lakh/year tax-free.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Mumbai HRA Examples — 50% Metro Rate</div><div class=\"example-step\"><span class=\"example-step__num\">1</span><span>Basic ₹40K, HRA ₹20K, Rent ₹25K → Exempt: ₹16,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">2</span><span>Basic ₹60K, HRA ₹30K, Rent ₹35K → Exempt: ₹29,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">3</span><span><strong>Basic ₹1L, HRA ₹50K, Rent ₹60K → Exempt: ₹50,000/month</strong></span></div></div>",
+    "related_slugs": [
+      "hra-calculator",
+      "hra-calculator-bangalore",
+      "salary-in-hand-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is Mumbai a metro city for HRA?",
+        "a": "Yes — Mumbai is one of four cities classified as metro for HRA exemption: Mumbai, Delhi, Kolkata, and Chennai. Metro classification means 50% of basic salary is used as the HRA benchmark instead of 40%."
+      },
+      {
+        "q": "How much HRA exemption can I claim in Mumbai?",
+        "a": "It depends on your basic salary, HRA received, and actual rent. For a typical Mumbai professional with ₹60,000 basic, ₹30,000 HRA, and ₹35,000 rent, exemption is ₹29,000/month (₹3.48 lakh/year tax-free)."
+      },
+      {
+        "q": "My rent in Mumbai is more than my HRA — can I claim more?",
+        "a": "No — you cannot claim more than HRA received from employer. However, paying higher rent helps calculation 3 (rent minus 10% of basic), which may become the binding constraint and increase your exemption up to the HRA received limit."
+      }
+    ]
+  },
+  {
+    "slug": "hra-calculator-bangalore",
+    "category": "salary",
+    "variant_of": "hra-calculator",
+    "year": "2025",
+    "meta_title": "HRA Exemption Calculator Bangalore 2025 — Non-Metro | mycalcu.in",
+    "meta_description": "Calculate HRA tax exemption for Bangalore salary. Non-metro city rates — 40% of basic. FY 2025-26.",
+    "og_title": "HRA Exemption Calculator Bangalore | mycalcu.in",
+    "og_description": "Exact HRA exemption for Bangalore salary. Non-metro 40% rule — many employees miss this.",
+    "h1_title": "HRA Exemption Calculator — Bangalore",
+    "subtitle": "Calculate your exact HRA tax exemption for Bangalore salary. Note: Bangalore is non-metro for HRA — 40% of basic applies.",
+    "breadcrumb_name": "HRA Bangalore",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate HRA exemption for Bangalore salary FY 2025-26.",
+    "result_label": "Monthly HRA Exemption",
+    "js_file": "calculators/hra-calculator.js",
+    "prefill": {
+      "basic_salary": "60000",
+      "hra_received": "27000",
+      "rent_paid": "30000",
+      "city": "non-metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"1000000\" step=\"1000\" value=\"60000\"></div></div><div class=\"form-group\"><label for=\"hra-received\">HRA Received (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-received\" name=\"hra-received\" min=\"0\" max=\"500000\" step=\"500\" value=\"27000\"></div></div><div class=\"form-group\"><label for=\"rent-paid\">Actual Rent Paid (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"rent-paid\" name=\"rent-paid\" min=\"0\" max=\"500000\" step=\"500\" value=\"30000\"></div></div><div class=\"form-group\"><label for=\"city-type\">City Type</label><select id=\"city-type\" name=\"city-type\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\" selected>Non-Metro</option></select></div>",
+    "about_heading": "HRA in Bangalore — Non-Metro Rules",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Bangalore is NOT a metro city for HRA — only 40% of basic applies, not 50%.</strong> Despite being India's tech capital, Bangalore, Hyderabad, and Pune are all non-metro for HRA purposes. This is a common mistake that leads to incorrect tax filing.</div><p>Many Bangalore employees incorrectly claim 50% metro HRA exemption. The correct rate is 40% of basic salary. Only Mumbai, Delhi, Kolkata, and Chennai are metro cities for HRA.</p><p>With Bangalore's high rents, the actual rent paid minus 10% of basic often becomes the binding constraint rather than the 40% benchmark — especially for employees in premium areas like Koramangala, Indiranagar, or Whitefield.</p>",
+    "formula_heading": "HRA Calculation for Bangalore",
+    "formula_html": "<div class=\"formula-box\">Exempt = Min of: HRA received · 40% of basic · (Rent − 10% of basic)</div><h3>Typical Bangalore scenario</h3><p>Basic ₹60,000, HRA ₹27,000, Rent ₹30,000: (1) ₹27,000 (2) 40% × ₹60,000 = ₹24,000 (3) ₹30,000 − ₹6,000 = ₹24,000. Exemption = ₹24,000/month = ₹2.88 lakh/year tax-free.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Bangalore HRA Examples — 40% Non-Metro Rate</div><div class=\"example-step\"><span class=\"example-step__num\">1</span><span>Basic ₹40K, HRA ₹18K, Rent ₹20K → Exempt: ₹16,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">2</span><span>Basic ₹60K, HRA ₹27K, Rent ₹30K → Exempt: ₹24,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">3</span><span><strong>Basic ₹1L, HRA ₹40K, Rent ₹50K → Exempt: ₹40,000/month</strong></span></div></div>",
+    "related_slugs": [
+      "hra-calculator",
+      "hra-calculator-mumbai",
+      "salary-in-hand-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is Bangalore a metro city for HRA?",
+        "a": "No — Bangalore is classified as non-metro for HRA exemption. Only Mumbai, Delhi, Kolkata, and Chennai are metro cities. For Bangalore, the HRA benchmark is 40% of basic salary, not 50%."
+      },
+      {
+        "q": "How much HRA can I claim in Bangalore?",
+        "a": "For a typical Bangalore IT professional with ₹60,000 basic, ₹27,000 HRA, and ₹30,000 rent, HRA exemption is ₹24,000/month (₹2.88 lakh/year tax-free). This is lower than a similar profile in Mumbai due to the non-metro classification."
+      },
+      {
+        "q": "Can I claim HRA for Bangalore under new tax regime?",
+        "a": "No — HRA exemption is only available under the old tax regime. Under the new regime, HRA is fully taxable. Given Bangalore's high rents, many IT employees find the old regime more beneficial specifically because of HRA exemption."
       }
     ]
   }

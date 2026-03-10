@@ -296,22 +296,30 @@ def build_calculators_index(all_calcs):
         for b in base_items:
             # Variants belonging to this base
             b_variants = [v for v in variant_items if v.get("variant_of") == b["slug"]]
-            variant_pills = ""
+            # Limit to 4 pills max — use spans with onclick to avoid nested <a> tags
             if b_variants:
+                show = b_variants[:4]
+                rest = len(b_variants) - 4
                 pills = "".join(
-                    f'<a href="/calculators/{v["slug"]}">{v["breadcrumb_name"]}</a>'
-                    for v in b_variants
+                    f'<span class="vpill" onclick="event.preventDefault();event.stopPropagation();location.href=\'/calculators/{v["slug"]}\'">{v["breadcrumb_name"]}</span>'
+                    for v in show
                 )
+                if rest > 0:
+                    pills += f'<span class="more-pill">+{rest} more</span>'
                 variant_pills = f'<div class="calc-index-card__variants">{pills}</div>'
+            else:
+                variant_pills = ""
 
             cards_html += (
                 f'<a href="/calculators/{b["slug"]}" class="calc-index-card" '
                 f'data-search="{b["category"]} {b["slug"].replace("-"," ")} {b["h1_title"].lower()}">'
-                f'<div class="calc-index-card__icon" aria-hidden="true">{meta["icon"]}</div>'
-                f'<div class="calc-index-card__name">{b["h1_title"]}</div>'
+                f'<div class="calc-index-card__top">'
+                f'<span class="calc-index-card__icon" aria-hidden="true">{meta["icon"]}</span>'
+                f'<span class="calc-index-card__name">{b["h1_title"]}</span>'
+                f'</div>'
                 f'<div class="calc-index-card__desc">{b["subtitle"]}</div>'
                 f'{variant_pills}'
-                f'<div class="calc-index-card__cta">Calculate &#8594;</div>'
+                f'<div class="calc-index-card__cta">Calculate now <span>&#8594;</span></div>'
                 f'</a>'
             )
 

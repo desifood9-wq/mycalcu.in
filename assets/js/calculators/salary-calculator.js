@@ -22,7 +22,10 @@
   'use strict';
 
   // ── Constants ──────────────────────────────────────────────────────────────
-  var EPF_RATE          = 0.12;     // Employee EPF: 12% of basic
+  // Note: EPF 12% and gratuity 4.81% are statutory rates set by law.
+  // These are stable but may change if Parliament amends the EPF/Gratuity Act.
+  // Tax slabs and 87A rebate are for FY 2025-26 — update when Budget changes.
+  var EPF_RATE          = 0.12;     // Statutory — Employees' Provident Funds Act
   var EMPLOYER_EPF_RATE = 0.12;     // Employer EPF: excluded from take-home
   var GRATUITY_RATE     = 0.0481;   // 4.81% of basic (15/26 × 1/12 × basic)
   var STD_DEDUCTION_NEW = 75000;    // Standard deduction FY 2025-26 (new regime)
