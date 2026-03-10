@@ -810,3 +810,44 @@ input[type="range"]::-moz-range-thumb {
 .calc-index-card:hover .calc-index-card__cta {
   color: var(--accent-deep);
 }
+
+/* ── Info Callout ─────────────────────────────────────────────────────────── */
+.info-callout {
+  background: var(--accent-light);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.info-callout strong { color: var(--accent-deep); }
+
+/* ── SIP Growth Bar ───────────────────────────────────────────────────────── */
+.growth-bar {
+  display: flex;
+  border-radius: var(--radius);
+  overflow: hidden;
+  height: 2.5rem;
+  margin-top: 1rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.growth-bar__invested {
+  background: var(--accent-light);
+  color: var(--accent-deep);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+}
+.growth-bar__returns {
+  background: var(--accent);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
+}
+.result-row__val.positive { color: #1a7a3c; font-weight: 700; }
