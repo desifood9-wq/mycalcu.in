@@ -261,6 +261,11 @@ def build_calculators_index(all_calcs):
             "icon": "⛽",
             "desc": "Know your exact running cost per kilometre for any vehicle and fuel type."
         },
+        "investment": {
+            "label": "Investment & SIP Calculators",
+            "icon": "📈",
+            "desc": "Calculate SIP returns, mutual fund corpus, and plan your long-term wealth."
+        },
     }
 
     # Group: base calculators first, then variants under their parent
@@ -277,6 +282,7 @@ def build_calculators_index(all_calcs):
     # Build category sections HTML
     sections_html = ""
     total_count = len(all_calcs)
+    categories = [cat for cat in CATEGORY_META if cat in groups and groups[cat]["base"]]
 
     for cat, meta in CATEGORY_META.items():
         if cat not in groups:
@@ -290,28 +296,24 @@ def build_calculators_index(all_calcs):
         for b in base_items:
             # Variants belonging to this base
             b_variants = [v for v in variant_items if v.get("variant_of") == b["slug"]]
-            variant_links = ""
+            variant_pills = ""
             if b_variants:
-                links = " · ".join(
-                    f'<a href="/calculators/{v["slug"]}">{v["h1_title"]}</a>'
+                pills = "".join(
+                    f'<a href="/calculators/{v["slug"]}">{v["breadcrumb_name"]}</a>'
                     for v in b_variants
                 )
-                variant_links = f'<div class="calc-index-card__variants"><span>Also: </span>{links}</div>'
+                variant_pills = f'<div class="calc-index-card__variants">{pills}</div>'
 
-            cards_html += f"""
-<a href="/calculators/{b['slug']}" class="calc-index-card" data-search="{b['category']} {b['slug'].replace('-',' ')} {b['h1_title'].lower()}">
-  <div class="calc-index-card__top">
-    <div class="calc-index-card__icon" aria-hidden="true">{meta['icon']}</div>
-    <div>
-      <div class="calc-index-card__name">{b['h1_title']}</div>
-      <div class="calc-index-card__desc">{b['subtitle']}</div>
-    </div>
-  </div>
-  {variant_links}
-  <div class="calc-index-card__cta">
-    Calculate →
-  </div>
-</a>"""
+            cards_html += (
+                f'<a href="/calculators/{b["slug"]}" class="calc-index-card" '
+                f'data-search="{b["category"]} {b["slug"].replace("-"," ")} {b["h1_title"].lower()}">'
+                f'<div class="calc-index-card__icon" aria-hidden="true">{meta["icon"]}</div>'
+                f'<div class="calc-index-card__name">{b["h1_title"]}</div>'
+                f'<div class="calc-index-card__desc">{b["subtitle"]}</div>'
+                f'{variant_pills}'
+                f'<div class="calc-index-card__cta">Calculate &#8594;</div>'
+                f'</a>'
+            )
 
         sections_html += f"""
 <section class="calc-index-section" aria-labelledby="cat-{cat}">
@@ -398,7 +400,16 @@ def build_calculators_index(all_calcs):
   <header class="page-header">
     <p class="page-header__pill">Free · No sign-up · {total_count} calculators</p>
     <h1>All Calculators</h1>
-    <p class="page-header__sub">Salary, loans, fuel costs — clear answers for everyday Indian money decisions.</p>
+    <p class="page-header__sub">Salary, loans, investments, fuel — clear answers for every Indian money decision.</p>
+
+    <!-- Stats bar -->
+    <div class="hub-stats">
+      <div class="hub-stats__item"><span class="hub-stats__num">{total_count}</span><span class="hub-stats__label">Calculators</span></div>
+      <div class="hub-stats__divider"></div>
+      <div class="hub-stats__item"><span class="hub-stats__num">{len(categories)}</span><span class="hub-stats__label">Categories</span></div>
+      <div class="hub-stats__divider"></div>
+      <div class="hub-stats__item"><span class="hub-stats__num">₹0</span><span class="hub-stats__label">Always free</span></div>
+    </div>
 
     <!-- Search -->
     <div class="calc-index-search" role="search">
