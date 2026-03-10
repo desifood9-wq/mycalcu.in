@@ -954,3 +954,140 @@ input[type="range"]::-moz-range-thumb {
   background: #faf9f6;
 }
 .calc-disclaimer strong { color: var(--ink); }
+
+/* ── Tax Regime Comparison ────────────────────────────────────────────────── */
+.regime-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+@media (max-width: 560px) { .regime-grid { grid-template-columns: 1fr; } }
+
+.regime-card {
+  border: 1.5px solid var(--cream-border);
+  border-radius: var(--r-lg);
+  padding: 1.25rem;
+  background: white;
+}
+.regime-card--winner {
+  border-color: var(--accent);
+  box-shadow: 0 4px 16px rgba(26,95,168,0.10);
+}
+.regime-card__title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ink-secondary);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.regime-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: white;
+  background: var(--accent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+.regime-card__amount {
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.1;
+}
+.regime-card--winner .regime-card__amount { color: var(--accent); }
+.regime-card__label {
+  font-size: 0.75rem;
+  color: var(--ink-secondary);
+  margin-bottom: 1rem;
+}
+.regime-rows { border-top: 1px solid var(--cream-border); padding-top: 0.75rem; }
+.regime-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--ink-secondary);
+  padding: 0.2rem 0;
+}
+.regime-row--total {
+  font-weight: 700;
+  color: var(--ink);
+  border-top: 1px solid var(--cream-border);
+  margin-top: 0.35rem;
+  padding-top: 0.5rem;
+}
+
+/* Summary banner */
+.tax-summary {
+  display: none;
+  margin-top: 1rem;
+  padding: 0.85rem 1.1rem;
+  background: var(--accent-light);
+  border-radius: var(--radius);
+  border-left: 4px solid var(--accent);
+}
+.tax-summary__text {
+  font-size: 0.9rem;
+  color: var(--ink);
+  margin: 0;
+}
+
+/* Form section label — used in tax calculator deductions group */
+.form-section-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 1.25rem 0 0.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--cream-border);
+}
+.form-section-label span {
+  font-weight: 400;
+  color: var(--ink-secondary);
+}
+
+/* ── Tax Regime Comparison Table ─────────────────────────────────────────── */
+.tax-compare-table {
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid var(--cream-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+.tax-compare-table__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0;
+  border-bottom: 1px solid var(--cream-border);
+  font-size: 0.85rem;
+}
+.tax-compare-table__row:last-of-type { border-bottom: none; }
+.tax-compare-table__label,
+.tax-compare-table__new,
+.tax-compare-table__old {
+  padding: 0.6rem 0.85rem;
+}
+.tax-compare-table__label { color: var(--ink-secondary); }
+.tax-compare-table__new   { background: #f0f7ff; color: var(--ink); font-weight: 500; border-left: 1px solid var(--cream-border); }
+.tax-compare-table__old   { background: #fafaf8; color: var(--ink); font-weight: 500; border-left: 1px solid var(--cream-border); }
+.tax-compare-table__head .tax-compare-table__label { background: #f5f4f1; font-weight: 600; }
+.tax-compare-table__head .tax-compare-table__new   { background: var(--accent-light); color: var(--accent); font-weight: 700; }
+.tax-compare-table__head .tax-compare-table__old   { background: #f0f0ee; color: var(--ink); font-weight: 700; }
+.tax-compare-table__highlight .tax-compare-table__new,
+.tax-compare-table__highlight .tax-compare-table__old { font-weight: 700; font-size: 0.92rem; }
+.tax-compare-table__highlight .tax-compare-table__label { font-weight: 600; color: var(--ink); }
+.tax-compare-table__verdict {
+  padding: 0.85rem 1rem;
+  background: #eef7ee;
+  border-top: 1.5px solid #c3e6c3;
+  font-size: 0.88rem;
+  color: #2a6b2a;
+}
+@media (max-width: 560px) {
+  .tax-compare-table__row { grid-template-columns: 1fr 1fr; }
+  .tax-compare-table__label { grid-column: 1 / -1; padding-bottom: 0.2rem; font-size: 0.78rem; }
+}

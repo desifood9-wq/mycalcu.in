@@ -1248,5 +1248,110 @@
         "a": "No — HRA exemption is only available under the old tax regime. Under the new regime, HRA is fully taxable. Given Bangalore's high rents, many IT employees find the old regime more beneficial specifically because of HRA exemption."
       }
     ]
+  },
+  {
+    "slug": "gratuity-calculator",
+    "category": "salary",
+    "variant_of": null,
+    "year": "2025",
+    "meta_title": "Gratuity Calculator 2025 — Exact Gratuity Amount | mycalcu.in",
+    "meta_description": "Calculate your exact gratuity amount using the Payment of Gratuity Act formula. Instant results for any salary and years of service.",
+    "og_title": "Gratuity Calculator 2025 | mycalcu.in",
+    "og_description": "Exact gratuity amount for any salary and years of service. Tax exemption shown.",
+    "h1_title": "Gratuity Calculator",
+    "subtitle": "Calculate your exact gratuity payout using the statutory formula — basic salary, years of service, and tax exemption breakdown.",
+    "breadcrumb_name": "Gratuity Calculator",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate gratuity amount under Payment of Gratuity Act 1972.",
+    "result_label": "Gratuity Amount",
+    "js_file": "calculators/gratuity-calculator.js",
+    "prefill": {
+      "basic_salary": "50000",
+      "years": "10"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Last Drawn Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"10000000\" step=\"1000\" value=\"50000\"></div><p class=\"hint\">Use Basic + Dearness Allowance. Do not include HRA or other allowances.</p></div><div class=\"form-group\"><label for=\"years-of-service\">Years of Service</label><input type=\"range\" id=\"years-of-service\" name=\"years-of-service\" min=\"1\" max=\"40\" step=\"1\" value=\"10\" aria-describedby=\"years-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"years-val\">10 yrs</span><span>40 yrs</span></div></div><div class=\"form-group\"><label for=\"months-of-service\">Additional Months</label><input type=\"range\" id=\"months-of-service\" name=\"months-of-service\" min=\"0\" max=\"11\" step=\"1\" value=\"0\" aria-describedby=\"months-val\"><div class=\"range-labels\"><span>0 months</span><span id=\"months-val\">0 months</span><span>11 months</span></div><p class=\"hint\">6+ months rounds up to next year as per the Gratuity Act.</p></div>",
+    "about_heading": "What is Gratuity and When Are You Eligible?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Minimum 5 years of continuous service required.</strong> If you have 4 years and 8 months, you qualify — 6+ additional months rounds up to the next year.</div><p>Gratuity is a lump-sum payment made by an employer to an employee as a token of gratitude for their service. It is governed by the <strong>Payment of Gratuity Act, 1972</strong> — a statutory right, not discretionary.</p><p>You are eligible if: (1) you have completed 5 years of continuous service, (2) your employer has 10 or more employees. Gratuity is payable on resignation, retirement, death, or disablement.</p><p>The tax exemption limit for gratuity is ₹20 lakh for private sector employees. Any amount above ₹20 lakh is taxable as salary income in the year of receipt.</p>",
+    "formula_heading": "Gratuity Formula — Payment of Gratuity Act",
+    "formula_html": "<div class=\"formula-box\">Gratuity = (Basic Salary × 15 × Years of Service) ÷ 26</div><p>Where: Basic Salary = last drawn basic + dearness allowance. 15 = half month's salary per year. 26 = working days in a month (statutory — not 30 or 31).</p><h3>Rounding Rule</h3><p>If additional months ≥ 6, round up to next full year. So 10 years 7 months = 11 years for calculation. 10 years 4 months = 10 years.</p><h3>Example — ₹50,000 basic, 10 years</h3><p>Gratuity = (50,000 × 15 × 10) ÷ 26 = ₹7,500,000 ÷ 26 = <strong>₹2,88,462</strong>. Fully tax-free as it is under ₹20 lakh limit.</p>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Gratuity at Different Salary and Tenure</div><div class=\"example-step\"><span class=\"example-step__num\">5yr</span><span>Basic ₹30K × 5 yrs → Gratuity: ₹86,538</span></div><div class=\"example-step\"><span class=\"example-step__num\">10yr</span><span>Basic ₹50K × 10 yrs → Gratuity: ₹2,88,462</span></div><div class=\"example-step\"><span class=\"example-step__num\">20yr</span><span>Basic ₹80K × 20 yrs → Gratuity: ₹9,23,077</span></div><div class=\"example-step\"><span class=\"example-step__num\">30yr</span><span><strong>Basic ₹1L × 30 yrs → Gratuity: ₹17,30,769 (tax-free)</strong></span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "hra-calculator",
+      "ppf-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the gratuity formula in India?",
+        "a": "Gratuity = (Last Drawn Basic Salary × 15 × Years of Service) ÷ 26. The 15 represents half a month's salary per year of service, and 26 is the statutory number of working days in a month under the Payment of Gratuity Act, 1972."
+      },
+      {
+        "q": "Is gratuity taxable?",
+        "a": "For private sector employees, gratuity up to ₹20 lakh is completely tax-free. Any amount above ₹20 lakh is added to your income and taxed at your applicable slab rate in the year of receipt. Government employees receive full tax exemption with no upper limit."
+      },
+      {
+        "q": "What is the minimum service for gratuity?",
+        "a": "5 years of continuous service is the minimum requirement. However, if you have completed 4 years and 6 months or more, it rounds up to 5 years — making you eligible. Less than 4 years 6 months does not qualify."
+      },
+      {
+        "q": "Is gratuity calculated on basic salary or CTC?",
+        "a": "Gratuity is calculated on Basic Salary + Dearness Allowance only — not on CTC. HRA, special allowances, bonus, and other components are excluded. This is why your actual gratuity may be lower than online estimates that use total salary."
+      },
+      {
+        "q": "Can I get gratuity if I resign before 5 years?",
+        "a": "No — resignation before completing 5 years (or 4 years 6 months) does not entitle you to gratuity under the Payment of Gratuity Act. However, some companies have their own gratuity policies that pay out earlier — check your employment contract."
+      }
+    ]
+  },
+  {
+    "slug": "income-tax-calculator",
+    "category": "salary",
+    "variant_of": null,
+    "year": "2025",
+    "meta_title": "Income Tax Calculator FY 2025-26 — New vs Old Regime | mycalcu.in",
+    "meta_description": "Compare new vs old tax regime instantly. Enter your salary and deductions — see which regime saves more tax for FY 2025-26.",
+    "og_title": "Income Tax Calculator FY 2025-26 | mycalcu.in",
+    "og_description": "New vs old regime comparison. See exact tax and which regime saves more — instantly.",
+    "h1_title": "Income Tax Calculator",
+    "subtitle": "Compare New Regime vs Old Regime side by side. Enter your income and deductions — see which saves more for FY 2025-26.",
+    "breadcrumb_name": "Income Tax Calculator",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Compare new vs old income tax regime for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {},
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"1200000\"></div><p class=\"hint\">Enter total salary before any deductions. Standard deduction applied automatically.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">PPF, ELSS, EPF, LIC, home loan principal — max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D — Health Insurance (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div><p class=\"hint\">Health insurance premium — max ₹25,000 (self) or ₹50,000 (senior parents)</p></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">Use our <a href=\"/calculators/hra-calculator\" style=\"color:var(--accent)\">HRA Calculator</a> to find your exact exemption amount</p></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">80E (education loan), 80G (donations), NPS 80CCD(1B) etc.</p></div>",
+    "about_heading": "New Regime vs Old Regime — Which is Better?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>New regime is better for most people with low deductions. Old regime wins only if your total deductions are high.</strong> The break-even point at ₹12L income is roughly ₹3.5 lakh in deductions.</div><p>From FY 2023-24, the New Tax Regime became the default. You must actively opt into the Old Regime when filing your ITR if you want to claim deductions.</p><p><strong>New Regime advantages:</strong> Lower slab rates, higher standard deduction (₹75,000), zero tax up to ₹12 lakh (after rebate). No paperwork for deductions.</p><p><strong>Old Regime advantages:</strong> Allows deductions — 80C (₹1.5L), 80D (₹25K), HRA exemption, home loan interest (₹2L), NPS (₹50K). Worth it only if you actually invest and claim these.</p><p><strong>Key rule:</strong> You cannot switch regimes mid-year if you have business income. Salaried employees can switch every year at time of ITR filing.</p>",
+    "formula_heading": "How Tax is Calculated — FY 2025-26",
+    "formula_html": "<div class=\"formula-box\">Tax = Slab Tax on Taxable Income − 87A Rebate + 4% Cess</div><h3>New Regime Slabs — FY 2025-26</h3><p>0% up to ₹4L · 5% from ₹4–8L · 10% from ₹8–12L · 15% from ₹12–16L · 20% from ₹16–20L · 25% from ₹20–24L · 30% above ₹24L. Standard deduction: ₹75,000. Section 87A rebate: zero tax if income ≤ ₹12L.</p><h3>Old Regime Slabs</h3><p>0% up to ₹2.5L · 5% from ₹2.5–5L · 20% from ₹5–10L · 30% above ₹10L. Standard deduction: ₹50,000. Section 87A rebate: zero tax if income ≤ ₹5L.</p><div class=\"info-callout\">⚠️ <strong>Tax slabs shown are for FY 2025-26.</strong> Slabs may change in future Budgets. Always verify with a tax professional before filing.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 New vs Old Regime — Quick Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">₹8L</span><span>New: ₹0 (rebate) · Old: ₹0 (rebate) — both same</span></div><div class=\"example-step\"><span class=\"example-step__num\">₹12L</span><span>New: ₹0 (rebate) · Old: ₹26,000 (with max 80C) — New wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">₹15L</span><span>New: ₹45,500 · Old: ₹23,400 (with ₹3.5L deductions) — Old wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">₹20L</span><span><strong>New: ₹1,04,000 · Old: ₹78,000 (with ₹4L deductions) — Old wins</strong></span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "hra-calculator",
+      "gratuity-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Which tax regime is better — new or old?",
+        "a": "New regime is better if your total deductions (80C + 80D + HRA + others) are below ₹3–3.5 lakh. Old regime is better if you actively invest and claim high deductions. Use this calculator to compare with your exact numbers — the answer varies by income level and deduction amount."
+      },
+      {
+        "q": "Is income up to ₹12 lakh tax-free in the new regime?",
+        "a": "Yes — for FY 2025-26, the Section 87A rebate in the new regime means zero tax if your taxable income (after ₹75,000 standard deduction) is up to ₹12 lakh. So gross salary up to ₹12.75 lakh has zero tax liability under the new regime."
+      },
+      {
+        "q": "Can I switch between new and old regime every year?",
+        "a": "Salaried employees with no business income can switch regimes every year when filing their ITR. If you have business or professional income, you can switch only once. The new regime is the default — you must explicitly opt for the old regime."
+      },
+      {
+        "q": "What deductions are allowed in the new regime?",
+        "a": "The new regime allows very few deductions: ₹75,000 standard deduction, NPS employer contribution (80CCD(2)), Agniveer corpus, and a few others. It does NOT allow 80C, 80D, HRA exemption, home loan interest deduction, or most other common deductions."
+      },
+      {
+        "q": "What is the surcharge on income above ₹50 lakh?",
+        "a": "Surcharge applies at 10% for income ₹50L–₹1Cr, 15% for ₹1–2Cr, 25% for ₹2–5Cr, and 37% above ₹5Cr (25% in new regime). Surcharge is applied on the tax amount, and then 4% health and education cess is added on top."
+      }
+    ]
   }
 ]
