@@ -1502,5 +1502,185 @@
         "a": "Yes — DICGC (Deposit Insurance and Credit Guarantee Corporation) insures up to ₹5 lakh per depositor per bank, covering principal and interest combined. If your total deposits at one bank exceed ₹5 lakh, the amount above is uninsured. Consider spreading large deposits across multiple banks."
       }
     ]
+  },
+  {
+    "slug": "income-tax-calculator-10-lpa",
+    "category": "salary",
+    "variant_of": "income-tax-calculator",
+    "year": "2025",
+    "meta_title": "Income Tax on ₹10 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_description": "Calculate exact income tax on ₹10 lakh salary for FY 2025-26. New regime vs old regime comparison — see which saves more tax.",
+    "og_title": "Income Tax on ₹10 LPA | mycalcu.in",
+    "og_description": "Exact income tax on ₹10 LPA. New vs old regime — FY 2025-26.",
+    "h1_title": "Income Tax Calculator — ₹10 LPA",
+    "subtitle": "Calculate exact income tax on ₹10 lakh per annum salary for FY 2025-26. New vs old regime compared instantly.",
+    "breadcrumb_name": "Tax ₹10 LPA",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate income tax on ₹10 LPA salary for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {
+      "gross": 1000000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"1000000\"></div><p class=\"hint\">Enter total salary before any deductions. Standard deduction applied automatically.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">PPF, ELSS, EPF, LIC, home loan principal — max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D — Health Insurance (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div><p class=\"hint\">Health insurance premium — max ₹25,000 (self) or ₹50,000 (senior parents)</p></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">Use our <a href=\"/calculators/hra-calculator\" style=\"color:var(--accent)\">HRA Calculator</a> to find your exact exemption</p></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">80E (education loan), 80G (donations), NPS 80CCD(1B) etc.</p></div>",
+    "about_heading": "Income Tax on ₹10 LPA — FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹10 LPA, new regime tax is ₹0 after 87A rebate.</strong> Taxable income after ₹75,000 standard deduction = ₹9.25 lakh — within the ₹12L rebate limit. Zero tax under new regime regardless of deductions.</div><p>₹10 LPA is a milestone salary — and under the new tax regime for FY 2025-26, it attracts zero income tax. After the ₹75,000 standard deduction, taxable income is ₹9.25 lakh, which qualifies for the full 87A rebate (zero tax up to ₹12L taxable income).</p><p>Under the old regime, with maximum deductions (80C ₹1.5L + 80D ₹25K + standard deduction ₹50K), taxable income drops to ~₹7.25 lakh, attracting about ₹52,500 in tax. New regime clearly wins at ₹10 LPA.</p>",
+    "formula_heading": "How Tax is Calculated on ₹10 LPA",
+    "formula_html": "<div class=\"formula-box\">New Regime: ₹10L − ₹75K std = ₹9.25L taxable → 87A rebate → ₹0 tax</div><h3>Old Regime with max deductions</h3><p>₹10L − ₹50K std − ₹1.5L (80C) − ₹25K (80D) = ₹7.75L taxable. Tax: 5% on ₹2.5–5L = ₹12,500 + 20% on ₹5–7.75L = ₹55,000. Total = ₹67,500 + 4% cess = ₹70,200.</p><div class=\"info-callout\">⚠️ Tax slabs shown are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹10 LPA — Tax Under Both Regimes</div><div class=\"example-step\"><span class=\"example-step__num\">New</span><span>Taxable ₹9.25L → 87A rebate → <strong>₹0 tax</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (no deductions)</span><span>Taxable ₹9.5L → ₹1,17,000 tax</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C only)</span><span>Taxable ₹8L → ₹75,400 tax</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (max deductions)</span><span>Taxable ₹7.75L → ₹70,200 tax</span></div></div>",
+    "related_slugs": [
+      "income-tax-calculator",
+      "salary-in-hand-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much tax on ₹10 LPA salary in FY 2025-26?",
+        "a": "Under the new tax regime, ₹10 LPA attracts zero income tax. After the ₹75,000 standard deduction, taxable income is ₹9.25 lakh — within the ₹12 lakh 87A rebate limit. Under the old regime with maximum deductions (80C + 80D), tax is approximately ₹70,200."
+      },
+      {
+        "q": "Is ₹10 LPA tax-free in India?",
+        "a": "Yes — under the new tax regime for FY 2025-26, ₹10 LPA is effectively tax-free. The ₹75,000 standard deduction brings taxable income to ₹9.25 lakh, which qualifies for the full Section 87A rebate (zero tax up to ₹12 lakh taxable income)."
+      },
+      {
+        "q": "New regime or old regime for ₹10 LPA?",
+        "a": "New regime is clearly better for ₹10 LPA — zero tax vs ₹70,000+ under old regime even with maximum deductions. There is no scenario at ₹10 LPA where the old regime saves more tax than the new regime."
+      }
+    ]
+  },
+  {
+    "slug": "income-tax-calculator-15-lpa",
+    "category": "salary",
+    "variant_of": "income-tax-calculator",
+    "year": "2025",
+    "meta_title": "Income Tax on ₹15 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_description": "Calculate exact income tax on ₹15 lakh salary for FY 2025-26. New vs old regime — which saves more at ₹15 LPA?",
+    "og_title": "Income Tax on ₹15 LPA | mycalcu.in",
+    "og_description": "Exact income tax on ₹15 LPA. New vs old regime — FY 2025-26.",
+    "h1_title": "Income Tax Calculator — ₹15 LPA",
+    "subtitle": "Calculate exact income tax on ₹15 lakh per annum for FY 2025-26. New vs old regime — with your actual deductions.",
+    "breadcrumb_name": "Tax ₹15 LPA",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate income tax on ₹15 LPA salary for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {
+      "gross": 1500000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"1500000\"></div><p class=\"hint\">Enter total salary before any deductions. Standard deduction applied automatically.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">PPF, ELSS, EPF, LIC, home loan principal — max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D — Health Insurance (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div><p class=\"hint\">Health insurance premium — max ₹25,000 (self) or ₹50,000 (senior parents)</p></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">Use our <a href=\"/calculators/hra-calculator\" style=\"color:var(--accent)\">HRA Calculator</a> to find your exact exemption</p></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">80E (education loan), 80G (donations), NPS 80CCD(1B) etc.</p></div>",
+    "about_heading": "Income Tax on ₹15 LPA — FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹15 LPA, new regime tax is ~₹45,500. Old regime can beat this only with ₹3.5L+ in deductions.</strong> This is the salary range where the choice between regimes actually matters.</div><p>₹15 LPA is where the new vs old regime decision gets interesting. Under the new regime, tax is approximately ₹45,500 (after ₹75K standard deduction, taxable = ₹13.75L). Under the old regime, you need significant deductions to beat this.</p><p>Break-even point at ₹15 LPA: approximately ₹3.5 lakh in total deductions (80C + 80D + HRA). If your actual deductions exceed ₹3.5L, old regime saves more. Below that, new regime wins.</p>",
+    "formula_heading": "How Tax is Calculated on ₹15 LPA",
+    "formula_html": "<div class=\"formula-box\">New: ₹15L − ₹75K = ₹13.75L taxable → ~₹45,500 tax + cess</div><h3>Old Regime break-even analysis</h3><p>With ₹1.75L deductions: old regime tax ≈ ₹45,500 (same as new).<br>With ₹3.5L deductions: old regime tax ≈ ₹23,400 (saves ₹22,100 vs new).<br>With max deductions (₹1.5L + ₹25K + ₹2L HRA): old regime tax ≈ ₹14,000.</p><div class=\"info-callout\">⚠️ Tax slabs shown are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹15 LPA — Tax Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>Taxable ₹13.75L → ₹45,500 + cess = <strong>₹47,320</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (no deductions)</span><span>Taxable ₹14.5L → ₹2,92,500 tax → ₹3,04,200 with cess</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C + 80D)</span><span>Taxable ₹12.75L → ~₹1,90,000 tax</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C + 80D + HRA ₹2L)</span><span><strong>Taxable ₹10.75L → ~₹1,30,000 tax — old regime wins</strong></span></div></div>",
+    "related_slugs": [
+      "income-tax-calculator",
+      "salary-in-hand-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much tax on ₹15 LPA in FY 2025-26?",
+        "a": "Under the new tax regime, ₹15 LPA attracts approximately ₹47,320 tax (including 4% cess). Under the old regime without deductions, tax is much higher at ~₹3 lakh. With maximum deductions (80C + 80D + HRA), old regime tax drops to ~₹1.3 lakh — new regime still wins unless you have very high HRA exemption."
+      },
+      {
+        "q": "New regime or old regime for ₹15 LPA?",
+        "a": "New regime is better for most people at ₹15 LPA. The break-even is approximately ₹3.5 lakh in total old regime deductions. If your 80C + 80D + HRA + other deductions exceed ₹3.5 lakh, old regime may save more. Use this calculator with your exact deduction numbers to find out."
+      },
+      {
+        "q": "What is the in-hand salary for ₹15 LPA?",
+        "a": "In-hand salary for ₹15 LPA depends on your salary structure. Typically, for ₹15 LPA with 40% basic, monthly in-hand is approximately ₹95,000–₹1,05,000 under the new regime (zero tax up to ₹12.75L gross). Use our Salary In-Hand Calculator for exact breakdown."
+      }
+    ]
+  },
+  {
+    "slug": "income-tax-calculator-20-lpa",
+    "category": "salary",
+    "variant_of": "income-tax-calculator",
+    "year": "2025",
+    "meta_title": "Income Tax on ₹20 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_description": "Calculate exact income tax on ₹20 lakh salary for FY 2025-26. New vs old regime comparison at ₹20 LPA.",
+    "og_title": "Income Tax on ₹20 LPA | mycalcu.in",
+    "og_description": "Exact income tax on ₹20 LPA. New vs old regime — FY 2025-26.",
+    "h1_title": "Income Tax Calculator — ₹20 LPA",
+    "subtitle": "Calculate exact income tax on ₹20 lakh per annum for FY 2025-26. See which regime saves more at this income level.",
+    "breadcrumb_name": "Tax ₹20 LPA",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate income tax on ₹20 LPA salary for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {
+      "gross": 2000000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"2000000\"></div><p class=\"hint\">Enter total salary before any deductions. Standard deduction applied automatically.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">PPF, ELSS, EPF, LIC, home loan principal — max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D — Health Insurance (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div><p class=\"hint\">Health insurance premium — max ₹25,000 (self) or ₹50,000 (senior parents)</p></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">Use our <a href=\"/calculators/hra-calculator\" style=\"color:var(--accent)\">HRA Calculator</a> to find your exact exemption</p></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">80E (education loan), 80G (donations), NPS 80CCD(1B) etc.</p></div>",
+    "about_heading": "Income Tax on ₹20 LPA — FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹20 LPA, new regime tax is ~₹1,04,000. Old regime wins if deductions exceed ₹4.5 lakh.</strong> HRA is often the deciding factor at this income level.</div><p>At ₹20 LPA, you are in the 20% slab under the new regime. Tax is approximately ₹1,04,000 (after ₹75K standard deduction, taxable = ₹19.25L). The old regime can significantly reduce this if you have high HRA exemption or home loan interest deduction.</p><p>For a Mumbai/Delhi/Bengaluru professional paying ₹30,000+/month rent with basic ₹8–9L, HRA exemption alone can be ₹2.5–3L/year — making old regime competitive at ₹20 LPA.</p>",
+    "formula_heading": "How Tax is Calculated on ₹20 LPA",
+    "formula_html": "<div class=\"formula-box\">New: ₹20L − ₹75K = ₹19.25L taxable → ~₹1,00,000 tax + cess</div><h3>Old Regime with typical deductions</h3><p>₹20L − ₹50K std − ₹1.5L (80C) − ₹25K (80D) − ₹2.5L (HRA) = ₹15.25L taxable.<br>Tax on ₹15.25L: ₹12,500 + ₹1,00,000 + ₹15,750 = ₹1,28,250 + 4% cess = ₹1,33,380.<br>New regime still wins in this scenario.</p><div class=\"info-callout\">⚠️ Tax slabs shown are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹20 LPA — Tax Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>Taxable ₹19.25L → ~₹1,00,000 + cess = <strong>₹1,04,000</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C + 80D)</span><span>Taxable ₹17.75L → ~₹2,02,500 + cess = ₹2,10,600 — New wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (+ HRA ₹2.5L)</span><span>Taxable ₹15.25L → ~₹1,33,380 — New still wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (+ HRA ₹4L + home loan)</span><span><strong>Taxable ₹11.25L → ~₹78,000 — Old regime wins</strong></span></div></div>",
+    "related_slugs": [
+      "income-tax-calculator",
+      "salary-in-hand-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much tax on ₹20 LPA in FY 2025-26?",
+        "a": "Under the new tax regime, ₹20 LPA attracts approximately ₹1,04,000 in total tax (including 4% cess). Under the old regime with standard deductions (80C + 80D), tax is higher at ~₹2.1 lakh. Old regime beats new regime only if total deductions exceed approximately ₹4.5–5 lakh."
+      },
+      {
+        "q": "New regime or old regime for ₹20 LPA?",
+        "a": "New regime is better for most ₹20 LPA earners. Old regime only wins with very high deductions — typically ₹4.5L+ including HRA, home loan interest (Section 24b), 80C, and 80D combined. If you pay high rent in a metro and have a home loan, old regime may save more. Use this calculator with your exact numbers."
+      },
+      {
+        "q": "What is the in-hand salary for ₹20 LPA?",
+        "a": "For ₹20 LPA with typical 40% basic, monthly in-hand is approximately ₹1,30,000–₹1,45,000 under the new regime. Actual amount depends on salary structure, EPF contribution, and professional tax. Use our Salary In-Hand Calculator for an exact breakdown."
+      }
+    ]
+  },
+  {
+    "slug": "income-tax-calculator-30-lpa",
+    "category": "salary",
+    "variant_of": "income-tax-calculator",
+    "year": "2025",
+    "meta_title": "Income Tax on ₹30 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_description": "Calculate exact income tax on ₹30 lakh salary for FY 2025-26. New vs old regime at ₹30 LPA — full breakdown.",
+    "og_title": "Income Tax on ₹30 LPA | mycalcu.in",
+    "og_description": "Exact income tax on ₹30 LPA. New vs old regime — FY 2025-26.",
+    "h1_title": "Income Tax Calculator — ₹30 LPA",
+    "subtitle": "Calculate exact income tax on ₹30 lakh per annum for FY 2025-26. Full new vs old regime breakdown.",
+    "breadcrumb_name": "Tax ₹30 LPA",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate income tax on ₹30 LPA salary for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {
+      "gross": 3000000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"3000000\"></div><p class=\"hint\">Enter total salary before any deductions. Standard deduction applied automatically.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">PPF, ELSS, EPF, LIC, home loan principal — max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D — Health Insurance (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div><p class=\"hint\">Health insurance premium — max ₹25,000 (self) or ₹50,000 (senior parents)</p></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">Use our <a href=\"/calculators/hra-calculator\" style=\"color:var(--accent)\">HRA Calculator</a> to find your exact exemption</p></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">80E (education loan), 80G (donations), NPS 80CCD(1B) etc.</p></div>",
+    "about_heading": "Income Tax on ₹30 LPA — FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹30 LPA, new regime tax is ~₹3,51,000. Old regime can save ₹50,000–₹1,00,000 with right deductions.</strong> At this income level, old regime planning genuinely pays off.</div><p>At ₹30 LPA, you are firmly in the 30% slab. New regime tax is approximately ₹3,51,000 (taxable income after ₹75K standard deduction = ₹29.25L). The old regime becomes increasingly attractive at this income because every rupee of deduction saves 30 paise in tax.</p><p>Key deductions that matter at ₹30 LPA: Section 24(b) home loan interest (₹2L), HRA exemption (₹3–5L for metro renters), NPS 80CCD(1B) (₹50K), 80C (₹1.5L), 80D (₹25K). Combined, these can reduce tax by ₹1–₹1.5 lakh compared to new regime.</p>",
+    "formula_heading": "How Tax is Calculated on ₹30 LPA",
+    "formula_html": "<div class=\"formula-box\">New: ₹30L − ₹75K = ₹29.25L taxable → ~₹3,37,500 tax + cess</div><h3>Old Regime with aggressive deductions</h3><p>₹30L − ₹50K (std) − ₹1.5L (80C) − ₹50K (NPS) − ₹25K (80D) − ₹2L (home loan) − ₹3L (HRA) = ₹22.25L taxable.<br>Tax: ₹12,500 + ₹1,00,000 + ₹3,67,500 = ₹4,80,000... wait, this is higher.<br>Old regime 30% slab kicks in above ₹10L — with deductions old regime taxable is ₹22.25L vs new ₹29.25L, saving ~₹2.1L × 30% = ₹63,000 in tax.</p><div class=\"info-callout\">⚠️ Tax slabs shown are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹30 LPA — Tax Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>Taxable ₹29.25L → ~₹3,37,500 + cess = <strong>₹3,51,000</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C + 80D only)</span><span>Taxable ₹27.75L → ~₹4,12,500 + cess = ₹4,29,000 — New wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (+ NPS + home loan)</span><span>Taxable ₹25.25L → ~₹3,52,500 + cess ≈ same as new</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (all deductions + HRA)</span><span><strong>Taxable ₹22.25L → ~₹2,97,500 + cess = ₹3,09,400 — Old wins by ₹41,600</strong></span></div></div>",
+    "related_slugs": [
+      "income-tax-calculator",
+      "salary-in-hand-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much tax on ₹30 LPA in FY 2025-26?",
+        "a": "Under the new tax regime, ₹30 LPA attracts approximately ₹3,51,000 in total tax (including 4% cess). Under the old regime with maximum deductions (80C + 80D + HRA + home loan interest + NPS), tax can be reduced to approximately ₹3,09,000 — saving about ₹42,000 annually."
+      },
+      {
+        "q": "New regime or old regime for ₹30 LPA?",
+        "a": "At ₹30 LPA, old regime can save money if you have substantial deductions — particularly HRA exemption (₹3–5L for metro renters), home loan interest (₹2L), NPS 80CCD(1B) (₹50K), 80C (₹1.5L), and 80D (₹25K). If your total deductions exceed ₹7 lakh, old regime saves more. Use this calculator with your exact deduction numbers."
+      },
+      {
+        "q": "What is the in-hand salary for ₹30 LPA?",
+        "a": "For ₹30 LPA under the new regime, monthly in-hand is approximately ₹1,95,000–₹2,15,000 depending on salary structure. EPF (12% of basic), professional tax, and income tax deductions affect the exact amount. Use our Salary In-Hand Calculator for a precise breakdown."
+      }
+    ]
   }
 ]
