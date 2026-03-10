@@ -3,40 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>myCalcu.in — Free Online Calculators for India</title>
-  <meta name="description" content="Fast, accurate, and free calculators for salary, EMI, fuel cost, and more. Built for India. No sign-up required.">
+  <title>myCalcu.in — Free Calculators for India</title>
+  <meta name="description" content="Fast, accurate, free calculators for salary, EMI, tax, SIP, PPF, HRA and more — built for India. Instant results, no sign-up.">
   <link rel="canonical" href="https://mycalcu.in/">
-  <meta property="og:title" content="myCalcu.in — Free Online Calculators for India">
-  <meta property="og:description" content="Fast, accurate, and free calculators for salary, EMI, fuel cost, and more.">
+  <meta property="og:title" content="myCalcu.in — Free Calculators for India">
+  <meta property="og:description" content="Fast, accurate calculators for salary, EMI, tax, SIP and more. Built for India.">
   <meta property="og:url" content="https://mycalcu.in/">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="mycalcu.in">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
   <meta name="robots" content="index, follow">
   <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
   <link rel="shortcut icon" href="/assets/icons/favicon.ico">
-  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="/assets/css/main.css">
+  <style>
+    .hp-hero{background:var(--cream);padding:5rem 1.25rem 4rem;text-align:center;position:relative;overflow:hidden}
+    .hp-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 0%,rgba(26,95,168,.07) 0%,transparent 70%),radial-gradient(ellipse 40% 30% at 80% 80%,rgba(231,140,11,.05) 0%,transparent 60%);pointer-events:none}
+    .hp-hero__eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-size:.78rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);background:var(--accent-light);padding:.3rem .9rem;border-radius:999px;margin-bottom:1.75rem}
+    .hp-hero__h1{font-family:var(--font-display);font-size:clamp(2.4rem,6vw,4rem);font-weight:700;line-height:1.1;color:var(--ink);margin-bottom:1.1rem;letter-spacing:-.02em}
+    .hp-hero__h1 em{font-style:italic;color:var(--accent)}
+    .hp-hero__sub{font-size:clamp(1rem,2vw,1.15rem);color:var(--ink-secondary);max-width:480px;margin:0 auto 2.25rem;line-height:1.65}
+    .hp-hero__actions{display:flex;align-items:center;justify-content:center;gap:.75rem;flex-wrap:wrap}
+    .hp-btn-primary{display:inline-flex;align-items:center;gap:.4rem;background:var(--accent);color:#fff;font-size:.95rem;font-weight:600;padding:.75rem 1.6rem;border-radius:var(--r-lg);text-decoration:none;transition:background .15s,transform .15s}
+    .hp-btn-primary:hover{background:var(--accent-deep);transform:translateY(-2px);text-decoration:none;color:#fff}
+    .hp-btn-secondary{display:inline-flex;align-items:center;gap:.4rem;background:#fff;color:var(--ink);font-size:.95rem;font-weight:600;padding:.75rem 1.6rem;border-radius:var(--r-lg);border:1.5px solid var(--cream-border);text-decoration:none;transition:border-color .15s,transform .15s}
+    .hp-btn-secondary:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px);text-decoration:none}
+    .hp-stats{background:#fff;border-top:1px solid var(--cream-border);border-bottom:1px solid var(--cream-border);padding:1.25rem}
+    .hp-stats__inner{max-width:780px;margin:0 auto;display:flex;justify-content:center}
+    .hp-stat{flex:1;text-align:center;padding:.25rem 1rem;border-right:1px solid var(--cream-border)}
+    .hp-stat:last-child{border-right:none}
+    .hp-stat__num{font-family:var(--font-display);font-size:1.5rem;font-weight:700;color:var(--accent);line-height:1;display:block;margin-bottom:.2rem}
+    .hp-stat__label{font-size:.75rem;color:var(--ink-secondary);font-weight:500}
+    .hp-search-wrap{max-width:780px;margin:0 auto;padding:2.5rem 1.25rem 0}
+    .hp-search{position:relative}
+    .hp-search__icon{position:absolute;left:1rem;top:50%;transform:translateY(-50%);color:var(--ink-secondary);pointer-events:none}
+    .hp-search input{width:100%;padding:.85rem 1rem .85rem 2.75rem;font-size:.95rem;font-family:var(--font-body);border:1.5px solid var(--cream-border);border-radius:var(--r-lg);background:#fff;color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s;box-sizing:border-box}
+    .hp-search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(26,95,168,.1)}
+    .hp-calcs{max-width:780px;margin:0 auto;padding:1.5rem 1.25rem 5rem}
+    .hp-calcs__header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:1.25rem}
+    .hp-calcs__title{font-family:var(--font-display);font-size:1.1rem;font-weight:700;color:var(--ink)}
+    .hp-calcs__all{font-size:.82rem;font-weight:600;color:var(--accent);text-decoration:none;display:flex;align-items:center;gap:.25rem}
+    .hp-calcs__all:hover{color:var(--accent-deep);text-decoration:none}
+    .hp-filters{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.25rem}
+    .hp-filter{font-size:.78rem;font-weight:600;padding:.3rem .85rem;border-radius:999px;border:1.5px solid var(--cream-border);background:#fff;color:var(--ink-secondary);cursor:pointer;transition:all .12s;user-select:none}
+    .hp-filter:hover,.hp-filter.active{background:var(--accent);border-color:var(--accent);color:#fff}
+    .hp-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem}
+    @media(max-width:520px){.hp-grid{grid-template-columns:1fr}}
+    .hp-card{display:flex;align-items:center;gap:1rem;background:#fff;border:1.5px solid var(--cream-border);border-radius:var(--r-lg);padding:1.1rem 1.25rem;text-decoration:none;color:var(--ink);transition:border-color .15s,box-shadow .15s,transform .15s;position:relative;overflow:hidden}
+    .hp-card::after{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent);transform:scaleY(0);transform-origin:bottom;transition:transform .2s ease}
+    .hp-card:hover{border-color:var(--accent);box-shadow:0 4px 20px rgba(26,95,168,.10);transform:translateY(-2px);text-decoration:none;color:var(--ink)}
+    .hp-card:hover::after{transform:scaleY(1)}
+    .hp-card__icon{font-size:1.5rem;flex-shrink:0;width:2.4rem;height:2.4rem;display:flex;align-items:center;justify-content:center;background:var(--accent-light);border-radius:.6rem}
+    .hp-card__body{flex:1;min-width:0}
+    .hp-card__name{font-family:var(--font-display);font-size:.9rem;font-weight:700;color:var(--ink);line-height:1.25;margin-bottom:.2rem}
+    .hp-card__desc{font-size:.75rem;color:var(--ink-secondary);line-height:1.4;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .hp-card__arrow{color:var(--accent);flex-shrink:0;opacity:0;transform:translateX(-4px);transition:opacity .15s,transform .15s}
+    .hp-card:hover .hp-card__arrow{opacity:1;transform:translateX(0)}
+    .hp-card--featured{grid-column:1/-1;background:linear-gradient(135deg,var(--accent-light) 0%,#fff 60%);border-color:rgba(26,95,168,.2)}
+    .hp-card--featured .hp-card__name{font-size:1rem}
+    .hp-card--featured .hp-card__desc{white-space:normal}
+    .hp-card--featured .hp-card__icon{width:3rem;height:3rem;font-size:1.8rem;background:rgba(26,95,168,.12)}
+    .hp-no-results{display:none;text-align:center;padding:2rem;color:var(--ink-secondary);font-size:.9rem}
+    .hp-no-results a{color:var(--accent)}
+    .hp-why{background:#fff;border-top:1px solid var(--cream-border);padding:3.5rem 1.25rem}
+    .hp-why__inner{max-width:780px;margin:0 auto}
+    .hp-why__title{font-family:var(--font-display);font-size:1.5rem;font-weight:700;color:var(--ink);margin-bottom:.5rem;text-align:center}
+    .hp-why__sub{text-align:center;color:var(--ink-secondary);font-size:.9rem;margin-bottom:2.5rem}
+    .hp-why__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem}
+    @media(max-width:600px){.hp-why__grid{grid-template-columns:1fr}}
+    .hp-why-item{text-align:center;padding:1.5rem 1rem;border:1.5px solid var(--cream-border);border-radius:var(--r-lg);background:var(--cream)}
+    .hp-why-item__icon{font-size:1.75rem;margin-bottom:.75rem}
+    .hp-why-item__title{font-family:var(--font-display);font-weight:700;font-size:.95rem;color:var(--ink);margin-bottom:.4rem}
+    .hp-why-item__desc{font-size:.8rem;color:var(--ink-secondary);line-height:1.55}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    .hp-hero__eyebrow{animation:fadeUp .4s ease both}
+    .hp-hero__h1{animation:fadeUp .4s .1s ease both}
+    .hp-hero__sub{animation:fadeUp .4s .18s ease both}
+    .hp-hero__actions{animation:fadeUp .4s .26s ease both}
+    @media(max-width:480px){.hp-stat{padding:.25rem .5rem}.hp-stat__num{font-size:1.2rem}}
+  </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "name": "mycalcu.in",
-    "url": "https://mycalcu.in/",
-    "description": "Free online calculators for salary, EMI, fuel cost, and more — built for India.",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://mycalcu.in/calculators/?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
-  }
+  {"@context":"https://schema.org","@type":"WebSite","name":"mycalcu.in","url":"https://mycalcu.in/","description":"Free online calculators for salary, EMI, tax, SIP and more — built for India.","potentialAction":{"@type":"SearchAction","target":"https://mycalcu.in/calculators/?q={search_term_string}","query-input":"required name=search_term_string"}}
   </script>
 </head>
 <body>
 
-  <!-- NAVBAR -->
   <nav class="navbar" role="navigation" aria-label="Main navigation">
     <div class="navbar__inner">
       <a href="/" class="navbar__logo" aria-label="mycalcu.in home">
@@ -51,9 +103,7 @@
         <span class="navbar__logo-text">MyCalcu<em>.in</em></span>
       </a>
       <button class="navbar__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar-links" onclick="var n=document.getElementById('navbar-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-          <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
-        </svg>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
       </button>
       <ul class="navbar__links" id="navbar-links" role="list">
         <li><a href="/" class="active">Home</a></li>
@@ -65,109 +115,156 @@
 
   <main id="main-content">
 
-    <!-- ── Hero ──────────────────────────────────────────── -->
-    <section class="hero" aria-label="Site introduction">
-      <div class="hero__eyebrow">Free · No sign-up · Made for India</div>
-      <h1>Calculate <em>anything</em><br>in seconds</h1>
-      <p class="hero__sub">Salary breakdowns, loan EMIs, fuel costs — clear answers without the confusion.</p>
-      <div class="hero__search" role="search">
-        <svg class="hero__search-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
-          <circle cx="7.5" cy="7.5" r="5.5" stroke="currentColor" stroke-width="1.75"/>
-          <path d="M13 13l3 3" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
-        </svg>
-        <input
-          type="search"
-          id="hero-search"
-          placeholder="Try &ldquo;salary&rdquo; or &ldquo;EMI&rdquo;&hellip;"
-          aria-label="Search calculators"
-          autocomplete="off"
-        >
+    <section class="hp-hero" aria-label="Site introduction">
+      <div class="hp-hero__eyebrow">🇮🇳 Free &middot; No sign-up &middot; Built for India</div>
+      <h1 class="hp-hero__h1">India's simplest<br><em>financial calculators</em></h1>
+      <p class="hp-hero__sub">Salary, tax, EMI, SIP, PPF, HRA &mdash; clear answers in seconds. No jargon, no ads, no confusion.</p>
+      <div class="hp-hero__actions">
+        <a href="/calculators/salary-in-hand-calculator" class="hp-btn-primary">
+          Calculate my salary
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="/calculators/" class="hp-btn-secondary">Browse all calculators</a>
       </div>
     </section>
 
-    <!-- ── Trust Strip ────────────────────────────────────── -->
-    <div class="trust-strip" aria-label="Site features">
-      <div class="trust-strip__inner">
-        <div class="trust-item">
-          <div class="trust-item__icon" aria-hidden="true">⚡</div>
-          Instant results
-        </div>
-        <div class="trust-item">
-          <div class="trust-item__icon" aria-hidden="true">🔒</div>
-          No data stored
-        </div>
-        <div class="trust-item">
-          <div class="trust-item__icon" aria-hidden="true">📱</div>
-          Works on mobile
-        </div>
-        <div class="trust-item">
-          <div class="trust-item__icon" aria-hidden="true">🇮🇳</div>
-          Built for India
-        </div>
+    <div class="hp-stats" aria-label="Site statistics">
+      <div class="hp-stats__inner">
+        <div class="hp-stat"><span class="hp-stat__num">26</span><span class="hp-stat__label">Calculators</span></div>
+        <div class="hp-stat"><span class="hp-stat__num">5</span><span class="hp-stat__label">Categories</span></div>
+        <div class="hp-stat"><span class="hp-stat__num">₹0</span><span class="hp-stat__label">Always free</span></div>
+        <div class="hp-stat"><span class="hp-stat__num">0</span><span class="hp-stat__label">Ads or sign-ups</span></div>
       </div>
     </div>
 
-    <!-- ── Calculator Grid ────────────────────────────────── -->
-    <section class="calc-section" aria-labelledby="calculators-heading">
-      <div class="calc-section__header">
-        <h2 class="calc-section__title" id="calculators-heading">All Calculators</h2>
-        <a href="/calculators/" class="calc-section__all">
-          View all
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
-            <path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
+    <div class="hp-search-wrap">
+      <div class="hp-search" role="search">
+        <svg class="hp-search__icon" width="17" height="17" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <circle cx="7.5" cy="7.5" r="5.5" stroke="currentColor" stroke-width="1.75"/>
+          <path d="M13 13l3 3" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+        </svg>
+        <input type="search" id="hp-search-input" placeholder='Search — try "salary" or "EMI"…' aria-label="Search calculators" autocomplete="off">
       </div>
+    </div>
 
-      <div class="calc-grid" id="calc-grid">
+    <section class="hp-calcs" aria-labelledby="calcs-heading">
+      <div class="hp-calcs__header">
+        <h2 class="hp-calcs__title" id="calcs-heading">All Calculators</h2>
+        <a href="/calculators/" class="hp-calcs__all">View all <svg width="13" height="13" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+      <div class="hp-filters" role="group" aria-label="Filter by category">
+        <button class="hp-filter active" data-cat="all">All</button>
+        <button class="hp-filter" data-cat="salary">Salary &amp; Tax</button>
+        <button class="hp-filter" data-cat="loans">Loans &amp; EMI</button>
+        <button class="hp-filter" data-cat="investment">Investment</button>
+        <button class="hp-filter" data-cat="fuel">Fuel</button>
+      </div>
+      <div class="hp-grid" id="hp-grid">
 
-        <a href="/calculators/salary-in-hand-calculator" class="calc-grid-card" data-search="salary ctc take home tax pf">
-          <div class="calc-grid-card__icon" aria-hidden="true">💼</div>
-          <div class="calc-grid-card__name">Salary In-Hand Calculator</div>
-          <div class="calc-grid-card__desc">Find your exact take-home pay after PF, professional tax, and income tax — new and old regime.</div>
-          <span class="calc-grid-card__cta">
-            Calculate
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
-              <path d="M2.5 6h7M6 2.5l3.5 3.5L6 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
+        <a href="/calculators/salary-in-hand-calculator" class="hp-card hp-card--featured" data-cat="salary" data-search="salary ctc take home pf tax income">
+          <div class="hp-card__icon" aria-hidden="true">💼</div>
+          <div class="hp-card__body">
+            <div class="hp-card__name">Salary In-Hand Calculator</div>
+            <div class="hp-card__desc">Find your exact take-home pay after PF, professional tax, and income tax. New &amp; old regime. Most popular.</div>
+          </div>
+          <svg class="hp-card__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
 
-        <a href="/calculators/loan-emi-calculator" class="calc-grid-card" data-search="loan emi home personal car interest monthly">
-          <div class="calc-grid-card__icon" aria-hidden="true">🏦</div>
-          <div class="calc-grid-card__name">Loan EMI Calculator</div>
-          <div class="calc-grid-card__desc">Calculate monthly EMI for any loan. See total interest payable and full repayment breakdown.</div>
-          <span class="calc-grid-card__cta">
-            Calculate
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
-              <path d="M2.5 6h7M6 2.5l3.5 3.5L6 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
+        <a href="/calculators/income-tax-calculator" class="hp-card" data-cat="salary" data-search="income tax new old regime slab">
+          <div class="hp-card__icon" aria-hidden="true">🧾</div>
+          <div class="hp-card__body">
+            <div class="hp-card__name">Income Tax Calculator</div>
+            <div class="hp-card__desc">New vs old regime — see which saves more</div>
+          </div>
+          <svg class="hp-card__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
 
-        <a href="/calculators/fuel-cost-per-km-calculator" class="calc-grid-card" data-search="fuel petrol diesel cost km mileage car bike">
-          <div class="calc-grid-card__icon" aria-hidden="true">⛽</div>
-          <div class="calc-grid-card__name">Fuel Cost Per KM</div>
-          <div class="calc-grid-card__desc">Know exactly what it costs to drive each kilometre. Works for petrol, diesel, and CNG vehicles.</div>
-          <span class="calc-grid-card__cta">
-            Calculate
-            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
-              <path d="M2.5 6h7M6 2.5l3.5 3.5L6 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
+        <a href="/calculators/hra-calculator" class="hp-card" data-cat="salary" data-search="hra exemption house rent metro">
+          <div class="hp-card__icon" aria-hidden="true">🏠</div>
+          <div class="hp-card__body">
+            <div class="hp-card__name">HRA Exemption Calculator</div>
+            <div class="hp-card__desc">Exact tax-free HRA for metro &amp; non-metro</div>
+          </div>
+          <svg class="hp-card__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <a href="/calculators/gratuity-calculator" class="hp-card" data-cat="salary" data-search="gratuity years service payout">
+          <div class="hp-card__icon" aria-hidden="true">🎁</div>
+          <div class="hp-card__body">
+            <div class="hp-card__name">Gratuity Calculator</div>
+            <div class="hp-card__desc">Statutory formula, eligibility, tax exemption</div>
+          </div>
+          <svg class="hp-card__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <a href="/calculators/loan-emi-calculator" class="hp-card" data-cat="loans" data-search="loan emi home personal car interest monthly">
+          <div class="hp-card__icon" aria-hidden="true">🏦</div>
+          <div class="hp-card__body">
+            <div class="hp-card__name">Loan EMI Calculator</div>
+            <div class="hp-card__desc">Monthly EMI for any loan amount and tenure</div>
+          </div>
+          <svg class="hp-card__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <a href="/calculators/sip-calculator" class="hp-card" data-cat="investment" data-search="sip mutual fund investment monthly return corpus">
+          <div class="hp-card__icon" aria-hidden="true">📈</div>
+          <div class="hp-card__body">
+            <div class="hp-card__name">SIP Calculator</div>
+            <div class="hp-card__desc">Future corpus for any monthly SIP amount</div>
+          </div>
+          <svg class="hp-card__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <a href="/calculators/ppf-calculator" class="hp-card" data-cat="investment" data-search="ppf public provident fund maturity interest">
+          <div class="hp-card__icon" aria-hidden="true">🏛️</div>
+          <div class="hp-card__body">
+            <div class="hp-card__name">PPF Calculator</div>
+            <div class="hp-card__desc">Maturity amount &amp; tax-free returns at 7.1%</div>
+          </div>
+          <svg class="hp-card__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+
+        <a href="/calculators/fuel-cost-per-km-calculator" class="hp-card" data-cat="fuel" data-search="fuel petrol diesel cng cost km mileage car bike">
+          <div class="hp-card__icon" aria-hidden="true">⛽</div>
+          <div class="hp-card__body">
+            <div class="hp-card__name">Fuel Cost Per KM</div>
+            <div class="hp-card__desc">Exact running cost for petrol, diesel &amp; CNG</div>
+          </div>
+          <svg class="hp-card__arrow" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
 
       </div>
+      <div class="hp-no-results" id="hp-no-results">
+        No calculators match that search. <a href="/calculators/">Browse all 26 calculators →</a>
+      </div>
+    </section>
 
-      <!-- No results message (hidden by default) -->
-      <p id="no-results" class="no-results-msg" hidden>
-        No calculators found for that search. <a href="/calculators/">Browse all calculators →</a>
-      </p>
+    <section class="hp-why" aria-labelledby="why-heading">
+      <div class="hp-why__inner">
+        <h2 class="hp-why__title" id="why-heading">Why mycalcu.in?</h2>
+        <p class="hp-why__sub">Built for India, by someone tired of slow, cluttered calculator sites.</p>
+        <div class="hp-why__grid">
+          <div class="hp-why-item">
+            <div class="hp-why-item__icon">⚡</div>
+            <div class="hp-why-item__title">Instant results</div>
+            <div class="hp-why-item__desc">No loading spinners, no page reloads. Results appear the moment you click Calculate.</div>
+          </div>
+          <div class="hp-why-item">
+            <div class="hp-why-item__icon">🎯</div>
+            <div class="hp-why-item__title">India-specific</div>
+            <div class="hp-why-item__desc">Correct tax slabs, EPF rates, PT deductions, and HRA rules — not generic global calculators.</div>
+          </div>
+          <div class="hp-why-item">
+            <div class="hp-why-item__icon">🔒</div>
+            <div class="hp-why-item__title">Private by design</div>
+            <div class="hp-why-item__desc">All calculations happen in your browser. We never see your numbers. No account needed.</div>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
 
-  <!-- FOOTER -->
   <footer class="footer" role="contentinfo">
     <div class="footer__inner">
       <div class="footer__brand">
@@ -182,48 +279,61 @@
           </div>
           <span class="footer__logo-text">MyCalcu<em>.in</em></span>
         </div>
-        <p class="footer__tagline">Fast, accurate, and friendly calculators for everyday money decisions — built for India.</p>
+        <p class="footer__tagline">Fast, accurate, free calculators for everyday money decisions — built for India.</p>
       </div>
       <div class="footer__col">
         <h4>Calculators</h4>
         <ul>
           <li><a href="/calculators/salary-in-hand-calculator">Salary Calculator</a></li>
+          <li><a href="/calculators/income-tax-calculator">Income Tax Calculator</a></li>
           <li><a href="/calculators/loan-emi-calculator">EMI Calculator</a></li>
-          <li><a href="/calculators/fuel-cost-per-km-calculator">Fuel Cost Calculator</a></li>
+          <li><a href="/calculators/sip-calculator">SIP Calculator</a></li>
+          <li><a href="/calculators/ppf-calculator">PPF Calculator</a></li>
+          <li><a href="/calculators/hra-calculator">HRA Calculator</a></li>
         </ul>
       </div>
       <div class="footer__col">
         <h4>Site</h4>
         <ul>
-          <li><a href="/about">About</a></li>
-          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/calculators/">All Calculators</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
           <li><a href="/sitemap.xml">Sitemap</a></li>
         </ul>
       </div>
     </div>
     <div class="footer__bottom">
-      <span>&copy; 2025 mycalcu.in &mdash; All calculators are for informational purposes only.</span>
+      <span>&copy; 2025 mycalcu.in &mdash; For informational purposes only.</span>
       <span>Made with care for India 🇮🇳</span>
     </div>
   </footer>
 
   <script>
-    // Hero search — filters calculator cards live
-    (function () {
-      var input  = document.getElementById('hero-search');
-      var cards  = document.querySelectorAll('.calc-grid-card');
-      var noRes  = document.getElementById('no-results');
-      if (!input) return;
-      input.addEventListener('input', function () {
-        var q = this.value.trim().toLowerCase();
-        var visible = 0;
-        cards.forEach(function (card) {
-          var text = (card.dataset.search + ' ' + card.textContent).toLowerCase();
-          var show = !q || text.includes(q);
-          card.style.display = show ? '' : 'none';
-          if (show) visible++;
+    (function(){
+      var input=document.getElementById('hp-search-input');
+      var cards=document.querySelectorAll('.hp-card');
+      var noRes=document.getElementById('hp-no-results');
+      var filters=document.querySelectorAll('.hp-filter');
+      var activeCat='all';
+      function apply(){
+        var q=input?input.value.trim().toLowerCase():'';
+        var v=0;
+        cards.forEach(function(c){
+          var cm=activeCat==='all'||c.dataset.cat===activeCat;
+          var qm=!q||(c.dataset.search+' '+c.textContent).toLowerCase().includes(q);
+          c.style.display=(cm&&qm)?'':'none';
+          if(cm&&qm)v++;
         });
-        noRes.hidden = (q && visible === 0);
+        if(noRes)noRes.style.display=v===0?'block':'none';
+      }
+      if(input)input.addEventListener('input',apply);
+      filters.forEach(function(b){
+        b.addEventListener('click',function(){
+          filters.forEach(function(x){x.classList.remove('active');});
+          b.classList.add('active');
+          activeCat=b.dataset.cat;
+          apply();
+        });
       });
     }());
   </script>
