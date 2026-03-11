@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — mycalcu.in</title>
+  <meta name="description" content="Get in touch with mycalcu.in. Report an error, suggest a calculator, or just say hello.">
+  <link rel="canonical" href="https://mycalcu.in/contact/">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="/assets/icons/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-582021B0B3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "G-582021B0B3");
+</script>
+  <style>
+    .contact-card {
+      background: white;
+      border: 1.5px solid var(--cream-border);
+      border-radius: var(--r-lg);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .contact-card__icon { font-size: 2rem; margin-bottom: 0.75rem; }
+    .contact-card__title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+    }
+    .contact-card__desc {
+      font-size: 0.88rem;
+      color: var(--ink-secondary);
+      line-height: 1.65;
+      margin-bottom: 1rem;
+    }
+    .contact-card__email {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--accent-light);
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+      border-radius: var(--r-md);
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .contact-card__email:hover {
+      background: rgba(26,95,168,0.15);
+      text-decoration: none;
+      color: var(--accent-deep);
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    @media (max-width: 560px) { .contact-grid { grid-template-columns: 1fr; } }
+    .contact-note {
+      font-size: 0.82rem;
+      color: var(--ink-secondary);
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="navbar__inner">
+      <a href="/" class="navbar__logo" aria-label="mycalcu.in home">
+        <div class="navbar__logo-mark" aria-hidden="true">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <rect x="2" y="2" width="5" height="5" rx="1" fill="white"/>
+            <rect x="9" y="2" width="5" height="5" rx="1" fill="white" opacity="0.6"/>
+            <rect x="2" y="9" width="5" height="5" rx="1" fill="white" opacity="0.6"/>
+            <rect x="9" y="9" width="5" height="5" rx="1" fill="white"/>
+          </svg>
+        </div>
+        <span class="navbar__logo-text">MyCalcu<em>.in</em></span>
+      </a>
+      <button class="navbar__toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbar-links" onclick="var n=document.getElementById('navbar-links');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o);">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
+      </button>
+      <ul class="navbar__links" id="navbar-links" role="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/calculators/">Calculators</a></li>
+        <li><a href="/guides/">Guides</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <div class="page-header">
+      <div class="page-header__inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol><li><a href="/">Home</a></li><li aria-current="page">Contact</li></ol>
+        </nav>
+        <h1 class="page-header__title">Contact Us</h1>
+        <p class="page-header__sub">Found an error? Have a suggestion? Just say hello.</p>
+      </div>
+    </div>
+
+    <div class="static-page">
+      <div class="static-page__inner">
+
+        <div class="contact-grid">
+
+          <div class="contact-card">
+            <div class="contact-card__icon">🐛</div>
+            <div class="contact-card__title">Report an error</div>
+            <div class="contact-card__desc">Found a wrong formula, outdated tax slab, or broken calculator? Let us know — we fix errors fast.</div>
+            <a href="mailto:mycalcu.in@gmail.com?subject=Error Report — mycalcu.in" class="contact-card__email">
+              📧 mycalcu.in@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card__icon">💡</div>
+            <div class="contact-card__title">Suggest a calculator</div>
+            <div class="contact-card__desc">Missing a calculator you need? We're always adding new tools. Tell us what would help you most.</div>
+            <a href="mailto:mycalcu.in@gmail.com?subject=Calculator Suggestion — mycalcu.in" class="contact-card__email">
+              📧 mycalcu.in@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card__icon">🤝</div>
+            <div class="contact-card__title">Collaboration</div>
+            <div class="contact-card__desc">Want to collaborate, write a guest guide, or partner with mycalcu.in? We're open to conversations.</div>
+            <a href="mailto:mycalcu.in@gmail.com?subject=Collaboration — mycalcu.in" class="contact-card__email">
+              📧 mycalcu.in@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card__icon">⚖️</div>
+            <div class="contact-card__title">Legal & Privacy</div>
+            <div class="contact-card__desc">Questions about our Privacy Policy, Terms of Use, or data handling? We'll respond within a few days.</div>
+            <a href="mailto:mycalcu.in@gmail.com?subject=Legal Enquiry — mycalcu.in" class="contact-card__email">
+              📧 mycalcu.in@gmail.com
+            </a>
+          </div>
+
+        </div>
+
+        <div class="info-callout">
+          📬 <strong>Response time:</strong> We typically respond within 2–3 business days. mycalcu.in is run by one person, so please be patient — every message is read and replied to personally.
+        </div>
+
+        <p class="contact-note" style="margin-top:1.5rem">
+          <strong>Please note:</strong> We cannot provide personalised financial advice. For tax, investment, or legal questions, please consult a qualified professional. Our calculators are for informational purposes only — see our <a href="/disclaimer/">Disclaimer</a>.
+        </p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="footer__logo">
+          <div class="footer__logo-mark" aria-hidden="true">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="none">
+              <rect x="2" y="2" width="5" height="5" rx="1" fill="white"/>
+              <rect x="9" y="2" width="5" height="5" rx="1" fill="white" opacity="0.6"/>
+              <rect x="2" y="9" width="5" height="5" rx="1" fill="white" opacity="0.6"/>
+              <rect x="9" y="9" width="5" height="5" rx="1" fill="white"/>
+            </svg>
+          </div>
+          <span class="footer__logo-text">MyCalcu<em>.in</em></span>
+        </div>
+        <p class="footer__tagline">Fast, accurate, free calculators for everyday money decisions — built for India.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Calculators</h4>
+        <ul>
+          <li><a href="/calculators/salary-in-hand-calculator">Salary Calculator</a></li>
+          <li><a href="/calculators/income-tax-calculator">Income Tax Calculator</a></li>
+          <li><a href="/calculators/loan-emi-calculator">EMI Calculator</a></li>
+          <li><a href="/calculators/sip-calculator">SIP Calculator</a></li>
+          <li><a href="/calculators/fd-calculator">FD Calculator</a></li>
+          <li><a href="/calculators/nps-calculator">NPS Calculator</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/disclaimer/">Disclaimer</a></li>
+          <li><a href="/terms/">Terms of Use</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 mycalcu.in &mdash; For informational purposes only.</span>
+      <span>Made with care for India 🇮🇳</span>
+    </div>
+  </footer>
+
+</body>
+</html>
