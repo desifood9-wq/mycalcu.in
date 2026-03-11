@@ -368,6 +368,14 @@ def build_calculators_index(all_calcs):
     "hasPart": [{', '.join(f'{{"@type":"WebApplication","name":"{c["h1_title"]}","url":"https://mycalcu.in/calculators/{c["slug"]}"}}' for c in all_calcs)}]
   }}
   </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-582021B0B3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag("js", new Date());
+  gtag("config", "G-582021B0B3");
+</script>
 </head>
 <body>
 

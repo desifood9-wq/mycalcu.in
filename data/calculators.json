@@ -1682,5 +1682,60 @@
         "a": "For ₹30 LPA under the new regime, monthly in-hand is approximately ₹1,95,000–₹2,15,000 depending on salary structure. EPF (12% of basic), professional tax, and income tax deductions affect the exact amount. Use our Salary In-Hand Calculator for a precise breakdown."
       }
     ]
+  },
+  {
+    "slug": "nps-calculator",
+    "category": "investment",
+    "variant_of": null,
+    "year": "2025",
+    "meta_title": "NPS Calculator 2025 — Pension Corpus & Monthly Pension | mycalcu.in",
+    "meta_description": "Calculate your NPS corpus, monthly pension, and tax savings for FY 2025-26. National Pension System calculator with lump sum and annuity breakdown.",
+    "og_title": "NPS Calculator 2025 | mycalcu.in",
+    "og_description": "Calculate NPS corpus, monthly pension estimate, and 80CCD tax savings.",
+    "h1_title": "NPS Calculator",
+    "subtitle": "Calculate your NPS corpus at retirement, estimated monthly pension, lump sum withdrawal, and annual tax savings under 80CCD.",
+    "breadcrumb_name": "NPS Calculator",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate NPS corpus and monthly pension for FY 2025-26.",
+    "result_label": "Total NPS Corpus at Age 60",
+    "js_file": "calculators/nps-calculator.js",
+    "prefill": {
+      "monthly": "5000",
+      "age": "30",
+      "return_rate": "10"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"current-age\">Your Current Age</label><input type=\"range\" id=\"current-age\" name=\"current-age\" min=\"18\" max=\"59\" step=\"1\" value=\"30\" aria-describedby=\"current-age-val\"><div class=\"range-labels\"><span>18</span><span id=\"current-age-val\">30 yrs</span><span>59</span></div></div><div class=\"form-group\"><label for=\"monthly-contribution\">Monthly Contribution (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"monthly-contribution\" name=\"monthly-contribution\" min=\"500\" max=\"1000000\" step=\"500\" value=\"5000\"></div><p class=\"hint\">Min ₹500/month. No upper limit. Employer contribution entered separately in tax section.</p></div><div class=\"form-group\"><label for=\"expected-return\">Expected Annual Return (%)</label><input type=\"range\" id=\"expected-return\" name=\"expected-return\" min=\"6\" max=\"14\" step=\"0.5\" value=\"10\" aria-describedby=\"expected-return-val\"><div class=\"range-labels\"><span>6%</span><span id=\"expected-return-val\">10%</span><span>14%</span></div><p class=\"hint\">NPS returns are market-linked — not guaranteed. Equity (E) fund historically ~10–12%. Conservative: use 8–9%.</p></div><div class=\"form-group\"><label for=\"annuity-pct\">Annuity Purchase (%)</label><input type=\"range\" id=\"annuity-pct\" name=\"annuity-pct\" min=\"40\" max=\"100\" step=\"10\" value=\"40\" aria-describedby=\"annuity-pct-val\"><div class=\"range-labels\"><span>40%</span><span id=\"annuity-pct-val\">40%</span><span>100%</span></div><p class=\"hint\">Minimum 40% must be used to buy annuity (mandatory). Remaining 60% is tax-free lump sum.</p></div>",
+    "about_heading": "What is NPS and How Does It Work?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>NPS gives an extra ₹50,000 tax deduction under 80CCD(1B) — over and above the ₹1.5L 80C limit.</strong> For someone in the 30% bracket, this saves ₹15,600/year in tax just from the additional deduction.</div><p>NPS (National Pension System) is a government-backed voluntary retirement scheme open to all Indian citizens aged 18–70. It invests in a mix of equity, corporate bonds, and government securities based on your chosen allocation.</p><p><strong>At retirement (age 60):</strong> Minimum 40% of corpus must be used to purchase an annuity (monthly pension). Up to 60% can be withdrawn as a tax-free lump sum. The annuity income is taxable as salary income.</p><p><strong>Three tax benefits:</strong> 80CCD(1) — up to 10% of salary within the overall ₹1.5L 80C limit. 80CCD(1B) — additional ₹50,000 deduction exclusively for NPS, over and above 80C. 80CCD(2) — employer NPS contribution up to 10% of salary, fully deductible with no upper limit.</p><p><strong>NPS vs PPF:</strong> NPS is higher-return but market-linked. PPF is guaranteed 7.1% but tax-free at all stages. NPS annuity income is taxable; PPF maturity is fully tax-free. Both serve different roles in a retirement portfolio.</p>",
+    "formula_heading": "How NPS Corpus is Calculated",
+    "formula_html": "<div class=\"formula-box\">Corpus = P × [((1+r)ⁿ − 1) / r] × (1+r)</div><p>Where P = monthly contribution, r = monthly return rate (annual ÷ 12), n = months to retirement.</p><h3>Example — ₹5,000/month, age 30, 10% return</h3><p>Years to retirement: 30. Monthly rate: 0.833%. Corpus = ₹1.13 crore. Lump sum (60%): ₹67.8 lakh tax-free. Annuity (40%): ₹45.2 lakh → ~₹22,600/month pension at 6% annuity rate.</p><h3>Annuity rate disclaimer</h3><p>Monthly pension is estimated at 6% annuity rate — actual annuity rates vary by provider (LIC, SBI Life, HDFC Life etc.) and are set at time of purchase. Rates shown are indicative only.</p><div class=\"info-callout\">⚠️ <strong>NPS returns are market-linked — not guaranteed.</strong> Projections are illustrative. Actual corpus will depend on market performance. Rules shown are for FY 2025-26 — verify with PFRDA or a financial advisor before investing.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 NPS Corpus — ₹5,000/month at 10% Return</div><div class=\"example-step\"><span class=\"example-step__num\">Start 25</span><span>35 years → Corpus: ₹1.90 Cr | Pension: ~₹38,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Start 30</span><span>30 years → Corpus: ₹1.13 Cr | Pension: ~₹22,600/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Start 35</span><span>25 years → Corpus: ₹66.7L | Pension: ~₹13,300/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Start 40</span><span><strong>20 years → Corpus: ₹38.3L | Pension: ~₹7,650/month</strong></span></div></div>",
+    "related_slugs": [
+      "ppf-calculator",
+      "sip-calculator",
+      "income-tax-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the tax benefit of NPS under 80CCD?",
+        "a": "NPS offers three layers of tax deduction: 80CCD(1) allows deduction up to 10% of salary within the ₹1.5L 80C limit. 80CCD(1B) gives an additional ₹50,000 deduction exclusively for NPS — over and above 80C. 80CCD(2) allows deduction for employer NPS contribution up to 10% of salary with no upper cap. Combined, these can save ₹15,600–₹46,800/year in tax depending on your slab."
+      },
+      {
+        "q": "How much pension will I get from NPS?",
+        "a": "It depends on your corpus and the annuity rate at retirement. At 6% annuity rate, a ₹1 crore corpus with 40% annuity purchase gives approximately ₹20,000/month pension. Actual annuity rates are set by IRDAI-registered annuity providers at time of retirement and vary by age, provider, and annuity type chosen."
+      },
+      {
+        "q": "Is NPS withdrawal tax-free?",
+        "a": "Partially. At maturity, up to 60% of NPS corpus withdrawn as lump sum is completely tax-free. The remaining 40% (minimum) used to purchase an annuity generates monthly pension income, which is taxable as salary income at your applicable slab rate. Partial withdrawals before retirement are allowed under specific conditions with tax exemptions."
+      },
+      {
+        "q": "NPS vs PPF — which is better?",
+        "a": "Both serve different purposes. PPF: guaranteed 7.1% return, completely tax-free at all stages, 15-year lock-in, max ₹1.5L/year. NPS: market-linked returns (historically 10–12% for equity funds), additional ₹50K tax deduction under 80CCD(1B), but annuity income is taxable and minimum 40% must buy annuity. Use PPF for guaranteed debt-like returns; NPS for higher long-term growth and extra tax saving."
+      },
+      {
+        "q": "What is the minimum NPS contribution?",
+        "a": "For Tier I account (the retirement account with tax benefits): minimum ₹500 per contribution and ₹1,000 per year. There is no maximum limit. For Tier II account (voluntary savings, no tax benefit, fully liquid): minimum ₹250 per contribution. NPS Tier I has a lock-in until age 60 with limited withdrawal options."
+      }
+    ]
   }
 ]
