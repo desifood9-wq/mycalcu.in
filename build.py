@@ -192,6 +192,14 @@ def build_sitemap(calculators):
     <lastmod>{TODAY}</lastmod>
   </url>"""
         )
+    for static_slug in ["about", "privacy", "disclaimer", "terms", "contact"]:
+        urls.append(
+            f"""  <url>
+    <loc>{BASE_URL}/{static_slug}/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>"""
+        )
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += "\n".join(urls)
