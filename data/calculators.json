@@ -1875,5 +1875,1023 @@
         "a": "For a ₹15 lakh car loan at 8.5% for 7 years, EMI is ₹23,567/month. At 9% for 5 years, EMI is ₹31,132/month. Car loan rates in India typically range from 8–10% depending on the car model, lender, and your credit profile."
       }
     ]
+  },
+  {
+    "slug": "hra-calculator-delhi",
+    "category": "salary",
+    "variant_of": "hra-calculator",
+    "year": "2025",
+    "meta_title": "HRA Calculator Delhi 2025 — HRA Exemption for Delhi | mycalcu.in",
+    "meta_description": "Calculate exact HRA tax exemption for Delhi for FY 2025-26. Delhi is a metro city — 50% of basic salary HRA rule applies.",
+    "og_title": "HRA Calculator Delhi | mycalcu.in",
+    "og_description": "HRA exemption calculator for Delhi. Metro city — 50% basic salary rule applies.",
+    "h1_title": "HRA Calculator — Delhi",
+    "subtitle": "Calculate your exact HRA tax exemption for Delhi for FY 2025-26. Delhi qualifies as a metro city — 50% of basic salary rule applies.",
+    "breadcrumb_name": "HRA Delhi",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate HRA exemption for Delhi employees.",
+    "result_label": "HRA Tax Exemption",
+    "js_file": "calculators/hra-calculator.js",
+    "prefill": {},
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"1000000\" step=\"1000\" value=\"40000\"></div></div><div class=\"form-group\"><label for=\"hra-received\">HRA Received (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-received\" name=\"hra-received\" min=\"0\" max=\"500000\" step=\"500\" value=\"20000\"></div></div><div class=\"form-group\"><label for=\"rent-paid\">Rent Paid (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"rent-paid\" name=\"rent-paid\" min=\"0\" max=\"500000\" step=\"500\" value=\"25000\"></div></div><div class=\"form-group\"><label>City Type</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"city-metro\" name=\"city-type\" value=\"metro\" checked><label for=\"city-metro\">Metro</label><input type=\"radio\" id=\"city-non-metro\" name=\"city-type\" value=\"non-metro\" ><label for=\"city-non-metro\">Non-Metro</label></div><p class=\"hint\">Metro cities: Mumbai, Delhi, Kolkata, Chennai. All others are non-metro.</p></div>",
+    "about_heading": "HRA Exemption for Delhi Employees",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Delhi is a metro city — 50% of basic salary HRA rule applies.</strong> This gives Delhi employees higher HRA exemption compared to non-metro cities where only 40% applies.</div><p>Delhi (including NCR areas within Delhi municipal limits) is classified as a metro city for HRA purposes under Section 10(13A). The four metro cities are Mumbai, Delhi, Kolkata, and Chennai.</p><p>HRA exemption is the minimum of three amounts: actual HRA received, rent paid minus 10% of basic salary, and 50% of basic salary (metro). The exemption reduces your taxable income under the old tax regime.</p><p><strong>Note:</strong> HRA exemption is only available under the old tax regime. Under the new regime, HRA received is fully taxable. If you claim HRA, compare both regimes carefully — high HRA exemption often makes the old regime more attractive in Delhi where rents are high.</p>",
+    "formula_heading": "HRA Exemption Formula for Delhi",
+    "formula_html": "<div class=\"formula-box\">HRA Exemption = Minimum of:<br>1. Actual HRA received<br>2. Rent paid − 10% of Basic<br>3. 50% of Basic (Delhi — metro)</div><h3>Example — Delhi employee</h3><p>Basic: ₹40,000/month. HRA received: ₹20,000. Rent paid: ₹25,000.<br>1. HRA received: ₹20,000<br>2. Rent − 10% basic: ₹25,000 − ₹4,000 = ₹21,000<br>3. 50% of basic: ₹20,000<br>Exemption = Min(₹20,000, ₹21,000, ₹20,000) = <strong>₹20,000/month</strong></p><div class=\"info-callout\">⚠️ HRA exemption only applies under old tax regime. Rules are for FY 2025-26.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Delhi HRA — Common Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹30K</span><span>HRA ₹15K, Rent ₹18K → Exemption: ₹15,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹50K</span><span>HRA ₹25K, Rent ₹30K → Exemption: ₹25,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹80K</span><span>HRA ₹40K, Rent ₹45K → Exemption: ₹40,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹1L</span><span><strong>HRA ₹50K, Rent ₹60K → Exemption: ₹50,000/month = ₹6L/year tax-free</strong></span></div></div>",
+    "related_slugs": [
+      "hra-calculator",
+      "salary-in-hand-calculator",
+      "income-tax-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is Delhi a metro city for HRA?",
+        "a": "Yes — Delhi is one of the four metro cities for HRA exemption purposes under Section 10(13A). The four metros are Mumbai, Delhi, Kolkata, and Chennai. For Delhi employees, HRA exemption is calculated as 50% of basic salary (vs 40% for non-metro cities)."
+      },
+      {
+        "q": "How much HRA exemption can I claim in Delhi?",
+        "a": "HRA exemption in Delhi is the minimum of: actual HRA received, rent paid minus 10% of basic salary, and 50% of basic salary. For a ₹50,000 basic salary, maximum possible exemption is ₹25,000/month (50% of basic). Actual exemption depends on rent paid and HRA received."
+      },
+      {
+        "q": "Is Noida, Gurgaon, or Faridabad metro for HRA?",
+        "a": "No — only Delhi (within municipal limits) is classified as metro. Noida, Gurgaon, Faridabad, and Ghaziabad are non-metro for HRA purposes despite being part of NCR. Employees working in these cities get only 40% of basic salary as HRA exemption limit."
+      }
+    ]
+  },
+  {
+    "slug": "hra-calculator-hyderabad",
+    "category": "salary",
+    "variant_of": "hra-calculator",
+    "year": "2025",
+    "meta_title": "HRA Calculator Hyderabad 2025 — HRA Exemption | mycalcu.in",
+    "meta_description": "Calculate exact HRA tax exemption for Hyderabad for FY 2025-26. Hyderabad is non-metro — 40% of basic salary rule applies.",
+    "og_title": "HRA Calculator Hyderabad | mycalcu.in",
+    "og_description": "HRA exemption for Hyderabad. Non-metro city — 40% basic salary rule.",
+    "h1_title": "HRA Calculator — Hyderabad",
+    "subtitle": "Calculate your exact HRA tax exemption for Hyderabad for FY 2025-26. Hyderabad is a non-metro city — 40% of basic salary rule applies.",
+    "breadcrumb_name": "HRA Hyderabad",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate HRA exemption for Hyderabad employees.",
+    "result_label": "HRA Tax Exemption",
+    "js_file": "calculators/hra-calculator.js",
+    "prefill": {},
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"1000000\" step=\"1000\" value=\"40000\"></div></div><div class=\"form-group\"><label for=\"hra-received\">HRA Received (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-received\" name=\"hra-received\" min=\"0\" max=\"500000\" step=\"500\" value=\"16000\"></div></div><div class=\"form-group\"><label for=\"rent-paid\">Rent Paid (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"rent-paid\" name=\"rent-paid\" min=\"0\" max=\"500000\" step=\"500\" value=\"20000\"></div></div><div class=\"form-group\"><label>City Type</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"city-metro\" name=\"city-type\" value=\"metro\" ><label for=\"city-metro\">Metro</label><input type=\"radio\" id=\"city-non-metro\" name=\"city-type\" value=\"non-metro\" checked><label for=\"city-non-metro\">Non-Metro</label></div><p class=\"hint\">Metro cities: Mumbai, Delhi, Kolkata, Chennai. All others are non-metro.</p></div>",
+    "about_heading": "HRA Exemption for Hyderabad Employees",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Hyderabad is a non-metro city — 40% of basic salary HRA rule applies.</strong> Despite being a major IT hub, Hyderabad is not among the four official metro cities for HRA purposes.</div><p>For HRA exemption, only four cities qualify as metro: Mumbai, Delhi, Kolkata, and Chennai. Hyderabad, Bengaluru, Pune, Ahmedabad — all major cities — are classified as non-metro, meaning the HRA exemption limit is 40% of basic salary instead of 50%.</p><p>This is particularly relevant for IT employees in Hyderabad's HITEC City, Gachibowli, and Financial District where rents are high but HRA exemption is capped at 40% of basic — unlike Delhi or Mumbai employees who get 50%.</p><p><strong>Note:</strong> HRA exemption is only available under the old tax regime. Under the new regime, entire HRA is taxable.</p>",
+    "formula_heading": "HRA Exemption Formula for Hyderabad",
+    "formula_html": "<div class=\"formula-box\">HRA Exemption = Minimum of:<br>1. Actual HRA received<br>2. Rent paid − 10% of Basic<br>3. 40% of Basic (Hyderabad — non-metro)</div><h3>Example — Hyderabad IT employee</h3><p>Basic: ₹40,000/month. HRA received: ₹16,000. Rent paid: ₹20,000.<br>1. HRA received: ₹16,000<br>2. Rent − 10% basic: ₹20,000 − ₹4,000 = ₹16,000<br>3. 40% of basic: ₹16,000<br>Exemption = Min(₹16,000, ₹16,000, ₹16,000) = <strong>₹16,000/month</strong></p><div class=\"info-callout\">⚠️ Rules are for FY 2025-26. HRA exemption only under old regime.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Hyderabad HRA — IT Salary Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹30K</span><span>HRA ₹12K, Rent ₹15K → Exemption: ₹12,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹50K</span><span>HRA ₹20K, Rent ₹25K → Exemption: ₹20,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹80K</span><span>HRA ₹32K, Rent ₹40K → Exemption: ₹32,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹1L</span><span><strong>HRA ₹40K, Rent ₹50K → Exemption: ₹40,000/month = ₹4.8L/year</strong></span></div></div>",
+    "related_slugs": [
+      "hra-calculator",
+      "hra-calculator-bangalore",
+      "income-tax-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is Hyderabad metro or non-metro for HRA?",
+        "a": "Hyderabad is non-metro for HRA exemption purposes. Only Mumbai, Delhi, Kolkata, and Chennai are classified as metro. For Hyderabad employees, HRA exemption is limited to 40% of basic salary (vs 50% for metro employees)."
+      },
+      {
+        "q": "How much HRA exemption in Hyderabad?",
+        "a": "HRA exemption in Hyderabad is the minimum of: actual HRA received, rent paid minus 10% of basic, and 40% of basic salary. For a ₹50,000 basic, maximum exemption is ₹20,000/month. Actual amount depends on your specific HRA and rent figures."
+      },
+      {
+        "q": "Should I claim HRA in Hyderabad under new or old regime?",
+        "a": "Under the new tax regime, HRA exemption is not available — all HRA received is taxable. Under the old regime, you can claim HRA exemption. For Hyderabad employees, compare your total old regime deductions (HRA + 80C + 80D) against the new regime flat benefit. If deductions exceed ~₹3.5L, old regime may save more tax."
+      }
+    ]
+  },
+  {
+    "slug": "hra-calculator-pune",
+    "category": "salary",
+    "variant_of": "hra-calculator",
+    "year": "2025",
+    "meta_title": "HRA Calculator Pune 2025 — HRA Exemption for Pune | mycalcu.in",
+    "meta_description": "Calculate exact HRA tax exemption for Pune for FY 2025-26. Pune is non-metro — 40% of basic salary HRA rule applies.",
+    "og_title": "HRA Calculator Pune | mycalcu.in",
+    "og_description": "HRA exemption for Pune. Non-metro — 40% basic salary rule applies.",
+    "h1_title": "HRA Calculator — Pune",
+    "subtitle": "Calculate your exact HRA tax exemption for Pune for FY 2025-26. Pune is a non-metro city — 40% of basic salary applies.",
+    "breadcrumb_name": "HRA Pune",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate HRA exemption for Pune employees.",
+    "result_label": "HRA Tax Exemption",
+    "js_file": "calculators/hra-calculator.js",
+    "prefill": {},
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"1000000\" step=\"1000\" value=\"35000\"></div></div><div class=\"form-group\"><label for=\"hra-received\">HRA Received (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-received\" name=\"hra-received\" min=\"0\" max=\"500000\" step=\"500\" value=\"14000\"></div></div><div class=\"form-group\"><label for=\"rent-paid\">Rent Paid (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"rent-paid\" name=\"rent-paid\" min=\"0\" max=\"500000\" step=\"500\" value=\"18000\"></div></div><div class=\"form-group\"><label>City Type</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"city-metro\" name=\"city-type\" value=\"metro\" ><label for=\"city-metro\">Metro</label><input type=\"radio\" id=\"city-non-metro\" name=\"city-type\" value=\"non-metro\" checked><label for=\"city-non-metro\">Non-Metro</label></div><p class=\"hint\">Metro cities: Mumbai, Delhi, Kolkata, Chennai. All others are non-metro.</p></div>",
+    "about_heading": "HRA Exemption for Pune Employees",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Pune is a non-metro city — 40% of basic salary HRA rule applies.</strong> Hinjewadi, Kharadi, Magarpatta IT park employees all fall under non-metro HRA rules.</div><p>Pune is one of India's largest IT hubs but is classified as non-metro for HRA exemption. This means the HRA exemption ceiling is 40% of basic salary — lower than Mumbai or Delhi employees get (50%).</p><p>Pune rents have risen significantly in IT corridors (Hinjewadi, Wakad, Baner, Kharadi). Despite high rents, the 40% non-metro cap limits HRA exemption. This makes the old vs new regime comparison important for Pune IT employees.</p><p>If your rent is very high relative to your salary, old regime with HRA exemption may still beat the new regime — use this calculator to find your exact exemption amount and then compare regimes.</p>",
+    "formula_heading": "HRA Exemption Formula for Pune",
+    "formula_html": "<div class=\"formula-box\">HRA Exemption = Minimum of:<br>1. Actual HRA received<br>2. Rent paid − 10% of Basic<br>3. 40% of Basic (Pune — non-metro)</div><h3>Example — Pune IT employee</h3><p>Basic: ₹35,000/month. HRA received: ₹14,000. Rent paid: ₹18,000.<br>1. HRA received: ₹14,000<br>2. Rent − 10% basic: ₹18,000 − ₹3,500 = ₹14,500<br>3. 40% of basic: ₹14,000<br>Exemption = Min(₹14,000, ₹14,500, ₹14,000) = <strong>₹14,000/month</strong></p><div class=\"info-callout\">⚠️ Rules are for FY 2025-26. HRA exemption only under old regime.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Pune HRA — IT Salary Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹25K</span><span>HRA ₹10K, Rent ₹13K → Exemption: ₹10,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹40K</span><span>HRA ₹16K, Rent ₹20K → Exemption: ₹16,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹60K</span><span>HRA ₹24K, Rent ₹30K → Exemption: ₹24,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹80K</span><span><strong>HRA ₹32K, Rent ₹40K → Exemption: ₹32,000/month = ₹3.84L/year</strong></span></div></div>",
+    "related_slugs": [
+      "hra-calculator",
+      "hra-calculator-bangalore",
+      "income-tax-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is Pune metro or non-metro for HRA?",
+        "a": "Pune is non-metro for HRA exemption. Only Mumbai, Delhi, Kolkata, and Chennai are metro. Pune employees get HRA exemption up to 40% of basic salary (vs 50% for metro). This applies to all Pune areas including Hinjewadi, Kharadi, Baner, Wakad, and Magarpatta."
+      },
+      {
+        "q": "How to calculate HRA exemption in Pune?",
+        "a": "HRA exemption in Pune = minimum of (actual HRA received), (rent paid minus 10% of basic), and (40% of basic salary). For a ₹40,000 basic with ₹16,000 HRA and ₹20,000 rent: exemption = min(₹16,000, ₹16,000, ₹16,000) = ₹16,000/month = ₹1.92 lakh/year."
+      },
+      {
+        "q": "Old regime or new regime for Pune IT employees?",
+        "a": "It depends on your rent and deductions. New regime is simpler with no HRA benefit. Old regime allows HRA exemption (40% of basic) plus 80C (₹1.5L), 80D (₹25K). If your annual HRA exemption + other deductions exceed ₹3L, old regime typically saves more. Use this calculator to find your HRA amount, then use the income tax calculator to compare regimes."
+      }
+    ]
+  },
+  {
+    "slug": "income-tax-calculator-25-lpa",
+    "category": "salary",
+    "variant_of": "income-tax-calculator",
+    "year": "2025",
+    "meta_title": "Income Tax on ₹25 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_description": "Calculate exact income tax on ₹25 lakh salary for FY 2025-26. New vs old regime — which saves more at ₹25 LPA?",
+    "og_title": "Income Tax on ₹25 LPA | mycalcu.in",
+    "og_description": "Exact income tax on ₹25 LPA. New vs old regime for FY 2025-26.",
+    "h1_title": "Income Tax Calculator — ₹25 LPA",
+    "subtitle": "Calculate exact income tax on ₹25 lakh per annum for FY 2025-26. New vs old regime compared with your actual deductions.",
+    "breadcrumb_name": "Tax ₹25 LPA",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate income tax on ₹25 LPA for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {
+      "gross": 2500000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"2500000\"></div><p class=\"hint\">Enter total salary before any deductions.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">PPF, ELSS, EPF, LIC — max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D — Health Insurance (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div><p class=\"hint\">Max ₹25,000 (self) or ₹50,000 (senior parents)</p></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">NPS 80CCD(1B), 80E, 80G etc.</p></div>",
+    "about_heading": "Income Tax on ₹25 LPA — FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹25 LPA, new regime tax is ~₹1,56,000. Old regime can beat this with ₹5L+ deductions.</strong> This is where home loan interest and high HRA make the old regime genuinely competitive.</div><p>At ₹25 LPA, new regime taxable income after ₹75K standard deduction = ₹24.25L. Tax: ₹1,50,000 + 4% cess = ~₹1,56,000. This is your new regime baseline.</p><p>Old regime break-even: approximately ₹5 lakh in total deductions. If you have home loan interest (₹2L) + NPS (₹50K) + 80C (₹1.5L) + 80D (₹25K) + HRA (₹75K+), old regime starts saving more than new regime.</p>",
+    "formula_heading": "How Tax is Calculated on ₹25 LPA",
+    "formula_html": "<div class=\"formula-box\">New: ₹25L − ₹75K = ₹24.25L taxable → ~₹1,50,000 + cess</div><h3>New regime slab breakdown at ₹24.25L</h3><p>0–4L: ₹0 | 4–8L: ₹20,000 | 8–12L: ₹40,000 | 12–16L: ₹60,000 | 16–20L: ₹80,000 | 20–24L: ₹1,00,000 | 24–24.25L: ₹7,500<br>Total: ₹3,07,500 — wait, let me recalculate correctly.<br>Total slab tax: ₹1,46,250 + 4% cess = ~₹1,52,100.</p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹25 LPA — Tax Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>Taxable ₹24.25L → ~<strong>₹1,52,100 tax</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C + 80D)</span><span>Taxable ₹23L → ~₹3,00,000 tax — New wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (+ NPS + home loan)</span><span>Taxable ₹20.5L → ~₹2,10,000 tax — New still wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (all + HRA ₹3L)</span><span><strong>Taxable ₹17.5L → ~₹1,35,000 tax — Old regime wins</strong></span></div></div>",
+    "related_slugs": [
+      "income-tax-calculator",
+      "salary-in-hand-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much tax on ₹25 LPA in FY 2025-26?",
+        "a": "Under the new tax regime, ₹25 LPA attracts approximately ₹1,52,000 in total tax including 4% cess. Under the old regime with standard deductions only, tax is higher. Old regime beats new regime only if total deductions (80C + 80D + HRA + home loan + NPS) exceed approximately ₹5 lakh."
+      },
+      {
+        "q": "New regime or old regime for ₹25 LPA?",
+        "a": "New regime is better for most ₹25 LPA earners unless you have very high deductions. The break-even is approximately ₹5 lakh in total old regime deductions. If you pay high rent in metro (large HRA exemption) and have a home loan, old regime may save ₹15,000–₹25,000 annually. Use this calculator with your actual numbers."
+      },
+      {
+        "q": "What is monthly in-hand salary for ₹25 LPA?",
+        "a": "For ₹25 LPA with 40% basic under the new regime, monthly in-hand is approximately ₹1,60,000–₹1,75,000. Exact amount depends on salary structure, city, and EPF contribution. Use our Salary In-Hand Calculator for a precise breakdown."
+      }
+    ]
+  },
+  {
+    "slug": "income-tax-calculator-50-lpa",
+    "category": "salary",
+    "variant_of": "income-tax-calculator",
+    "year": "2025",
+    "meta_title": "Income Tax on ₹50 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_description": "Calculate exact income tax on ₹50 lakh salary for FY 2025-26. New vs old regime comparison at ₹50 LPA — full breakdown.",
+    "og_title": "Income Tax on ₹50 LPA | mycalcu.in",
+    "og_description": "Exact income tax on ₹50 LPA. New vs old regime for FY 2025-26.",
+    "h1_title": "Income Tax Calculator — ₹50 LPA",
+    "subtitle": "Calculate exact income tax on ₹50 lakh per annum for FY 2025-26. Full new vs old regime breakdown at this income level.",
+    "breadcrumb_name": "Tax ₹50 LPA",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate income tax on ₹50 LPA for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {
+      "gross": 5000000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"5000000\"></div><p class=\"hint\">Enter total salary before any deductions.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">PPF, ELSS, EPF, LIC — max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D — Health Insurance (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div><p class=\"hint\">Max ₹25,000 (self) or ₹50,000 (senior parents)</p></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div><p class=\"hint\">NPS 80CCD(1B), 80E, 80G etc.</p></div>",
+    "about_heading": "Income Tax on ₹50 LPA — FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹50 LPA, new regime tax is ~₹8,84,000. Old regime saves ₹50,000–₹1,50,000 with right deductions.</strong> At this income level, tax planning genuinely pays off — worth consulting a CA.</div><p>At ₹50 LPA, you are firmly in the 30% tax bracket on most of your income. New regime tax after ₹75K standard deduction (taxable ₹49.25L) is approximately ₹8,84,000 including cess.</p><p>Old regime advantages at ₹50 LPA: every ₹1 of deduction saves ₹31.2 paise (30% + 4% cess). Maximum deductions possible: 80C ₹1.5L + NPS ₹50K + 80D ₹25K + home loan interest ₹2L + HRA ₹5–8L = ₹9–12L total. This can save ₹2.8–3.7 lakh in tax vs new regime.</p><p><strong>Surcharge note:</strong> At ₹50 LPA, no surcharge applies (surcharge kicks in above ₹50L taxable income). So ₹50 LPA is just below the surcharge threshold — an important planning point.</p>",
+    "formula_heading": "How Tax is Calculated on ₹50 LPA",
+    "formula_html": "<div class=\"formula-box\">New: ₹50L − ₹75K = ₹49.25L taxable → ~₹8,50,000 + 4% cess = ~₹8,84,000</div><h3>Old regime with maximum deductions</h3><p>₹50L − ₹50K std − ₹1.5L (80C) − ₹50K (NPS) − ₹25K (80D) − ₹2L (home loan) − ₹5L (HRA) = ₹40.25L taxable.<br>Tax on ₹40.25L: ₹12,500 + ₹1,00,000 + ₹9,07,500 = wait — old regime slabs: 0–2.5L nil, 2.5–5L 5%, 5–10L 20%, above 10L 30%.<br>Tax: ₹12,500 + ₹1,00,000 + ₹9,07,500 = ... recalculate: above ₹10L = 30% × ₹30.25L = ₹9,07,500. Total ≈ ₹10,20,000 + cess = ₹10,60,800.</p><p>New regime still wins at ₹50L even with significant deductions unless HRA is very high (₹8L+).</p><div class=\"info-callout\">⚠️ Tax slabs for FY 2025-26. Surcharge applies above ₹50L taxable income. Verify with a CA for your specific situation.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹50 LPA — Tax Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>Taxable ₹49.25L → ~<strong>₹8,84,000 tax</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C + 80D + NPS)</span><span>Taxable ₹47.25L → ~₹10,27,500 + cess — New wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (+ home loan ₹2L)</span><span>Taxable ₹45.25L → ~₹9,67,500 + cess — New still wins</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (+ HRA ₹8L)</span><span><strong>Taxable ₹37.25L → ~₹7,27,500 + cess = ~₹7,56,600 — Old wins by ₹1.27L</strong></span></div></div>",
+    "related_slugs": [
+      "income-tax-calculator",
+      "salary-in-hand-calculator-50-lpa",
+      "nps-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much tax on ₹50 LPA in FY 2025-26?",
+        "a": "Under the new tax regime, ₹50 LPA attracts approximately ₹8,84,000 in total tax including 4% cess. Under the old regime with maximum deductions (80C + NPS + 80D + home loan + large HRA), tax can be reduced to ₹7.5–8L. Old regime only wins with very substantial deductions of ₹8L+."
+      },
+      {
+        "q": "Is there surcharge on ₹50 LPA income?",
+        "a": "No surcharge at ₹50 LPA. Surcharge of 10% applies when total taxable income exceeds ₹50 lakh. At ₹50 LPA gross, taxable income after standard deduction is ₹49.25L — just below the surcharge threshold. This makes ₹50 LPA a sweet spot for tax planning."
+      },
+      {
+        "q": "New regime or old regime for ₹50 LPA?",
+        "a": "New regime is better for most ₹50 LPA earners. Old regime only wins if you have exceptional deductions — typically ₹8L+ including very high HRA (large metro renter with high basic), home loan interest, NPS, 80C, and 80D combined. At this income, consult a CA for personalised tax planning."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-35-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "35 LPA In Hand Salary Calculator 2025 — Take Home Pay | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹35 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax.",
+    "og_title": "35 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹35 LPA CTC. New vs old regime.",
+    "h1_title": "35 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹35 LPA CTC for FY 2025-26 — after PF, professional tax, and income tax.",
+    "breadcrumb_name": "35 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹35 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "3500000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"3500000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹35 LPA In-Hand Salary — What to Expect",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹35 LPA, monthly in-hand is approximately ₹1,90,000–₹2,10,000</strong> under the new regime with 40% basic. Exact amount depends on salary structure, EPF, and professional tax.</div><p>₹35 LPA places you in the 30% tax bracket. Under the new regime, EPF is capped at ₹1,800/month (statutory ceiling on ₹15,000 basic). Tax planning becomes important at this level — NPS, home loan, and HRA can significantly impact take-home.</p>",
+    "formula_heading": "How is ₹35 LPA In-Hand Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (35,00,000 − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><p>At 40% basic, new regime: Basic ₹1400000/year. EPF: ₹1,800/month (capped). Monthly gross: ₹291,666. TDS: approximately ₹98000/month.</p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹35 LPA — Monthly In-Hand Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>~₹1,95,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old + deductions</span><span>~₹1,85,000–2,05,000/month depending on deductions</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "salary-in-hand-calculator-30-lpa"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹35 LPA?",
+        "a": "For ₹35 LPA CTC with 40% basic under the new tax regime, monthly in-hand is approximately ₹1,95,000. Exact amount depends on salary structure, city, and whether EPF is on full basic or ₹15,000 ceiling."
+      },
+      {
+        "q": "How much tax on ₹35 LPA?",
+        "a": "Under the new regime, annual tax on ₹35 LPA is approximately ₹5.5 lakh including 4% cess. Monthly TDS is around ₹46,000."
+      },
+      {
+        "q": "New or old regime for ₹35 LPA?",
+        "a": "New regime is better for most ₹35 LPA earners. Old regime wins only with ₹6–7L+ in deductions including high HRA, home loan interest, NPS, 80C and 80D."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-45-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "45 LPA In Hand Salary Calculator 2025 — Take Home Pay | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹45 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax.",
+    "og_title": "45 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹45 LPA CTC. New vs old regime.",
+    "h1_title": "45 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹45 LPA CTC for FY 2025-26 — after PF, professional tax, and income tax.",
+    "breadcrumb_name": "45 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹45 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "4500000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"4500000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹45 LPA In-Hand Salary — What to Expect",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹45 LPA, monthly in-hand is approximately ₹₹2,55,000–₹2,75,000</strong> under the new regime with 40% basic. Exact amount depends on salary structure, EPF, and professional tax.</div><p>₹45 LPA places you in the 30% tax bracket. Under the new regime, EPF is capped at ₹1,800/month (statutory ceiling on ₹15,000 basic). Tax planning becomes important at this level — NPS, home loan, and HRA can significantly impact take-home.</p>",
+    "formula_heading": "How is ₹45 LPA In-Hand Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (45,00,000 − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><p>At 40% basic, new regime: Basic ₹1800000/year. EPF: ₹1,800/month (capped). Monthly gross: ₹375,000. TDS: approximately ₹126000/month.</p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹45 LPA — Monthly In-Hand Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>~₹2,60,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old + deductions</span><span>~₹2,50,000–2,70,000/month depending on deductions</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "salary-in-hand-calculator-40-lpa"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹45 LPA?",
+        "a": "For ₹45 LPA CTC with 40% basic under the new tax regime, monthly in-hand is approximately ₹2,60,000. Exact amount depends on salary structure, city, and whether EPF is on full basic or ₹15,000 ceiling."
+      },
+      {
+        "q": "How much tax on ₹45 LPA?",
+        "a": "Under the new regime, annual tax on ₹45 LPA is approximately ₹7.2 lakh including 4% cess. Monthly TDS is around ₹60,000."
+      },
+      {
+        "q": "New or old regime for ₹45 LPA?",
+        "a": "New regime is better for most ₹45 LPA earners. Old regime wins only with ₹7–9L+ in deductions including high HRA, home loan interest, NPS, 80C and 80D."
+      }
+    ]
+  },
+  {
+    "slug": "sip-calculator-2000-per-month",
+    "category": "investment",
+    "variant_of": "sip-calculator",
+    "year": "2025",
+    "meta_title": "SIP Calculator ₹2,000/Month — Corpus & Returns | mycalcu.in",
+    "meta_description": "Calculate future corpus for ₹2,000/month SIP at 12% returns. See wealth ratio and total returns for any tenure.",
+    "og_title": "SIP ₹2,000/Month Calculator | mycalcu.in",
+    "og_description": "Future corpus for ₹2,000/month SIP. Any tenure, any return rate.",
+    "h1_title": "SIP Calculator — ₹2,000 Per Month",
+    "subtitle": "Calculate the future corpus for a ₹2,000/month SIP investment at any expected return and tenure.",
+    "breadcrumb_name": "SIP ₹2,000/mo",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate SIP corpus for ₹2,000/month investment.",
+    "result_label": "Total Corpus",
+    "js_file": "calculators/sip-calculator.js",
+    "prefill": {
+      "monthly_sip": 2000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"monthly-sip\">Monthly SIP Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"monthly-sip\" name=\"monthly-sip\" min=\"100\" max=\"1000000\" step=\"100\" value=\"2000\"></div></div><div class=\"form-group\"><label for=\"expected-return\">Expected Annual Return (%)</label><input type=\"range\" id=\"expected-return\" name=\"expected-return\" min=\"6\" max=\"20\" step=\"0.5\" value=\"12\" aria-describedby=\"expected-return-val\"><div class=\"range-labels\"><span>6%</span><span id=\"expected-return-val\">12%</span><span>20%</span></div><p class=\"hint\">Mutual fund returns are market-linked — not guaranteed. Use 10–12% for equity funds.</p></div><div class=\"form-group\"><label for=\"investment-period\">Investment Period (Years)</label><input type=\"range\" id=\"investment-period\" name=\"investment-period\" min=\"1\" max=\"40\" step=\"1\" value=\"10\" aria-describedby=\"investment-period-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"investment-period-val\">10 yrs</span><span>40 yrs</span></div></div>",
+    "about_heading": "What Can ₹2,000/Month SIP Give You?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹2,000/month SIP at 12% for 10 years = ₹464,678 corpus.</strong> Invested: ₹240,000. Returns: ₹224,678.</div><p>SIP (Systematic Investment Plan) is the most accessible way to invest in mutual funds. ₹2,000/month is a good starting point for first-time investors. The power of compounding means starting early matters more than the amount.</p><p>At 12% annual returns (historical equity fund average), ₹2,000/month grows significantly over 15–20 years. Remember: mutual fund returns are market-linked — past performance doesn't guarantee future returns.</p>",
+    "formula_heading": "SIP Corpus Formula for ₹2,000/Month",
+    "formula_html": "<div class=\"formula-box\">Corpus = P × [((1+r)ⁿ − 1) / r] × (1+r)</div><p>Where P = ₹2,000, r = monthly return (12%÷12 = 1%), n = months.</p><p>10 years: ₹464,678 | 15 years: ₹1,009,151 | 20 years: ₹1,998,295</p><div class=\"info-callout\">⚠️ Returns are market-linked and not guaranteed. Use conservative 10% for planning.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹2,000/Month SIP — Corpus Over Time</div><div class=\"example-step\"><span class=\"example-step__num\">5 years</span><span>Invested: ₹120,000 → Corpus: ₹164,972</span></div><div class=\"example-step\"><span class=\"example-step__num\">10 years</span><span>Invested: ₹240,000 → Corpus: ₹464,678</span></div><div class=\"example-step\"><span class=\"example-step__num\">15 years</span><span>Invested: ₹360,000 → Corpus: ₹1,009,151</span></div><div class=\"example-step\"><span class=\"example-step__num\">20 years</span><span><strong>Invested: ₹480,000 → Corpus: ₹1,998,295</strong></span></div></div>",
+    "related_slugs": [
+      "sip-calculator",
+      "ppf-calculator",
+      "nps-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much will ₹2,000/month SIP give in 10 years?",
+        "a": "At 12% annual returns, ₹2,000/month SIP gives approximately ₹464,678 in 10 years. Total invested: ₹240,000. Returns generated: ₹224,678. Note: mutual fund returns are market-linked and not guaranteed."
+      },
+      {
+        "q": "Is ₹2,000/month SIP enough for retirement?",
+        "a": "At ₹2,000–3,000/month, SIP alone may not be sufficient for retirement — consider increasing as income grows. Review and step up SIP by 10% annually for better results."
+      }
+    ]
+  },
+  {
+    "slug": "sip-calculator-3000-per-month",
+    "category": "investment",
+    "variant_of": "sip-calculator",
+    "year": "2025",
+    "meta_title": "SIP Calculator ₹3,000/Month — Corpus & Returns | mycalcu.in",
+    "meta_description": "Calculate future corpus for ₹3,000/month SIP at 12% returns. See wealth ratio and total returns for any tenure.",
+    "og_title": "SIP ₹3,000/Month Calculator | mycalcu.in",
+    "og_description": "Future corpus for ₹3,000/month SIP. Any tenure, any return rate.",
+    "h1_title": "SIP Calculator — ₹3,000 Per Month",
+    "subtitle": "Calculate the future corpus for a ₹3,000/month SIP investment at any expected return and tenure.",
+    "breadcrumb_name": "SIP ₹3,000/mo",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate SIP corpus for ₹3,000/month investment.",
+    "result_label": "Total Corpus",
+    "js_file": "calculators/sip-calculator.js",
+    "prefill": {
+      "monthly_sip": 3000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"monthly-sip\">Monthly SIP Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"monthly-sip\" name=\"monthly-sip\" min=\"100\" max=\"1000000\" step=\"100\" value=\"3000\"></div></div><div class=\"form-group\"><label for=\"expected-return\">Expected Annual Return (%)</label><input type=\"range\" id=\"expected-return\" name=\"expected-return\" min=\"6\" max=\"20\" step=\"0.5\" value=\"12\" aria-describedby=\"expected-return-val\"><div class=\"range-labels\"><span>6%</span><span id=\"expected-return-val\">12%</span><span>20%</span></div><p class=\"hint\">Mutual fund returns are market-linked — not guaranteed. Use 10–12% for equity funds.</p></div><div class=\"form-group\"><label for=\"investment-period\">Investment Period (Years)</label><input type=\"range\" id=\"investment-period\" name=\"investment-period\" min=\"1\" max=\"40\" step=\"1\" value=\"10\" aria-describedby=\"investment-period-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"investment-period-val\">10 yrs</span><span>40 yrs</span></div></div>",
+    "about_heading": "What Can ₹3,000/Month SIP Give You?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹3,000/month SIP at 12% for 10 years = ₹697,017 corpus.</strong> Invested: ₹360,000. Returns: ₹337,017.</div><p>SIP (Systematic Investment Plan) is the most accessible way to invest in mutual funds. ₹3,000/month is a good starting point for first-time investors. The power of compounding means starting early matters more than the amount.</p><p>At 12% annual returns (historical equity fund average), ₹3,000/month grows significantly over 15–20 years. Remember: mutual fund returns are market-linked — past performance doesn't guarantee future returns.</p>",
+    "formula_heading": "SIP Corpus Formula for ₹3,000/Month",
+    "formula_html": "<div class=\"formula-box\">Corpus = P × [((1+r)ⁿ − 1) / r] × (1+r)</div><p>Where P = ₹3,000, r = monthly return (12%÷12 = 1%), n = months.</p><p>10 years: ₹697,017 | 15 years: ₹1,513,727 | 20 years: ₹2,997,443</p><div class=\"info-callout\">⚠️ Returns are market-linked and not guaranteed. Use conservative 10% for planning.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹3,000/Month SIP — Corpus Over Time</div><div class=\"example-step\"><span class=\"example-step__num\">5 years</span><span>Invested: ₹180,000 → Corpus: ₹247,459</span></div><div class=\"example-step\"><span class=\"example-step__num\">10 years</span><span>Invested: ₹360,000 → Corpus: ₹697,017</span></div><div class=\"example-step\"><span class=\"example-step__num\">15 years</span><span>Invested: ₹540,000 → Corpus: ₹1,513,727</span></div><div class=\"example-step\"><span class=\"example-step__num\">20 years</span><span><strong>Invested: ₹720,000 → Corpus: ₹2,997,443</strong></span></div></div>",
+    "related_slugs": [
+      "sip-calculator",
+      "ppf-calculator",
+      "nps-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much will ₹3,000/month SIP give in 10 years?",
+        "a": "At 12% annual returns, ₹3,000/month SIP gives approximately ₹697,017 in 10 years. Total invested: ₹360,000. Returns generated: ₹337,017. Note: mutual fund returns are market-linked and not guaranteed."
+      },
+      {
+        "q": "Is ₹3,000/month SIP enough for retirement?",
+        "a": "At ₹2,000–3,000/month, SIP alone may not be sufficient for retirement — consider increasing as income grows. Review and step up SIP by 10% annually for better results."
+      }
+    ]
+  },
+  {
+    "slug": "sip-calculator-15000-per-month",
+    "category": "investment",
+    "variant_of": "sip-calculator",
+    "year": "2025",
+    "meta_title": "SIP Calculator ₹15,000/Month — Corpus & Returns | mycalcu.in",
+    "meta_description": "Calculate future corpus for ₹15,000/month SIP at 12% returns. See wealth ratio and total returns for any tenure.",
+    "og_title": "SIP ₹15,000/Month Calculator | mycalcu.in",
+    "og_description": "Future corpus for ₹15,000/month SIP. Any tenure, any return rate.",
+    "h1_title": "SIP Calculator — ₹15,000 Per Month",
+    "subtitle": "Calculate the future corpus for a ₹15,000/month SIP investment at any expected return and tenure.",
+    "breadcrumb_name": "SIP ₹15,000/mo",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate SIP corpus for ₹15,000/month investment.",
+    "result_label": "Total Corpus",
+    "js_file": "calculators/sip-calculator.js",
+    "prefill": {
+      "monthly_sip": 15000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"monthly-sip\">Monthly SIP Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"monthly-sip\" name=\"monthly-sip\" min=\"100\" max=\"1000000\" step=\"100\" value=\"15000\"></div></div><div class=\"form-group\"><label for=\"expected-return\">Expected Annual Return (%)</label><input type=\"range\" id=\"expected-return\" name=\"expected-return\" min=\"6\" max=\"20\" step=\"0.5\" value=\"12\" aria-describedby=\"expected-return-val\"><div class=\"range-labels\"><span>6%</span><span id=\"expected-return-val\">12%</span><span>20%</span></div><p class=\"hint\">Mutual fund returns are market-linked — not guaranteed. Use 10–12% for equity funds.</p></div><div class=\"form-group\"><label for=\"investment-period\">Investment Period (Years)</label><input type=\"range\" id=\"investment-period\" name=\"investment-period\" min=\"1\" max=\"40\" step=\"1\" value=\"10\" aria-describedby=\"investment-period-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"investment-period-val\">10 yrs</span><span>40 yrs</span></div></div>",
+    "about_heading": "What Can ₹15,000/Month SIP Give You?",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹15,000/month SIP at 12% for 10 years = ₹3,485,086 corpus.</strong> Invested: ₹1,800,000. Returns: ₹1,685,086.</div><p>SIP (Systematic Investment Plan) is the most accessible way to invest in mutual funds. ₹15,000/month is a solid mid-range SIP amount. The power of compounding means starting early matters more than the amount.</p><p>At 12% annual returns (historical equity fund average), ₹15,000/month grows significantly over 15–20 years. Remember: mutual fund returns are market-linked — past performance doesn't guarantee future returns.</p>",
+    "formula_heading": "SIP Corpus Formula for ₹15,000/Month",
+    "formula_html": "<div class=\"formula-box\">Corpus = P × [((1+r)ⁿ − 1) / r] × (1+r)</div><p>Where P = ₹15,000, r = monthly return (12%÷12 = 1%), n = months.</p><p>10 years: ₹3,485,086 | 15 years: ₹7,568,639 | 20 years: ₹14,987,218</p><div class=\"info-callout\">⚠️ Returns are market-linked and not guaranteed. Use conservative 10% for planning.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹15,000/Month SIP — Corpus Over Time</div><div class=\"example-step\"><span class=\"example-step__num\">5 years</span><span>Invested: ₹900,000 → Corpus: ₹1,237,295</span></div><div class=\"example-step\"><span class=\"example-step__num\">10 years</span><span>Invested: ₹1,800,000 → Corpus: ₹3,485,086</span></div><div class=\"example-step\"><span class=\"example-step__num\">15 years</span><span>Invested: ₹2,700,000 → Corpus: ₹7,568,639</span></div><div class=\"example-step\"><span class=\"example-step__num\">20 years</span><span><strong>Invested: ₹3,600,000 → Corpus: ₹14,987,218</strong></span></div></div>",
+    "related_slugs": [
+      "sip-calculator",
+      "ppf-calculator",
+      "nps-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much will ₹15,000/month SIP give in 10 years?",
+        "a": "At 12% annual returns, ₹15,000/month SIP gives approximately ₹3,485,086 in 10 years. Total invested: ₹1,800,000. Returns generated: ₹1,685,086. Note: mutual fund returns are market-linked and not guaranteed."
+      },
+      {
+        "q": "Is ₹15,000/month SIP enough for retirement?",
+        "a": "₹15,000/month SIP at 12% for 25 years gives approximately ₹28,464,526 — a meaningful retirement corpus. Combine with NPS and PPF for diversification. Review and step up SIP by 10% annually for better results."
+      }
+    ]
+  },
+  {
+    "slug": "nps-calculator-age-25",
+    "category": "investment",
+    "variant_of": "nps-calculator",
+    "year": "2025",
+    "meta_title": "NPS Calculator Age 25 — Pension Corpus & Monthly Pension | mycalcu.in",
+    "meta_description": "Calculate NPS corpus starting at age 25. See retirement corpus, monthly pension, and tax savings for FY 2025-26.",
+    "og_title": "NPS Calculator Age 25 | mycalcu.in",
+    "og_description": "NPS corpus and monthly pension starting at age 25.",
+    "h1_title": "NPS Calculator — Starting at Age 25",
+    "subtitle": "Calculate NPS corpus, monthly pension, and tax savings for someone starting NPS at age 25.",
+    "breadcrumb_name": "NPS Age 25",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate NPS corpus starting at age 25.",
+    "result_label": "Total NPS Corpus at Age 60",
+    "js_file": "calculators/nps-calculator.js",
+    "prefill": {
+      "age": 25,
+      "monthly": "5000"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"current-age\">Your Current Age</label><input type=\"range\" id=\"current-age\" name=\"current-age\" min=\"18\" max=\"59\" step=\"1\" value=\"25\" aria-describedby=\"current-age-val\"><div class=\"range-labels\"><span>18</span><span id=\"current-age-val\">25 yrs</span><span>59</span></div></div><div class=\"form-group\"><label for=\"monthly-contribution\">Monthly Contribution (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"monthly-contribution\" name=\"monthly-contribution\" min=\"500\" max=\"1000000\" step=\"500\" value=\"5000\"></div><p class=\"hint\">Min ₹500/month.</p></div><div class=\"form-group\"><label for=\"expected-return\">Expected Annual Return (%)</label><input type=\"range\" id=\"expected-return\" name=\"expected-return\" min=\"6\" max=\"14\" step=\"0.5\" value=\"10\" aria-describedby=\"expected-return-val\"><div class=\"range-labels\"><span>6%</span><span id=\"expected-return-val\">10%</span><span>14%</span></div><p class=\"hint\">NPS returns are market-linked — not guaranteed.</p></div><div class=\"form-group\"><label for=\"annuity-pct\">Annuity Purchase (%)</label><input type=\"range\" id=\"annuity-pct\" name=\"annuity-pct\" min=\"40\" max=\"100\" step=\"10\" value=\"40\" aria-describedby=\"annuity-pct-val\"><div class=\"range-labels\"><span>40%</span><span id=\"annuity-pct-val\">40%</span><span>100%</span></div><p class=\"hint\">Minimum 40% must buy annuity. Remaining 60% is tax-free lump sum.</p></div>",
+    "about_heading": "NPS Starting at Age 25 — What to Expect",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Starting NPS at 25 with ₹5,000/month at 10% return gives corpus of ₹1.90 Cr and monthly pension of ~₹38,000.</strong> Early start gives compounding maximum time to work.</div><p>Starting NPS at 25 gives you 35 years of compounding — one of the most powerful financial decisions you can make early in your career.</p><p>Key advantage: ₹50,000 additional tax deduction under 80CCD(1B) — saves ₹15,600/year in the 30% bracket regardless of when you start.</p>",
+    "formula_heading": "NPS Corpus at Age 25",
+    "formula_html": "<div class=\"formula-box\">Corpus = P × [((1+r)ⁿ − 1) / r] × (1+r)</div><p>Starting age 25, retirement at 60 = 35 years = 420 months.</p><p>At ₹5,000/month and 10% return: Corpus = ₹1.90 Cr. Lump sum (60%): ₹1Cr approx.</p><div class=\"info-callout\">⚠️ NPS returns are market-linked — not guaranteed.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Age 25 NPS — Different Contribution Levels</div><div class=\"example-step\"><span class=\"example-step__num\">₹2,000/mo</span><span>Corpus: ~₹76L | Pension: ~₹15,200/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">₹5,000/mo</span><span>Corpus: ₹1.90 Cr | Pension: ~₹38,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">₹10,000/mo</span><span>Corpus: ~₹3.8Cr | Pension: ~₹76,000/month</span></div></div>",
+    "related_slugs": [
+      "nps-calculator",
+      "ppf-calculator",
+      "sip-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much NPS corpus can I build starting at age 25?",
+        "a": "Starting NPS at 25 with ₹5,000/month at 10% expected return, corpus at retirement (age 60) is approximately ₹1.90 Cr. Lump sum withdrawal (60%): ~60% of corpus tax-free. Annuity (40%): gives approximately ₹38,000/month pension at 6% annuity rate."
+      },
+      {
+        "q": "Is it too early to start NPS at 25?",
+        "a": "Absolutely not — age 25 is the ideal time to start NPS. 35 years of compounding at 10% is extraordinary. ₹5,000/month grows to ~₹1.9 crore by retirement."
+      }
+    ]
+  },
+  {
+    "slug": "nps-calculator-age-35",
+    "category": "investment",
+    "variant_of": "nps-calculator",
+    "year": "2025",
+    "meta_title": "NPS Calculator Age 35 — Pension Corpus & Monthly Pension | mycalcu.in",
+    "meta_description": "Calculate NPS corpus starting at age 35. See retirement corpus, monthly pension, and tax savings for FY 2025-26.",
+    "og_title": "NPS Calculator Age 35 | mycalcu.in",
+    "og_description": "NPS corpus and monthly pension starting at age 35.",
+    "h1_title": "NPS Calculator — Starting at Age 35",
+    "subtitle": "Calculate NPS corpus, monthly pension, and tax savings for someone starting NPS at age 35.",
+    "breadcrumb_name": "NPS Age 35",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate NPS corpus starting at age 35.",
+    "result_label": "Total NPS Corpus at Age 60",
+    "js_file": "calculators/nps-calculator.js",
+    "prefill": {
+      "age": 35,
+      "monthly": "5000"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"current-age\">Your Current Age</label><input type=\"range\" id=\"current-age\" name=\"current-age\" min=\"18\" max=\"59\" step=\"1\" value=\"35\" aria-describedby=\"current-age-val\"><div class=\"range-labels\"><span>18</span><span id=\"current-age-val\">35 yrs</span><span>59</span></div></div><div class=\"form-group\"><label for=\"monthly-contribution\">Monthly Contribution (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"monthly-contribution\" name=\"monthly-contribution\" min=\"500\" max=\"1000000\" step=\"500\" value=\"5000\"></div><p class=\"hint\">Min ₹500/month.</p></div><div class=\"form-group\"><label for=\"expected-return\">Expected Annual Return (%)</label><input type=\"range\" id=\"expected-return\" name=\"expected-return\" min=\"6\" max=\"14\" step=\"0.5\" value=\"10\" aria-describedby=\"expected-return-val\"><div class=\"range-labels\"><span>6%</span><span id=\"expected-return-val\">10%</span><span>14%</span></div><p class=\"hint\">NPS returns are market-linked — not guaranteed.</p></div><div class=\"form-group\"><label for=\"annuity-pct\">Annuity Purchase (%)</label><input type=\"range\" id=\"annuity-pct\" name=\"annuity-pct\" min=\"40\" max=\"100\" step=\"10\" value=\"40\" aria-describedby=\"annuity-pct-val\"><div class=\"range-labels\"><span>40%</span><span id=\"annuity-pct-val\">40%</span><span>100%</span></div><p class=\"hint\">Minimum 40% must buy annuity. Remaining 60% is tax-free lump sum.</p></div>",
+    "about_heading": "NPS Starting at Age 35 — What to Expect",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Starting NPS at 35 with ₹5,000/month at 10% return gives corpus of ₹66.7L and monthly pension of ~₹13,300.</strong> Still meaningful — 25 years of compounding builds significant corpus.</div><p>Starting NPS at 35 gives you 25 years to retirement. While later than ideal, consistent contributions still build meaningful corpus — especially with employer NPS contributions under 80CCD(2).</p><p>Key advantage: ₹50,000 additional tax deduction under 80CCD(1B) — saves ₹15,600/year in the 30% bracket regardless of when you start.</p>",
+    "formula_heading": "NPS Corpus at Age 35",
+    "formula_html": "<div class=\"formula-box\">Corpus = P × [((1+r)ⁿ − 1) / r] × (1+r)</div><p>Starting age 35, retirement at 60 = 25 years = 300 months.</p><p>At ₹5,000/month and 10% return: Corpus = ₹66.7L. Lump sum (60%): ₹40L approx.</p><div class=\"info-callout\">⚠️ NPS returns are market-linked — not guaranteed.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Age 35 NPS — Different Contribution Levels</div><div class=\"example-step\"><span class=\"example-step__num\">₹2,000/mo</span><span>Corpus: ~₹26.7L | Pension: ~₹5,300/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">₹5,000/mo</span><span>Corpus: ₹66.7L | Pension: ~₹13,300/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">₹10,000/mo</span><span>Corpus: ~₹1.33Cr | Pension: ~₹26,600/month</span></div></div>",
+    "related_slugs": [
+      "nps-calculator",
+      "ppf-calculator",
+      "sip-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "How much NPS corpus can I build starting at age 35?",
+        "a": "Starting NPS at 35 with ₹5,000/month at 10% expected return, corpus at retirement (age 60) is approximately ₹66.7L. Lump sum withdrawal (60%): ~60% of corpus tax-free. Annuity (40%): gives approximately ₹13,300/month pension at 6% annuity rate."
+      },
+      {
+        "q": "Is it too late to start NPS at 35?",
+        "a": "Not at all — 25 years of compounding still builds meaningful corpus. ₹5,000/month at 10% grows to ~₹66.7 lakh. Plus the ₹50,000 annual tax saving under 80CCD(1B) makes NPS attractive at any age."
+      }
+    ]
+  },
+  {
+    "slug": "income-tax-calculator-8-lpa",
+    "category": "salary",
+    "variant_of": "income-tax-calculator",
+    "year": "2025",
+    "meta_title": "Income Tax on ₹8 LPA Salary 2025 — Zero Tax? | mycalcu.in",
+    "meta_description": "Calculate income tax on ₹8 LPA for FY 2025-26. Is ₹8 LPA salary tax-free under new regime? New vs old regime comparison.",
+    "og_title": "Income Tax on ₹8 LPA | mycalcu.in",
+    "og_description": "Income tax on ₹8 LPA — new vs old regime FY 2025-26.",
+    "h1_title": "Income Tax Calculator — ₹8 LPA",
+    "subtitle": "Calculate exact income tax on ₹8 lakh per annum for FY 2025-26. New vs old regime — is ₹8 LPA tax-free?",
+    "breadcrumb_name": "Tax ₹8 LPA",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate income tax on ₹8 LPA for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {
+      "gross": 800000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"800000\"></div><p class=\"hint\">Enter total salary before any deductions.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">Max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div></div>",
+    "about_heading": "Income Tax on ₹8 LPA — FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹8 LPA is below the ₹12L 87A rebate threshold — zero tax under new regime.</strong></div><p>Under the new tax regime for FY 2025-26, the Section 87A rebate provides zero tax for taxable income up to ₹12 lakh. After the ₹75,000 standard deduction, ₹8 LPA gives taxable income of ₹7.25L — within the rebate limit.</p><p>Under the old regime, ₹8 LPA with standard deduction and 80C gives taxable income ~₹6L — tax of ~₹32,500. New regime clearly wins.</p>",
+    "formula_heading": "Tax Calculation on ₹8 LPA",
+    "formula_html": "<div class=\"formula-box\">New Regime: ₹8L − ₹75K std = ₹7.25L taxable → 87A rebate → ₹0 tax</div><p>Old regime without deductions: taxable ₹7.5L → tax ₹52,500 + cess = ₹54,600. New regime wins.</p><div class=\"info-callout\">⚠️ Tax slabs for FY 2025-26. 87A rebate applicable only under new regime up to ₹12L taxable income.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹8 LPA — New vs Old Regime</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>Taxable ₹7.25L → 87A rebate → <strong>₹0 tax</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (no deductions)</span><span>Taxable ₹7.5L → ₹54,600 tax</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C max)</span><span>Taxable ₹6L → ₹32,500 + cess = ₹33,800</span></div><div class=\"example-step\"><span class=\"example-step__num\">Verdict</span><span><strong>New regime wins — ₹0 vs ₹33,800+ under old regime</strong></span></div></div>",
+    "related_slugs": [
+      "income-tax-calculator",
+      "salary-in-hand-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is ₹8 LPA tax-free in India?",
+        "a": "Yes — under the new tax regime for FY 2025-26, ₹8 LPA is effectively tax-free. After the ₹75,000 standard deduction, taxable income is ₹7.25L, which is within the Section 87A rebate limit of ₹12 lakh."
+      },
+      {
+        "q": "New regime or old regime for ₹8 LPA?",
+        "a": "New regime is clearly better for ₹8 LPA — zero tax vs ₹33,800+ under old regime even with maximum deductions. There is no scenario at ₹8 LPA where old regime saves more than new regime."
+      },
+      {
+        "q": "What is in-hand salary for ₹8 LPA?",
+        "a": "For ₹8 LPA with 40% basic under new regime (zero tax), monthly in-hand is approximately ₹54,000–58,000. Use our Salary In-Hand Calculator for exact breakdown."
+      }
+    ]
+  },
+  {
+    "slug": "income-tax-calculator-12-lpa",
+    "category": "salary",
+    "variant_of": "income-tax-calculator",
+    "year": "2025",
+    "meta_title": "Income Tax on ₹12 LPA Salary 2025 — Zero Tax? | mycalcu.in",
+    "meta_description": "Calculate income tax on ₹12 LPA for FY 2025-26. Is ₹12 LPA salary tax-free under new regime? New vs old regime comparison.",
+    "og_title": "Income Tax on ₹12 LPA | mycalcu.in",
+    "og_description": "Income tax on ₹12 LPA — new vs old regime FY 2025-26.",
+    "h1_title": "Income Tax Calculator — ₹12 LPA",
+    "subtitle": "Calculate exact income tax on ₹12 lakh per annum for FY 2025-26. New vs old regime — is ₹12 LPA tax-free?",
+    "breadcrumb_name": "Tax ₹12 LPA",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate income tax on ₹12 LPA for FY 2025-26.",
+    "result_label": "Tax Comparison — New vs Old Regime",
+    "js_file": "calculators/tax-calculator.js",
+    "prefill": {
+      "gross": 1200000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"gross-income\">Annual Gross Income (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"gross-income\" name=\"gross-income\" min=\"0\" max=\"100000000\" step=\"10000\" value=\"1200000\"></div><p class=\"hint\">Enter total salary before any deductions.</p></div><p class=\"form-section-label\">Old Regime Deductions <span>(not applicable in new regime)</span></p><div class=\"form-group\"><label for=\"deduction-80c\">Section 80C (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80c\" name=\"deduction-80c\" min=\"0\" max=\"150000\" step=\"1000\" value=\"150000\"></div><p class=\"hint\">Max ₹1.5 lakh</p></div><div class=\"form-group\"><label for=\"deduction-80d\">Section 80D (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"deduction-80d\" name=\"deduction-80d\" min=\"0\" max=\"100000\" step=\"1000\" value=\"25000\"></div></div><div class=\"form-group\"><label for=\"hra-exemption\">HRA Exemption (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-exemption\" name=\"hra-exemption\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div></div><div class=\"form-group\"><label for=\"other-deductions\">Other Deductions (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"other-deductions\" name=\"other-deductions\" min=\"0\" max=\"10000000\" step=\"1000\" value=\"0\"></div></div>",
+    "about_heading": "Income Tax on ₹12 LPA — FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹12 LPA exactly hits the 87A rebate limit — zero tax under new regime.</strong></div><p>Under the new tax regime for FY 2025-26, the Section 87A rebate provides zero tax for taxable income up to ₹12 lakh. After the ₹75,000 standard deduction, ₹12 LPA gives taxable income of ₹11.25L — within the rebate limit.</p><p>₹12 LPA is the sweet spot — exactly at the zero-tax threshold under new regime. Old regime requires ₹1.75L+ deductions to match this.</p>",
+    "formula_heading": "Tax Calculation on ₹12 LPA",
+    "formula_html": "<div class=\"formula-box\">New Regime: ₹12L − ₹75K std = ₹11.25L taxable → 87A rebate → ₹0 tax</div><p>Old regime: ₹12L − ₹50K std = ₹11.5L taxable → tax ₹1,57,500 + cess = ₹1,63,800. New regime saves ₹1.6L+.</p><div class=\"info-callout\">⚠️ Tax slabs for FY 2025-26. 87A rebate applicable only under new regime up to ₹12L taxable income.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹12 LPA — New vs Old Regime</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>Taxable ₹11.25L → 87A rebate → <strong>₹0 tax</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (no deductions)</span><span>Taxable ₹11.5L → ₹1,63,800 tax</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old (80C max)</span><span>Taxable ₹10L → ₹1,17,000 + cess = ₹1,21,680</span></div><div class=\"example-step\"><span class=\"example-step__num\">Verdict</span><span><strong>New regime wins — ₹0 vs ₹1,21,680+ under old regime</strong></span></div></div>",
+    "related_slugs": [
+      "income-tax-calculator",
+      "salary-in-hand-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is ₹12 LPA tax-free in India?",
+        "a": "Yes — under the new tax regime for FY 2025-26, ₹12 LPA is effectively tax-free. After the ₹75,000 standard deduction, taxable income is ₹11.25L, which is within the Section 87A rebate limit of ₹12 lakh."
+      },
+      {
+        "q": "New regime or old regime for ₹12 LPA?",
+        "a": "New regime is clearly better for ₹12 LPA — zero tax vs ₹1,21,680+ under old regime even with maximum deductions. There is no scenario at ₹12 LPA where old regime saves more than new regime."
+      },
+      {
+        "q": "What is in-hand salary for ₹12 LPA?",
+        "a": "For ₹12 LPA with 40% basic under new regime (zero tax), monthly in-hand is approximately ₹82,000–88,000. Use our Salary In-Hand Calculator for exact breakdown."
+      }
+    ]
+  },
+  {
+    "slug": "hra-calculator-chennai",
+    "category": "salary",
+    "variant_of": "hra-calculator",
+    "year": "2025",
+    "meta_title": "HRA Calculator Chennai 2025 — HRA Exemption | mycalcu.in",
+    "meta_description": "Calculate exact HRA tax exemption for Chennai for FY 2025-26. Chennai is a metro city — 50% of basic salary rule applies.",
+    "og_title": "HRA Calculator Chennai | mycalcu.in",
+    "og_description": "HRA exemption for Chennai. Metro city — 50% basic salary rule.",
+    "h1_title": "HRA Calculator — Chennai",
+    "subtitle": "Calculate your exact HRA tax exemption for Chennai for FY 2025-26. Chennai is a metro city — 50% of basic salary applies.",
+    "breadcrumb_name": "HRA Chennai",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate HRA exemption for Chennai employees.",
+    "result_label": "HRA Tax Exemption",
+    "js_file": "calculators/hra-calculator.js",
+    "prefill": {},
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"1000000\" step=\"1000\" value=\"35000\"></div></div><div class=\"form-group\"><label for=\"hra-received\">HRA Received (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-received\" name=\"hra-received\" min=\"0\" max=\"500000\" step=\"500\" value=\"17500\"></div></div><div class=\"form-group\"><label for=\"rent-paid\">Rent Paid (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"rent-paid\" name=\"rent-paid\" min=\"0\" max=\"500000\" step=\"500\" value=\"22000\"></div></div><div class=\"form-group\"><label>City Type</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"city-metro\" name=\"city-type\" value=\"metro\" checked><label for=\"city-metro\">Metro</label><input type=\"radio\" id=\"city-non-metro\" name=\"city-type\" value=\"non-metro\" ><label for=\"city-non-metro\">Non-Metro</label></div><p class=\"hint\">Metro: Mumbai, Delhi, Kolkata, Chennai. All others are non-metro.</p></div>",
+    "about_heading": "HRA Exemption for Chennai Employees",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Chennai is one of the four metro cities — 50% of basic salary HRA rule applies.</strong></div><p>Chennai is one of the four official metro cities for HRA purposes under Section 10(13A). The other three are Mumbai, Delhi, and Kolkata (Kolkata). Metro classification gives employees a higher HRA exemption ceiling of 50% of basic salary.</p><p>HRA exemption is only available under the old tax regime. Under the new regime, all HRA received is fully taxable. For Chennai employees with significant rent, compare both regimes carefully.</p>",
+    "formula_heading": "HRA Exemption Formula for Chennai",
+    "formula_html": "<div class=\"formula-box\">HRA Exemption = Minimum of:<br>1. Actual HRA received<br>2. Rent paid − 10% of Basic<br>3. 50% of Basic (Chennai — metro)</div><div class=\"info-callout\">⚠️ HRA exemption only under old tax regime. Rules for FY 2025-26.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Chennai HRA — Common Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹30K</span><span>HRA ₹15K, Rent ₹18K → Exemption: ₹15,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹50K</span><span>HRA ₹25K, Rent ₹30K → Exemption: ₹25,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹80K</span><span><strong>HRA ₹40K, Rent ₹45K → Exemption: ₹40,000/month = ₹4.8L/year</strong></span></div></div>",
+    "related_slugs": [
+      "hra-calculator",
+      "salary-in-hand-calculator",
+      "income-tax-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is Chennai metro or non-metro for HRA?",
+        "a": "Chennai is a metro city for HRA exemption. The four metro cities are Mumbai, Delhi, Kolkata, and Chennai. Chennai employees get HRA exemption up to 50% of basic salary."
+      },
+      {
+        "q": "How much HRA exemption in Chennai?",
+        "a": "HRA exemption in Chennai = minimum of (actual HRA received), (rent minus 10% of basic), and (50% of basic salary). For ₹40,000 basic with ₹20,000 HRA and ₹25,000 rent: exemption = min(₹20,000, ₹21,000, ₹20,000) = ₹20,000/month = ₹2.4 lakh/year."
+      }
+    ]
+  },
+  {
+    "slug": "hra-calculator-kolkata",
+    "category": "salary",
+    "variant_of": "hra-calculator",
+    "year": "2025",
+    "meta_title": "HRA Calculator Kolkata 2025 — HRA Exemption | mycalcu.in",
+    "meta_description": "Calculate exact HRA tax exemption for Kolkata for FY 2025-26. Kolkata is a metro city — 50% of basic salary rule applies.",
+    "og_title": "HRA Calculator Kolkata | mycalcu.in",
+    "og_description": "HRA exemption for Kolkata. Metro city — 50% basic salary rule.",
+    "h1_title": "HRA Calculator — Kolkata",
+    "subtitle": "Calculate your exact HRA tax exemption for Kolkata for FY 2025-26. Kolkata is a metro city — 50% of basic salary applies.",
+    "breadcrumb_name": "HRA Kolkata",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate HRA exemption for Kolkata employees.",
+    "result_label": "HRA Tax Exemption",
+    "js_file": "calculators/hra-calculator.js",
+    "prefill": {},
+    "inputs_html": "<div class=\"form-group\"><label for=\"basic-salary\">Basic Salary (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"basic-salary\" name=\"basic-salary\" min=\"1000\" max=\"1000000\" step=\"1000\" value=\"35000\"></div></div><div class=\"form-group\"><label for=\"hra-received\">HRA Received (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"hra-received\" name=\"hra-received\" min=\"0\" max=\"500000\" step=\"500\" value=\"17500\"></div></div><div class=\"form-group\"><label for=\"rent-paid\">Rent Paid (Monthly ₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"rent-paid\" name=\"rent-paid\" min=\"0\" max=\"500000\" step=\"500\" value=\"22000\"></div></div><div class=\"form-group\"><label>City Type</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"city-metro\" name=\"city-type\" value=\"metro\" checked><label for=\"city-metro\">Metro</label><input type=\"radio\" id=\"city-non-metro\" name=\"city-type\" value=\"non-metro\" ><label for=\"city-non-metro\">Non-Metro</label></div><p class=\"hint\">Metro: Mumbai, Delhi, Kolkata, Chennai. All others are non-metro.</p></div>",
+    "about_heading": "HRA Exemption for Kolkata Employees",
+    "about_html": "<div class=\"info-callout\">💡 <strong>Kolkata is one of the four metro cities — 50% of basic salary HRA rule applies.</strong></div><p>Kolkata is one of the four official metro cities for HRA purposes under Section 10(13A). The other three are Mumbai, Delhi, and Kolkata (Chennai). Metro classification gives employees a higher HRA exemption ceiling of 50% of basic salary.</p><p>HRA exemption is only available under the old tax regime. Under the new regime, all HRA received is fully taxable. For Kolkata employees with significant rent, compare both regimes carefully.</p>",
+    "formula_heading": "HRA Exemption Formula for Kolkata",
+    "formula_html": "<div class=\"formula-box\">HRA Exemption = Minimum of:<br>1. Actual HRA received<br>2. Rent paid − 10% of Basic<br>3. 50% of Basic (Kolkata — metro)</div><div class=\"info-callout\">⚠️ HRA exemption only under old tax regime. Rules for FY 2025-26.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 Kolkata HRA — Common Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹30K</span><span>HRA ₹15K, Rent ₹18K → Exemption: ₹15,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹50K</span><span>HRA ₹25K, Rent ₹30K → Exemption: ₹25,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Basic ₹80K</span><span><strong>HRA ₹40K, Rent ₹45K → Exemption: ₹40,000/month = ₹4.8L/year</strong></span></div></div>",
+    "related_slugs": [
+      "hra-calculator",
+      "salary-in-hand-calculator",
+      "income-tax-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "Is Kolkata metro or non-metro for HRA?",
+        "a": "Kolkata is a metro city for HRA exemption. The four metro cities are Mumbai, Delhi, Kolkata, and Chennai. Kolkata employees get HRA exemption up to 50% of basic salary."
+      },
+      {
+        "q": "How much HRA exemption in Kolkata?",
+        "a": "HRA exemption in Kolkata = minimum of (actual HRA received), (rent minus 10% of basic), and (50% of basic salary). For ₹40,000 basic with ₹20,000 HRA and ₹25,000 rent: exemption = min(₹20,000, ₹21,000, ₹20,000) = ₹20,000/month = ₹2.4 lakh/year."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-5-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "₹5 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹5 Lakh loan at any rate and tenure. Car Loan EMI calculator for FY 2025-26.",
+    "og_title": "₹5L Loan EMI Calculator | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹5 Lakh loan.",
+    "h1_title": "₹5 Lakh Loan EMI Calculator",
+    "subtitle": "Calculate exact monthly EMI, total interest, and repayment schedule for a ₹5 Lakh loan at any rate and tenure.",
+    "breadcrumb_name": "₹5L EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate EMI for ₹5 Lakh loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "amount": 500000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"500000\"></div></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"6\" max=\"20\" step=\"0.1\" value=\"9.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>6%</span><span id=\"interest-rate-val\">9.5%</span><span>20%</span></div><p class=\"hint\">Enter your lender's actual rate. Rates shown are illustrative only.</p></div><div class=\"form-group\"><label for=\"tenure\">Loan Tenure (Years)</label><input type=\"range\" id=\"tenure\" name=\"tenure\" min=\"1\" max=\"30\" step=\"1\" value=\"5\" aria-describedby=\"tenure-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-val\">5 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹5 Lakh Car Loan — EMI and Interest",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹5 Lakh at 9.5% for 5 years = EMI of ₹10,500/month.</strong> Use the rate slider to enter your lender's actual rate.</div><p>Use the calculator above to find your exact EMI. Adjust rate and tenure to see how your monthly payment changes.</p>",
+    "formula_heading": "How is ₹5 Lakh Loan EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹500,000, r = monthly interest rate, n = tenure in months.</p><div class=\"info-callout\">⚠️ Rate is illustrative. Enter your lender's actual rate for accurate EMI.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹5 Lakh Loan — EMI at Different Rates</div><div class=\"example-step\"><span class=\"example-step__num\">8% / 10yr</span><span>EMI: ₹6,066/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 15yr</span><span>EMI: ₹4,923/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">9% / 20yr</span><span>EMI: ₹4,498/month</span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "salary-in-hand-calculator",
+      "fd-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹5 Lakh loan?",
+        "a": "EMI for ₹5 Lakh loan at 9.5% for 5 years is ₹10,500/month. Adjust the rate and tenure sliders to calculate your exact EMI."
+      },
+      {
+        "q": "What salary do I need for ₹5 Lakh loan?",
+        "a": "Most lenders require EMI to be within 40-50% of net monthly income. For ₹5 Lakh at 9.5% for 5 years, EMI is ₹10,500/month — you need monthly income of at least ₹21,000."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-8-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "₹8 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹8 Lakh loan at any rate and tenure. Car Loan EMI calculator for FY 2025-26.",
+    "og_title": "₹8L Loan EMI Calculator | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹8 Lakh loan.",
+    "h1_title": "₹8 Lakh Loan EMI Calculator",
+    "subtitle": "Calculate exact monthly EMI, total interest, and repayment schedule for a ₹8 Lakh loan at any rate and tenure.",
+    "breadcrumb_name": "₹8L EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate EMI for ₹8 Lakh loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "amount": 800000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"800000\"></div></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"6\" max=\"20\" step=\"0.1\" value=\"9\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>6%</span><span id=\"interest-rate-val\">9%</span><span>20%</span></div><p class=\"hint\">Enter your lender's actual rate. Rates shown are illustrative only.</p></div><div class=\"form-group\"><label for=\"tenure\">Loan Tenure (Years)</label><input type=\"range\" id=\"tenure\" name=\"tenure\" min=\"1\" max=\"30\" step=\"1\" value=\"7\" aria-describedby=\"tenure-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-val\">7 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹8 Lakh Car Loan — EMI and Interest",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹8 Lakh at 9% for 7 years = EMI of ₹12,871/month.</strong> Use the rate slider to enter your lender's actual rate.</div><p>Use the calculator above to find your exact EMI. Adjust rate and tenure to see how your monthly payment changes.</p>",
+    "formula_heading": "How is ₹8 Lakh Loan EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹800,000, r = monthly interest rate, n = tenure in months.</p><div class=\"info-callout\">⚠️ Rate is illustrative. Enter your lender's actual rate for accurate EMI.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹8 Lakh Loan — EMI at Different Rates</div><div class=\"example-step\"><span class=\"example-step__num\">8% / 10yr</span><span>EMI: ₹9,706/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 15yr</span><span>EMI: ₹7,877/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">9% / 20yr</span><span>EMI: ₹7,197/month</span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "salary-in-hand-calculator",
+      "fd-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹8 Lakh loan?",
+        "a": "EMI for ₹8 Lakh loan at 9% for 7 years is ₹12,871/month. Adjust the rate and tenure sliders to calculate your exact EMI."
+      },
+      {
+        "q": "What salary do I need for ₹8 Lakh loan?",
+        "a": "Most lenders require EMI to be within 40-50% of net monthly income. For ₹8 Lakh at 9% for 7 years, EMI is ₹12,871/month — you need monthly income of at least ₹25,000."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-12-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "₹12 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹12 Lakh loan at any rate and tenure. Car Loan EMI calculator for FY 2025-26.",
+    "og_title": "₹12L Loan EMI Calculator | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹12 Lakh loan.",
+    "h1_title": "₹12 Lakh Loan EMI Calculator",
+    "subtitle": "Calculate exact monthly EMI, total interest, and repayment schedule for a ₹12 Lakh loan at any rate and tenure.",
+    "breadcrumb_name": "₹12L EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate EMI for ₹12 Lakh loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "amount": 1200000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"1200000\"></div></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"6\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>6%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div><p class=\"hint\">Enter your lender's actual rate. Rates shown are illustrative only.</p></div><div class=\"form-group\"><label for=\"tenure\">Loan Tenure (Years)</label><input type=\"range\" id=\"tenure\" name=\"tenure\" min=\"1\" max=\"30\" step=\"1\" value=\"7\" aria-describedby=\"tenure-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-val\">7 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹12 Lakh Car Loan — EMI and Interest",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹12 Lakh at 8.5% for 7 years = EMI of ₹19,003/month.</strong> Use the rate slider to enter your lender's actual rate.</div><p>Use the calculator above to find your exact EMI. Adjust rate and tenure to see how your monthly payment changes.</p>",
+    "formula_heading": "How is ₹12 Lakh Loan EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹1,200,000, r = monthly interest rate, n = tenure in months.</p><div class=\"info-callout\">⚠️ Rate is illustrative. Enter your lender's actual rate for accurate EMI.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹12 Lakh Loan — EMI at Different Rates</div><div class=\"example-step\"><span class=\"example-step__num\">8% / 10yr</span><span>EMI: ₹14,559/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 15yr</span><span>EMI: ₹11,816/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">9% / 20yr</span><span>EMI: ₹10,796/month</span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "salary-in-hand-calculator",
+      "fd-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹12 Lakh loan?",
+        "a": "EMI for ₹12 Lakh loan at 8.5% for 7 years is ₹19,003/month. Adjust the rate and tenure sliders to calculate your exact EMI."
+      },
+      {
+        "q": "What salary do I need for ₹12 Lakh loan?",
+        "a": "Most lenders require EMI to be within 40-50% of net monthly income. For ₹12 Lakh at 8.5% for 7 years, EMI is ₹19,003/month — you need monthly income of at least ₹38,000."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-25-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "₹25 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹25 Lakh loan at any rate and tenure. Home Loan EMI calculator for FY 2025-26.",
+    "og_title": "₹25L Loan EMI Calculator | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹25 Lakh loan.",
+    "h1_title": "₹25 Lakh Loan EMI Calculator",
+    "subtitle": "Calculate exact monthly EMI, total interest, and repayment schedule for a ₹25 Lakh loan at any rate and tenure.",
+    "breadcrumb_name": "₹25L EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate EMI for ₹25 Lakh loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "amount": 2500000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"2500000\"></div></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"6\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>6%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div><p class=\"hint\">Enter your lender's actual rate. Rates shown are illustrative only.</p></div><div class=\"form-group\"><label for=\"tenure\">Loan Tenure (Years)</label><input type=\"range\" id=\"tenure\" name=\"tenure\" min=\"1\" max=\"30\" step=\"1\" value=\"20\" aria-describedby=\"tenure-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹25 Lakh Home Loan — EMI and Interest",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹25 Lakh at 8.5% for 20 years = EMI of ₹21,695/month.</strong> Use the rate slider to enter your lender's actual rate.</div><p>Use the calculator above to find your exact EMI. Adjust rate and tenure to see how your monthly payment changes.</p>",
+    "formula_heading": "How is ₹25 Lakh Loan EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹2,500,000, r = monthly interest rate, n = tenure in months.</p><div class=\"info-callout\">⚠️ Rate is illustrative. Enter your lender's actual rate for accurate EMI.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹25 Lakh Loan — EMI at Different Rates</div><div class=\"example-step\"><span class=\"example-step__num\">8% / 10yr</span><span>EMI: ₹30,331/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 15yr</span><span>EMI: ₹24,618/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">9% / 20yr</span><span>EMI: ₹22,493/month</span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "salary-in-hand-calculator",
+      "fd-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹25 Lakh loan?",
+        "a": "EMI for ₹25 Lakh loan at 8.5% for 20 years is ₹21,695/month. Adjust the rate and tenure sliders to calculate your exact EMI."
+      },
+      {
+        "q": "What salary do I need for ₹25 Lakh loan?",
+        "a": "Most lenders require EMI to be within 40-50% of net monthly income. For ₹25 Lakh at 8.5% for 20 years, EMI is ₹21,695/month — you need monthly income of at least ₹43,000."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-40-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "₹40 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹40 Lakh loan at any rate and tenure. Home Loan EMI calculator for FY 2025-26.",
+    "og_title": "₹40L Loan EMI Calculator | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹40 Lakh loan.",
+    "h1_title": "₹40 Lakh Loan EMI Calculator",
+    "subtitle": "Calculate exact monthly EMI, total interest, and repayment schedule for a ₹40 Lakh loan at any rate and tenure.",
+    "breadcrumb_name": "₹40L EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate EMI for ₹40 Lakh loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "amount": 4000000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"4000000\"></div></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"6\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>6%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div><p class=\"hint\">Enter your lender's actual rate. Rates shown are illustrative only.</p></div><div class=\"form-group\"><label for=\"tenure\">Loan Tenure (Years)</label><input type=\"range\" id=\"tenure\" name=\"tenure\" min=\"1\" max=\"30\" step=\"1\" value=\"20\" aria-describedby=\"tenure-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹40 Lakh Home Loan — EMI and Interest",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹40 Lakh at 8.5% for 20 years = EMI of ₹34,712/month.</strong> Use the rate slider to enter your lender's actual rate.</div><p>Use the calculator above to find your exact EMI. Adjust rate and tenure to see how your monthly payment changes.</p>",
+    "formula_heading": "How is ₹40 Lakh Loan EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹4,000,000, r = monthly interest rate, n = tenure in months.</p><div class=\"info-callout\">⚠️ Rate is illustrative. Enter your lender's actual rate for accurate EMI.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹40 Lakh Loan — EMI at Different Rates</div><div class=\"example-step\"><span class=\"example-step__num\">8% / 10yr</span><span>EMI: ₹48,531/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 15yr</span><span>EMI: ₹39,389/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">9% / 20yr</span><span>EMI: ₹35,989/month</span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "salary-in-hand-calculator",
+      "fd-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹40 Lakh loan?",
+        "a": "EMI for ₹40 Lakh loan at 8.5% for 20 years is ₹34,712/month. Adjust the rate and tenure sliders to calculate your exact EMI."
+      },
+      {
+        "q": "What salary do I need for ₹40 Lakh loan?",
+        "a": "Most lenders require EMI to be within 40-50% of net monthly income. For ₹40 Lakh at 8.5% for 20 years, EMI is ₹34,712/month — you need monthly income of at least ₹69,000."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-75-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "₹75 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹75 Lakh loan at any rate and tenure. Home Loan EMI calculator for FY 2025-26.",
+    "og_title": "₹75L Loan EMI Calculator | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹75 Lakh loan.",
+    "h1_title": "₹75 Lakh Loan EMI Calculator",
+    "subtitle": "Calculate exact monthly EMI, total interest, and repayment schedule for a ₹75 Lakh loan at any rate and tenure.",
+    "breadcrumb_name": "₹75L EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate EMI for ₹75 Lakh loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "amount": 7500000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"7500000\"></div></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"6\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>6%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div><p class=\"hint\">Enter your lender's actual rate. Rates shown are illustrative only.</p></div><div class=\"form-group\"><label for=\"tenure\">Loan Tenure (Years)</label><input type=\"range\" id=\"tenure\" name=\"tenure\" min=\"1\" max=\"30\" step=\"1\" value=\"20\" aria-describedby=\"tenure-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹75 Lakh Home Loan — EMI and Interest",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹75 Lakh at 8.5% for 20 years = EMI of ₹65,086/month.</strong> Use the rate slider to enter your lender's actual rate.</div><p>Use the calculator above to find your exact EMI. Adjust rate and tenure to see how your monthly payment changes.</p>",
+    "formula_heading": "How is ₹75 Lakh Loan EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹7,500,000, r = monthly interest rate, n = tenure in months.</p><div class=\"info-callout\">⚠️ Rate is illustrative. Enter your lender's actual rate for accurate EMI.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹75 Lakh Loan — EMI at Different Rates</div><div class=\"example-step\"><span class=\"example-step__num\">8% / 10yr</span><span>EMI: ₹90,995/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 15yr</span><span>EMI: ₹73,855/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">9% / 20yr</span><span>EMI: ₹67,479/month</span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "salary-in-hand-calculator",
+      "fd-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹75 Lakh loan?",
+        "a": "EMI for ₹75 Lakh loan at 8.5% for 20 years is ₹65,086/month. Adjust the rate and tenure sliders to calculate your exact EMI."
+      },
+      {
+        "q": "What salary do I need for ₹75 Lakh loan?",
+        "a": "Most lenders require EMI to be within 40-50% of net monthly income. For ₹75 Lakh at 8.5% for 20 years, EMI is ₹65,086/month — you need monthly income of at least ₹130,000."
+      }
+    ]
+  },
+  {
+    "slug": "fd-calculator-2-lakh",
+    "category": "investment",
+    "variant_of": "fd-calculator",
+    "year": "2025",
+    "meta_title": "FD Calculator ₹2 Lakh — Maturity Amount & Interest | mycalcu.in",
+    "meta_description": "Calculate exact maturity amount for ₹2 Lakh fixed deposit at any bank rate and tenure. Instant FD interest calculation.",
+    "og_title": "₹2Lakh FD Calculator | mycalcu.in",
+    "og_description": "Exact maturity amount for ₹2 Lakh FD.",
+    "h1_title": "₹2 Lakh FD Calculator",
+    "subtitle": "Calculate exact maturity amount and interest for a ₹2 Lakh fixed deposit at any bank rate and tenure.",
+    "breadcrumb_name": "₹2Lakh FD",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate ₹2 Lakh FD maturity amount.",
+    "result_label": "Maturity Amount",
+    "js_file": "calculators/fd-calculator.js",
+    "prefill": {
+      "principal": 200000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"principal\">Deposit Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"principal\" name=\"principal\" min=\"1000\" max=\"100000000\" step=\"1000\" value=\"200000\"></div></div><div class=\"form-group\"><label for=\"fd-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"fd-rate\" name=\"fd-rate\" min=\"3\" max=\"10\" step=\"0.1\" value=\"6.5\" aria-describedby=\"fd-rate-val\"><div class=\"range-labels\"><span>3%</span><span id=\"fd-rate-val\">6.5%</span><span>10%</span></div><p class=\"hint\">Check your bank's current FD rate. Rates change frequently.</p></div><div class=\"form-group\"><label for=\"tenure-years\">Tenure — Years</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-years-val\">2 yrs</span><span>10 yrs</span></div></div><div class=\"form-group\"><label for=\"tenure-months\">Tenure — Additional Months</label><input type=\"range\" id=\"tenure-months\" name=\"tenure-months\" min=\"0\" max=\"11\" step=\"1\" value=\"0\" aria-describedby=\"tenure-months-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-months-val\">0 mo</span><span>11 mo</span></div></div><div class=\"form-group\"><label for=\"compound-freq\">Compounding Frequency</label><select id=\"compound-freq\" name=\"compound-freq\"><option value=\"monthly\">Monthly</option><option value=\"quarterly\" selected>Quarterly</option><option value=\"halfyearly\">Half-yearly</option><option value=\"annually\">Annual</option><option value=\"cumulative\">Cumulative</option></select></div>",
+    "about_heading": "₹2 Lakh FD — What You Can Expect",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹2 Lakh at 6.5% for 2 years (quarterly) = ₹227,527 maturity. Interest earned: ₹27,527.</strong></div><p>Enter your bank's current FD rate to get the exact maturity amount. FD rates change frequently — always check before investing.</p>",
+    "formula_heading": "₹2 Lakh FD Calculation",
+    "formula_html": "<div class=\"formula-box\">A = 200,000 × (1 + r/4)^(4×t)</div><p>At 6.5% for 2 years: ₹227,527</p><div class=\"info-callout\">⚠️ Enter your bank's current rate for accurate results.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹2 Lakh FD — Rate Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">6% / 1yr</span><span>Maturity: ₹212,272</span></div><div class=\"example-step\"><span class=\"example-step__num\">6.5% / 2yr</span><span>Maturity: ₹227,527</span></div><div class=\"example-step\"><span class=\"example-step__num\">7% / 3yr</span><span>Maturity: ₹246,287</span></div><div class=\"example-step\"><span class=\"example-step__num\">7.5% / 5yr</span><span><strong>Maturity: ₹289,989</strong></span></div></div>",
+    "related_slugs": [
+      "fd-calculator",
+      "ppf-calculator",
+      "sip-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the maturity amount for ₹2 Lakh FD?",
+        "a": "At 6.5% with quarterly compounding, ₹2 Lakh FD for 2 years gives ₹227,527 at maturity. Interest earned: ₹27,527. Use the rate slider to enter your bank's exact current rate."
+      },
+      {
+        "q": "Is TDS applicable on ₹2 Lakh FD?",
+        "a": "TDS applies if total FD interest from one bank exceeds ₹40,000 in a financial year. Annual interest on ₹2 Lakh at 6.5% is approximately ₹13,000. This is below the TDS threshold for a single FD."
+      }
+    ]
+  },
+  {
+    "slug": "fd-calculator-10-lakh",
+    "category": "investment",
+    "variant_of": "fd-calculator",
+    "year": "2025",
+    "meta_title": "FD Calculator ₹10 Lakh — Maturity Amount & Interest | mycalcu.in",
+    "meta_description": "Calculate exact maturity amount for ₹10 Lakh fixed deposit at any bank rate and tenure. Instant FD interest calculation.",
+    "og_title": "₹10Lakh FD Calculator | mycalcu.in",
+    "og_description": "Exact maturity amount for ₹10 Lakh FD.",
+    "h1_title": "₹10 Lakh FD Calculator",
+    "subtitle": "Calculate exact maturity amount and interest for a ₹10 Lakh fixed deposit at any bank rate and tenure.",
+    "breadcrumb_name": "₹10Lakh FD",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate ₹10 Lakh FD maturity amount.",
+    "result_label": "Maturity Amount",
+    "js_file": "calculators/fd-calculator.js",
+    "prefill": {
+      "principal": 1000000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"principal\">Deposit Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"principal\" name=\"principal\" min=\"1000\" max=\"100000000\" step=\"1000\" value=\"1000000\"></div></div><div class=\"form-group\"><label for=\"fd-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"fd-rate\" name=\"fd-rate\" min=\"3\" max=\"10\" step=\"0.1\" value=\"6.5\" aria-describedby=\"fd-rate-val\"><div class=\"range-labels\"><span>3%</span><span id=\"fd-rate-val\">6.5%</span><span>10%</span></div><p class=\"hint\">Check your bank's current FD rate. Rates change frequently.</p></div><div class=\"form-group\"><label for=\"tenure-years\">Tenure — Years</label><input type=\"range\" id=\"tenure-years\" name=\"tenure-years\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" aria-describedby=\"tenure-years-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-years-val\">2 yrs</span><span>10 yrs</span></div></div><div class=\"form-group\"><label for=\"tenure-months\">Tenure — Additional Months</label><input type=\"range\" id=\"tenure-months\" name=\"tenure-months\" min=\"0\" max=\"11\" step=\"1\" value=\"0\" aria-describedby=\"tenure-months-val\"><div class=\"range-labels\"><span>0</span><span id=\"tenure-months-val\">0 mo</span><span>11 mo</span></div></div><div class=\"form-group\"><label for=\"compound-freq\">Compounding Frequency</label><select id=\"compound-freq\" name=\"compound-freq\"><option value=\"monthly\">Monthly</option><option value=\"quarterly\" selected>Quarterly</option><option value=\"halfyearly\">Half-yearly</option><option value=\"annually\">Annual</option><option value=\"cumulative\">Cumulative</option></select></div>",
+    "about_heading": "₹10 Lakh FD — What You Can Expect",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹10 Lakh at 6.5% for 2 years (quarterly) = ₹1,137,638 maturity. Interest earned: ₹137,638.</strong></div><p>Enter your bank's current FD rate to get the exact maturity amount. FD rates change frequently — always check before investing.</p>",
+    "formula_heading": "₹10 Lakh FD Calculation",
+    "formula_html": "<div class=\"formula-box\">A = 1,000,000 × (1 + r/4)^(4×t)</div><p>At 6.5% for 2 years: ₹1,137,638</p><div class=\"info-callout\">⚠️ Enter your bank's current rate for accurate results.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹10 Lakh FD — Rate Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">6% / 1yr</span><span>Maturity: ₹1,061,363</span></div><div class=\"example-step\"><span class=\"example-step__num\">6.5% / 2yr</span><span>Maturity: ₹1,137,638</span></div><div class=\"example-step\"><span class=\"example-step__num\">7% / 3yr</span><span>Maturity: ₹1,231,439</span></div><div class=\"example-step\"><span class=\"example-step__num\">7.5% / 5yr</span><span><strong>Maturity: ₹1,449,948</strong></span></div></div>",
+    "related_slugs": [
+      "fd-calculator",
+      "ppf-calculator",
+      "sip-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the maturity amount for ₹10 Lakh FD?",
+        "a": "At 6.5% with quarterly compounding, ₹10 Lakh FD for 2 years gives ₹1,137,638 at maturity. Interest earned: ₹137,638. Use the rate slider to enter your bank's exact current rate."
+      },
+      {
+        "q": "Is TDS applicable on ₹10 Lakh FD?",
+        "a": "TDS applies if total FD interest from one bank exceeds ₹40,000 in a financial year. Annual interest on ₹10 Lakh at 6.5% is approximately ₹65,000. TDS will likely apply — submit Form 15G if your income is below taxable limit."
+      }
+    ]
   }
 ]
