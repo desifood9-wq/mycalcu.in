@@ -192,12 +192,20 @@ def build_sitemap(calculators):
     <lastmod>{TODAY}</lastmod>
   </url>"""
         )
-    for static_slug in ["about", "privacy", "disclaimer", "terms", "contact"]:
+    for static_slug in ["about", "privacy", "disclaimer", "terms", "contact", "guides"]:
         urls.append(
             f"""  <url>
     <loc>{BASE_URL}/{static_slug}/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+  </url>"""
+        )
+    for guide_slug in ["new-vs-old-tax-regime", "how-to-calculate-emi", "how-to-save-tax-india", "sip-vs-fd-vs-ppf", "hra-exemption-explained"]:
+        urls.append(
+            f"""  <url>
+    <loc>{BASE_URL}/guides/{guide_slug}/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>"""
         )
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
