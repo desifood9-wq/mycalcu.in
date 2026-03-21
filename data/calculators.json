@@ -1737,5 +1737,143 @@
         "a": "For Tier I account (the retirement account with tax benefits): minimum ₹500 per contribution and ₹1,000 per year. There is no maximum limit. For Tier II account (voluntary savings, no tax benefit, fully liquid): minimum ₹250 per contribution. NPS Tier I has a lock-in until age 60 with limited withdrawal options."
       }
     ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-40-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "40 LPA In Hand Salary Calculator 2025 — Take Home Pay | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹40 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new vs old regime.",
+    "og_title": "40 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹40 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "40 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹40 LPA CTC for FY 2025-26 — after PF, professional tax, and income tax.",
+    "breadcrumb_name": "40 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹40 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "4000000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\">\n  <label for=\"ctc\">Annual CTC (₹)</label>\n  <div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span>\n  <input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"4000000\" aria-describedby=\"ctc-hint\"></div>\n  <p class=\"hint\" id=\"ctc-hint\">Enter your total annual Cost to Company</p>\n</div>\n<div class=\"form-group\">\n  <label for=\"basic-pct\">Basic Salary (% of CTC)</label>\n  <input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\">\n  <div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div>\n</div>\n<div class=\"form-group\">\n  <label>Tax Regime</label>\n  <div class=\"toggle-group\" role=\"group\" aria-label=\"Select tax regime\">\n    <input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked>\n    <label for=\"regime-new\">New Regime</label>\n    <input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\">\n    <label for=\"regime-old\">Old Regime</label>\n  </div>\n</div>\n<div class=\"form-group\">\n  <label for=\"metro\">City Type</label>\n  <select id=\"metro\" name=\"metro\">\n    <option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option>\n    <option value=\"non-metro\">Non-Metro</option>\n  </select>\n</div>",
+    "about_heading": "₹40 LPA In-Hand Salary — What to Expect",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹40 LPA, monthly in-hand is approximately ₹2,20,000–₹2,45,000</strong> under the new regime with 40% basic. Exact amount depends on your salary structure, EPF contribution, and professional tax.</div><p>₹40 LPA puts you firmly in the 30% tax bracket. Under the new regime, taxable income after ₹75,000 standard deduction is ~₹37.4 lakh — attracting significant tax. However, new regime is still typically better unless you have very high deductions (₹7L+).</p><p>At this salary level, EPF is calculated on ₹15,000/month ceiling (EPFO limit) — so employee EPF is capped at ₹1,800/month regardless of your basic salary. Many companies at this CTC level offer NPS, meal vouchers, and LTA as part of the salary structure — these can reduce your tax burden.</p><p>Key deductions to consider at ₹40 LPA: NPS 80CCD(1B) ₹50K, home loan interest Section 24(b) ₹2L, HRA if renting in metro.</p>",
+    "formula_heading": "How is ₹40 LPA In-Hand Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (40,00,000 − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>At 40% basic, new regime</h3><p>Basic: ₹16L/year. EPF employee: ₹1,800/month (capped at ₹15K basic ceiling). Gross monthly: ~₹3,12,000. TDS: ~₹78,000/month. PT: ₹200/month. Monthly in-hand: ~₹2,32,000.</p><h3>EPF ceiling note</h3><p>EPFO caps EPF contribution on ₹15,000/month basic. Even if your basic is ₹1.3L/month, statutory EPF is only 12% × ₹15,000 = ₹1,800/month. Some companies contribute on full basic voluntarily.</p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹40 LPA — Monthly In-Hand Scenarios</div><div class=\"example-step\"><span class=\"example-step__num\">New regime</span><span>~₹2,32,000/month (no deductions beyond standard)</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old + 80C + 80D</span><span>~₹2,18,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">Old + HRA + NPS + home loan</span><span><strong>~₹2,45,000/month (old regime wins with max deductions)</strong></span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic structure</span><span>Higher EPF deduction but higher HRA exemption — use calculator for exact figure</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "salary-in-hand-calculator-30-lpa"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹40 LPA?",
+        "a": "For ₹40 LPA CTC with 40% basic under the new tax regime, monthly in-hand salary is approximately ₹2,25,000–₹2,35,000. The exact amount depends on your salary structure, city (professional tax varies), and whether your company contributes EPF on full basic or ₹15,000 ceiling."
+      },
+      {
+        "q": "How much tax on ₹40 LPA salary?",
+        "a": "Under the new regime, annual income tax on ₹40 LPA is approximately ₹8.5–9 lakh (including 4% cess). Monthly TDS is around ₹71,000–₹75,000. Under the old regime without deductions, tax is higher. With maximum deductions (HRA + home loan + NPS + 80C + 80D), old regime can save ₹1–1.5 lakh annually."
+      },
+      {
+        "q": "New regime or old regime for ₹40 LPA?",
+        "a": "At ₹40 LPA, old regime can be better if you have substantial deductions — especially home loan interest (₹2L), HRA exemption (₹3–5L in metro), NPS 80CCD(1B) (₹50K), 80C (₹1.5L), and 80D (₹25K). If total deductions exceed ₹7–8 lakh, old regime saves more. Use the income tax calculator with your exact deductions to decide."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-10-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "₹10 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹10 lakh loan at any interest rate and tenure. Home loan, personal loan, car loan EMI for FY 2025-26.",
+    "og_title": "₹10L Loan EMI Calculator | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹10 Lakh loan at any rate and tenure.",
+    "h1_title": "₹10 Lakh Loan EMI Calculator",
+    "subtitle": "Calculate exact monthly EMI, total interest, and repayment schedule for a ₹10 lakh loan at any rate and tenure.",
+    "breadcrumb_name": "₹10L EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate EMI for ₹10 Lakh loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "amount": 1000000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"1000000\"></div></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"6\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>6%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div><p class=\"hint\">Enter your lender's actual rate. Rates shown are illustrative only.</p></div><div class=\"form-group\"><label for=\"tenure\">Loan Tenure (Years)</label><input type=\"range\" id=\"tenure\" name=\"tenure\" min=\"1\" max=\"30\" step=\"1\" value=\"20\" aria-describedby=\"tenure-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹10 Lakh Loan — EMI and Interest Explained",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹10 lakh at 8.5% for 20 years = EMI of ₹8,678/month. Total interest paid: ₹1,08,272.</strong> Use the rate slider to enter your lender's actual rate.</div><p>₹10 lakh is a common loan amount for personal loans, two-wheeler loans, small home renovation loans, and education loans. At this amount, even a 1% difference in interest rate saves ₹6,000–₹8,000 over the full tenure — worth comparing lenders.</p><p>For personal loans at ₹10 lakh, rates typically range from 10–18% p.a. For home loans, 8–9.5%. Always compare the APR (Annual Percentage Rate) which includes processing fees, not just the stated interest rate.</p>",
+    "formula_heading": "How is ₹10 Lakh Loan EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹10,00,000, r = monthly rate, n = tenure in months.</p><h3>At 8.5% for different tenures</h3><p>5 years: EMI ₹20,516 | Total interest ₹23,096<br>10 years: EMI ₹12,399 | Total interest ₹48,880<br>15 years: EMI ₹9,847 | Total interest ₹77,460<br>20 years: EMI ₹8,678 | Total interest ₹1,08,272</p><div class=\"info-callout\">⚠️ Rate used is illustrative. Enter your lender's actual rate for accurate EMI.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹10 Lakh Loan — EMI at Different Rates</div><div class=\"example-step\"><span class=\"example-step__num\">8% / 10yr</span><span>EMI: ₹12,133 | Total interest: ₹45,960</span></div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 15yr</span><span>EMI: ₹9,847 | Total interest: ₹77,460</span></div><div class=\"example-step\"><span class=\"example-step__num\">9% / 20yr</span><span>EMI: ₹8,997 | Total interest: ₹1,15,928</span></div><div class=\"example-step\"><span class=\"example-step__num\">12% / 5yr</span><span><strong>EMI: ₹22,244 | Total interest: ₹33,464 (personal loan)</strong></span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "salary-in-hand-calculator",
+      "fd-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹10 lakh loan?",
+        "a": "EMI for ₹10 lakh loan depends on the interest rate and tenure. At 8.5% for 20 years, EMI is ₹8,678/month. At 8.5% for 10 years, EMI is ₹12,399/month. For personal loans at 12% for 5 years, EMI is ₹22,244/month. Use the rate slider to calculate your exact EMI."
+      },
+      {
+        "q": "What is the total interest on ₹10 lakh home loan?",
+        "a": "At 8.5% for 20 years, total interest on ₹10 lakh home loan is approximately ₹1,08,272 — you pay back ₹11,08,272 in total. Shorter tenure reduces total interest significantly: 10 years at 8.5% costs only ₹48,880 in interest."
+      },
+      {
+        "q": "Can I get ₹10 lakh personal loan?",
+        "a": "Yes — most banks and NBFCs offer personal loans up to ₹10 lakh. Typical eligibility requires monthly income of ₹20,000+, credit score of 700+, and stable employment. Interest rates range from 10–18% depending on your profile. Always compare total cost including processing fees before choosing a lender."
+      }
+    ]
+  },
+  {
+    "slug": "loan-emi-calculator-15-lakh",
+    "category": "loans",
+    "variant_of": "loan-emi-calculator",
+    "year": "2025",
+    "meta_title": "₹15 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_description": "Calculate exact monthly EMI for ₹15 lakh loan at any interest rate and tenure. Home loan, car loan, personal loan EMI calculator.",
+    "og_title": "₹15L Loan EMI Calculator | mycalcu.in",
+    "og_description": "Exact monthly EMI for ₹15 Lakh loan at any rate and tenure.",
+    "h1_title": "₹15 Lakh Loan EMI Calculator",
+    "subtitle": "Calculate exact monthly EMI, total interest, and repayment schedule for a ₹15 lakh loan at any rate and tenure.",
+    "breadcrumb_name": "₹15L EMI",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate EMI for ₹15 Lakh loan.",
+    "result_label": "Monthly EMI",
+    "js_file": "calculators/emi-calculator.js",
+    "prefill": {
+      "amount": 1500000
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"loan-amount\">Loan Amount (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"loan-amount\" name=\"loan-amount\" min=\"10000\" max=\"100000000\" step=\"10000\" value=\"1500000\"></div></div><div class=\"form-group\"><label for=\"interest-rate\">Interest Rate (% p.a.)</label><input type=\"range\" id=\"interest-rate\" name=\"interest-rate\" min=\"6\" max=\"20\" step=\"0.1\" value=\"8.5\" aria-describedby=\"interest-rate-val\"><div class=\"range-labels\"><span>6%</span><span id=\"interest-rate-val\">8.5%</span><span>20%</span></div><p class=\"hint\">Enter your lender's actual rate. Rates shown are illustrative only.</p></div><div class=\"form-group\"><label for=\"tenure\">Loan Tenure (Years)</label><input type=\"range\" id=\"tenure\" name=\"tenure\" min=\"1\" max=\"30\" step=\"1\" value=\"20\" aria-describedby=\"tenure-val\"><div class=\"range-labels\"><span>1 yr</span><span id=\"tenure-val\">20 yrs</span><span>30 yrs</span></div></div>",
+    "about_heading": "₹15 Lakh Loan — EMI and Interest Explained",
+    "about_html": "<div class=\"info-callout\">💡 <strong>₹15 lakh at 8.5% for 20 years = EMI of ₹13,017/month. Total interest: ₹1,62,408.</strong> Use the rate slider to enter your lender's actual rate.</div><p>₹15 lakh is a popular loan amount for car loans (mid-segment cars), home renovation, and top-up home loans. For a car loan at this amount, typical tenure is 5–7 years at 8.5–10% interest.</p><p>For a home loan component of ₹15 lakh, this is usually a top-up or balance transfer amount. Most lenders process ₹15 lakh home loans quickly with minimal documentation if you have existing relationship.</p>",
+    "formula_heading": "How is ₹15 Lakh Loan EMI Calculated?",
+    "formula_html": "<div class=\"formula-box\">EMI = P × r × (1+r)ⁿ / ((1+r)ⁿ − 1)</div><p>Where P = ₹15,00,000, r = monthly rate, n = tenure in months.</p><h3>At 8.5% for different tenures</h3><p>5 years: EMI ₹30,774 | Total interest ₹34,640<br>7 years: EMI ₹23,567 | Total interest ₹47,636<br>15 years: EMI ₹14,771 | Total interest ₹1,15,780<br>20 years: EMI ₹13,017 | Total interest ₹1,62,408</p><div class=\"info-callout\">⚠️ Rate used is illustrative. Enter your lender's actual rate for accurate EMI.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹15 Lakh Loan — EMI Comparison</div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 7yr</span><span>EMI: ₹23,567 | Total interest: ₹47,636 (car loan)</span></div><div class=\"example-step\"><span class=\"example-step__num\">8.5% / 15yr</span><span>EMI: ₹14,771 | Total interest: ₹1,15,780</span></div><div class=\"example-step\"><span class=\"example-step__num\">9% / 20yr</span><span>EMI: ₹13,496 | Total interest: ₹1,73,904</span></div><div class=\"example-step\"><span class=\"example-step__num\">11% / 5yr</span><span><strong>EMI: ₹32,608 | Total interest ₹45,480 (personal loan)</strong></span></div></div>",
+    "related_slugs": [
+      "loan-emi-calculator",
+      "salary-in-hand-calculator",
+      "fd-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the EMI for ₹15 lakh loan?",
+        "a": "EMI for ₹15 lakh loan varies by rate and tenure. At 8.5% for 20 years: ₹13,017/month. At 8.5% for 7 years (car loan): ₹23,567/month. At 11% for 5 years (personal loan): ₹32,608/month. Use the sliders to calculate your exact EMI."
+      },
+      {
+        "q": "What salary do I need for ₹15 lakh loan?",
+        "a": "Most lenders require your EMI to be within 40–50% of your net monthly income. For a ₹15 lakh home loan at 8.5% for 20 years (EMI ₹13,017), you need monthly income of at least ₹26,000–₹33,000. For a car loan at higher rate with shorter tenure, income requirement is higher."
+      },
+      {
+        "q": "What is ₹15 lakh car loan EMI?",
+        "a": "For a ₹15 lakh car loan at 8.5% for 7 years, EMI is ₹23,567/month. At 9% for 5 years, EMI is ₹31,132/month. Car loan rates in India typically range from 8–10% depending on the car model, lender, and your credit profile."
+      }
+    ]
   }
 ]
