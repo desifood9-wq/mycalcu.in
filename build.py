@@ -186,7 +186,7 @@ def build_sitemap(calculators):
     for calc in calculators:
         urls.append(
             f"""  <url>
-    <loc>{BASE_URL}/calculators/{calc["slug"]}</loc>
+    <loc>{BASE_URL}/calculators/{calc["slug"]}/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <lastmod>{TODAY}</lastmod>
