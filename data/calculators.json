@@ -65,7 +65,7 @@
     "category": "salary",
     "variant_of": "salary-in-hand-calculator",
     "year": "2025",
-    "meta_title": "10 LPA In Hand Salary Calculator — Exact Take-Home {{YEAR}} | mycalcu.in",
+    "meta_title": "10 LPA In Hand Salary Calculator — Exact Take-Home {{YEAR}} | mycalcu",
     "meta_description": "Calculate exact in-hand salary for 10 LPA CTC in {{YEAR}}. See monthly take-home after PF, professional tax, and income tax — new and old regime.",
     "og_title": "10 LPA In Hand Salary | mycalcu.in",
     "og_description": "How much do you actually take home on a 10 LPA package? Get the exact breakdown for FY {{YEAR}}-26.",
@@ -117,7 +117,7 @@
     "category": "salary",
     "variant_of": "salary-in-hand-calculator",
     "year": "2025",
-    "meta_title": "15 LPA In Hand Salary Calculator — Take-Home {{YEAR}} | mycalcu.in",
+    "meta_title": "15 LPA In Hand Salary Calculator — Take-Home {{YEAR}} | mycalcu",
     "meta_description": "Calculate exact in-hand salary for 15 LPA CTC in {{YEAR}}. Monthly take-home after EPF, professional tax, and income tax — new and old tax regime.",
     "og_title": "15 LPA In Hand Salary | mycalcu.in",
     "og_description": "Exact take-home salary on ₹15 LPA package for FY {{YEAR}}-26. Full deduction breakdown.",
@@ -169,7 +169,7 @@
     "category": "fuel",
     "variant_of": null,
     "year": "2025",
-    "meta_title": "Fuel Cost Per KM Calculator — Petrol & Diesel {{YEAR}} | mycalcu.in",
+    "meta_title": "Fuel Cost Per KM Calculator — Petrol & Diesel {{YEAR}} | mycalcu",
     "meta_description": "Calculate exact fuel cost per kilometre for your car, bike, or truck. Enter fuel price and mileage to find your per-km running cost.",
     "og_title": "Fuel Cost Per KM Calculator | mycalcu.in",
     "og_description": "Find out how much it costs to travel each kilometre. Works for petrol, diesel, and CNG vehicles.",
@@ -219,7 +219,7 @@
     "category": "loans",
     "variant_of": null,
     "year": "2025",
-    "meta_title": "Loan EMI Calculator — Monthly EMI for Any Loan {{YEAR}} | mycalcu.in",
+    "meta_title": "Loan EMI Calculator — Monthly EMI for Any Loan {{YEAR}} | mycalcu",
     "meta_description": "Calculate your monthly EMI for home loans, personal loans, car loans instantly. See total interest payable and complete payment breakdown.",
     "og_title": "Loan EMI Calculator | mycalcu.in",
     "og_description": "Calculate EMI for any loan amount, interest rate, and tenure. View total interest payable and amortisation summary.",
@@ -640,7 +640,7 @@
     "category": "investment",
     "variant_of": "sip-calculator",
     "year": "2025",
-    "meta_title": "₹500 Per Month SIP Returns Calculator — 10, 20, 30 Years | mycalcu.in",
+    "meta_title": "₹500 Per Month SIP Returns Calculator — 10, 20, 30 Years | mycalcu",
     "meta_description": "Calculate returns on ₹500 per month SIP for 10, 20, 30 years. See exactly how much ₹500/month grows at 12% annual return.",
     "og_title": "₹500/month SIP Returns | mycalcu.in",
     "og_description": "How much does ₹500 per month SIP grow to? Exact corpus for 10, 20, 30 years.",
@@ -691,7 +691,7 @@
     "category": "investment",
     "variant_of": "sip-calculator",
     "year": "2025",
-    "meta_title": "₹1000 Per Month SIP Returns Calculator — 10, 20, 30 Years | mycalcu.in",
+    "meta_title": "₹1000 Per Month SIP Returns Calculator — 10, 20, 30 Years | mycalcu",
     "meta_description": "Calculate returns on ₹1000 per month SIP. See exactly how much ₹1,000/month grows at 12% annual return over 10 to 30 years.",
     "og_title": "₹1000/month SIP Returns | mycalcu.in",
     "og_description": "How much does ₹1,000 per month SIP grow to? Exact corpus for 10, 20, 30 years.",
@@ -742,7 +742,7 @@
     "category": "investment",
     "variant_of": "sip-calculator",
     "year": "2025",
-    "meta_title": "₹5000 Per Month SIP Returns Calculator — 10, 20, 30 Years | mycalcu.in",
+    "meta_title": "₹5000 Per Month SIP Returns Calculator — 10, 20, 30 Years | mycalcu",
     "meta_description": "Calculate returns on ₹5,000 per month SIP. See exactly how much ₹5,000/month grows at 12% annual return over 10 to 30 years.",
     "og_title": "₹5000/month SIP Returns | mycalcu.in",
     "og_description": "How much does ₹5,000 per month SIP grow to? Exact corpus for 10, 20, 30 years.",
@@ -793,7 +793,7 @@
     "category": "investment",
     "variant_of": "sip-calculator",
     "year": "2025",
-    "meta_title": "₹10000 Per Month SIP Returns Calculator — 10, 20, 30 Years | mycalcu.in",
+    "meta_title": "₹10000 Per Month SIP Returns Calculator — 10, 20, 30 Years | mycalcu",
     "meta_description": "Calculate returns on ₹10,000 per month SIP. See exactly how much ₹10,000/month grows over 10 to 30 years at 12% return.",
     "og_title": "₹10000/month SIP Returns | mycalcu.in",
     "og_description": "How much does ₹10,000 per month SIP grow to? Full corpus breakdown.",
@@ -1508,7 +1508,7 @@
     "category": "salary",
     "variant_of": "income-tax-calculator",
     "year": "2025",
-    "meta_title": "Income Tax on ₹10 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_title": "Income Tax on ₹10 LPA Salary — New vs Old Regime | mycalcu.in",
     "meta_description": "Calculate exact income tax on ₹10 lakh salary for FY 2025-26. New regime vs old regime comparison — see which saves more tax.",
     "og_title": "Income Tax on ₹10 LPA | mycalcu.in",
     "og_description": "Exact income tax on ₹10 LPA. New vs old regime — FY 2025-26.",
@@ -1553,7 +1553,7 @@
     "category": "salary",
     "variant_of": "income-tax-calculator",
     "year": "2025",
-    "meta_title": "Income Tax on ₹15 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_title": "Income Tax on ₹15 LPA Salary — New vs Old Regime | mycalcu.in",
     "meta_description": "Calculate exact income tax on ₹15 lakh salary for FY 2025-26. New vs old regime — which saves more at ₹15 LPA?",
     "og_title": "Income Tax on ₹15 LPA | mycalcu.in",
     "og_description": "Exact income tax on ₹15 LPA. New vs old regime — FY 2025-26.",
@@ -1598,7 +1598,7 @@
     "category": "salary",
     "variant_of": "income-tax-calculator",
     "year": "2025",
-    "meta_title": "Income Tax on ₹20 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_title": "Income Tax on ₹20 LPA Salary — New vs Old Regime | mycalcu.in",
     "meta_description": "Calculate exact income tax on ₹20 lakh salary for FY 2025-26. New vs old regime comparison at ₹20 LPA.",
     "og_title": "Income Tax on ₹20 LPA | mycalcu.in",
     "og_description": "Exact income tax on ₹20 LPA. New vs old regime — FY 2025-26.",
@@ -1643,7 +1643,7 @@
     "category": "salary",
     "variant_of": "income-tax-calculator",
     "year": "2025",
-    "meta_title": "Income Tax on ₹30 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_title": "Income Tax on ₹30 LPA Salary — New vs Old Regime | mycalcu.in",
     "meta_description": "Calculate exact income tax on ₹30 lakh salary for FY 2025-26. New vs old regime at ₹30 LPA — full breakdown.",
     "og_title": "Income Tax on ₹30 LPA | mycalcu.in",
     "og_description": "Exact income tax on ₹30 LPA. New vs old regime — FY 2025-26.",
@@ -1688,7 +1688,7 @@
     "category": "investment",
     "variant_of": null,
     "year": "2025",
-    "meta_title": "NPS Calculator 2025 — Pension Corpus & Monthly Pension | mycalcu.in",
+    "meta_title": "NPS Calculator — Pension Corpus & Monthly Pension | mycalcu.in",
     "meta_description": "Calculate your NPS corpus, monthly pension, and tax savings for FY 2025-26. National Pension System calculator with lump sum and annuity breakdown.",
     "og_title": "NPS Calculator 2025 | mycalcu.in",
     "og_description": "Calculate NPS corpus, monthly pension estimate, and 80CCD tax savings.",
@@ -1743,7 +1743,7 @@
     "category": "salary",
     "variant_of": "salary-in-hand-calculator",
     "year": "2025",
-    "meta_title": "40 LPA In Hand Salary Calculator 2025 — Take Home Pay | mycalcu.in",
+    "meta_title": "40 LPA In Hand Salary Calculator — Take Home Pay | mycalcu.in",
     "meta_description": "Calculate exact in-hand salary for ₹40 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new vs old regime.",
     "og_title": "40 LPA In Hand Salary | mycalcu.in",
     "og_description": "Exact monthly take-home for ₹40 LPA CTC. New vs old regime breakdown.",
@@ -1791,7 +1791,7 @@
     "category": "loans",
     "variant_of": "loan-emi-calculator",
     "year": "2025",
-    "meta_title": "₹10 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_title": "₹10 Lakh Loan EMI Calculator — Monthly EMI & Interest | mycalcu",
     "meta_description": "Calculate exact monthly EMI for ₹10 lakh loan at any interest rate and tenure. Home loan, personal loan, car loan EMI for FY 2025-26.",
     "og_title": "₹10L Loan EMI Calculator | mycalcu.in",
     "og_description": "Exact monthly EMI for ₹10 Lakh loan at any rate and tenure.",
@@ -1836,7 +1836,7 @@
     "category": "loans",
     "variant_of": "loan-emi-calculator",
     "year": "2025",
-    "meta_title": "₹15 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_title": "₹15 Lakh Loan EMI Calculator — Monthly EMI & Interest | mycalcu",
     "meta_description": "Calculate exact monthly EMI for ₹15 lakh loan at any interest rate and tenure. Home loan, car loan, personal loan EMI calculator.",
     "og_title": "₹15L Loan EMI Calculator | mycalcu.in",
     "og_description": "Exact monthly EMI for ₹15 Lakh loan at any rate and tenure.",
@@ -2010,7 +2010,7 @@
     "category": "salary",
     "variant_of": "income-tax-calculator",
     "year": "2025",
-    "meta_title": "Income Tax on ₹25 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_title": "Income Tax on ₹25 LPA Salary — New vs Old Regime | mycalcu.in",
     "meta_description": "Calculate exact income tax on ₹25 lakh salary for FY 2025-26. New vs old regime — which saves more at ₹25 LPA?",
     "og_title": "Income Tax on ₹25 LPA | mycalcu.in",
     "og_description": "Exact income tax on ₹25 LPA. New vs old regime for FY 2025-26.",
@@ -2055,7 +2055,7 @@
     "category": "salary",
     "variant_of": "income-tax-calculator",
     "year": "2025",
-    "meta_title": "Income Tax on ₹50 LPA Salary 2025 — New vs Old Regime | mycalcu.in",
+    "meta_title": "Income Tax on ₹50 LPA Salary — New vs Old Regime | mycalcu.in",
     "meta_description": "Calculate exact income tax on ₹50 lakh salary for FY 2025-26. New vs old regime comparison at ₹50 LPA — full breakdown.",
     "og_title": "Income Tax on ₹50 LPA | mycalcu.in",
     "og_description": "Exact income tax on ₹50 LPA. New vs old regime for FY 2025-26.",
@@ -2100,7 +2100,7 @@
     "category": "salary",
     "variant_of": "salary-in-hand-calculator",
     "year": "2025",
-    "meta_title": "35 LPA In Hand Salary Calculator 2025 — Take Home Pay | mycalcu.in",
+    "meta_title": "35 LPA In Hand Salary Calculator — Take Home Pay | mycalcu.in",
     "meta_description": "Calculate exact in-hand salary for ₹35 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax.",
     "og_title": "35 LPA In Hand Salary | mycalcu.in",
     "og_description": "Exact monthly take-home for ₹35 LPA CTC. New vs old regime.",
@@ -2148,7 +2148,7 @@
     "category": "salary",
     "variant_of": "salary-in-hand-calculator",
     "year": "2025",
-    "meta_title": "45 LPA In Hand Salary Calculator 2025 — Take Home Pay | mycalcu.in",
+    "meta_title": "45 LPA In Hand Salary Calculator — Take Home Pay | mycalcu.in",
     "meta_description": "Calculate exact in-hand salary for ₹45 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax.",
     "og_title": "45 LPA In Hand Salary | mycalcu.in",
     "og_description": "Exact monthly take-home for ₹45 LPA CTC. New vs old regime.",
@@ -2319,7 +2319,7 @@
     "category": "investment",
     "variant_of": "nps-calculator",
     "year": "2025",
-    "meta_title": "NPS Calculator Age 25 — Pension Corpus & Monthly Pension | mycalcu.in",
+    "meta_title": "NPS Calculator Age 25 — Pension Corpus & Monthly Pension | mycalcu",
     "meta_description": "Calculate NPS corpus starting at age 25. See retirement corpus, monthly pension, and tax savings for FY 2025-26.",
     "og_title": "NPS Calculator Age 25 | mycalcu.in",
     "og_description": "NPS corpus and monthly pension starting at age 25.",
@@ -2361,7 +2361,7 @@
     "category": "investment",
     "variant_of": "nps-calculator",
     "year": "2025",
-    "meta_title": "NPS Calculator Age 35 — Pension Corpus & Monthly Pension | mycalcu.in",
+    "meta_title": "NPS Calculator Age 35 — Pension Corpus & Monthly Pension | mycalcu",
     "meta_description": "Calculate NPS corpus starting at age 35. See retirement corpus, monthly pension, and tax savings for FY 2025-26.",
     "og_title": "NPS Calculator Age 35 | mycalcu.in",
     "og_description": "NPS corpus and monthly pension starting at age 35.",
@@ -2571,7 +2571,7 @@
     "category": "loans",
     "variant_of": "loan-emi-calculator",
     "year": "2025",
-    "meta_title": "₹5 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_title": "₹5 Lakh Loan EMI Calculator — Monthly EMI & Interest | mycalcu.in",
     "meta_description": "Calculate exact monthly EMI for ₹5 Lakh loan at any rate and tenure. Car Loan EMI calculator for FY 2025-26.",
     "og_title": "₹5L Loan EMI Calculator | mycalcu.in",
     "og_description": "Exact monthly EMI for ₹5 Lakh loan.",
@@ -2612,7 +2612,7 @@
     "category": "loans",
     "variant_of": "loan-emi-calculator",
     "year": "2025",
-    "meta_title": "₹8 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_title": "₹8 Lakh Loan EMI Calculator — Monthly EMI & Interest | mycalcu.in",
     "meta_description": "Calculate exact monthly EMI for ₹8 Lakh loan at any rate and tenure. Car Loan EMI calculator for FY 2025-26.",
     "og_title": "₹8L Loan EMI Calculator | mycalcu.in",
     "og_description": "Exact monthly EMI for ₹8 Lakh loan.",
@@ -2653,7 +2653,7 @@
     "category": "loans",
     "variant_of": "loan-emi-calculator",
     "year": "2025",
-    "meta_title": "₹12 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_title": "₹12 Lakh Loan EMI Calculator — Monthly EMI & Interest | mycalcu",
     "meta_description": "Calculate exact monthly EMI for ₹12 Lakh loan at any rate and tenure. Car Loan EMI calculator for FY 2025-26.",
     "og_title": "₹12L Loan EMI Calculator | mycalcu.in",
     "og_description": "Exact monthly EMI for ₹12 Lakh loan.",
@@ -2694,7 +2694,7 @@
     "category": "loans",
     "variant_of": "loan-emi-calculator",
     "year": "2025",
-    "meta_title": "₹25 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_title": "₹25 Lakh Loan EMI Calculator — Monthly EMI & Interest | mycalcu",
     "meta_description": "Calculate exact monthly EMI for ₹25 Lakh loan at any rate and tenure. Home Loan EMI calculator for FY 2025-26.",
     "og_title": "₹25L Loan EMI Calculator | mycalcu.in",
     "og_description": "Exact monthly EMI for ₹25 Lakh loan.",
@@ -2735,7 +2735,7 @@
     "category": "loans",
     "variant_of": "loan-emi-calculator",
     "year": "2025",
-    "meta_title": "₹40 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_title": "₹40 Lakh Loan EMI Calculator — Monthly EMI & Interest | mycalcu",
     "meta_description": "Calculate exact monthly EMI for ₹40 Lakh loan at any rate and tenure. Home Loan EMI calculator for FY 2025-26.",
     "og_title": "₹40L Loan EMI Calculator | mycalcu.in",
     "og_description": "Exact monthly EMI for ₹40 Lakh loan.",
@@ -2776,7 +2776,7 @@
     "category": "loans",
     "variant_of": "loan-emi-calculator",
     "year": "2025",
-    "meta_title": "₹75 Lakh Loan EMI Calculator 2025 — Monthly EMI & Interest | mycalcu.in",
+    "meta_title": "₹75 Lakh Loan EMI Calculator — Monthly EMI & Interest | mycalcu",
     "meta_description": "Calculate exact monthly EMI for ₹75 Lakh loan at any rate and tenure. Home Loan EMI calculator for FY 2025-26.",
     "og_title": "₹75L Loan EMI Calculator | mycalcu.in",
     "og_description": "Exact monthly EMI for ₹75 Lakh loan.",
@@ -2891,6 +2891,678 @@
       {
         "q": "Is TDS applicable on ₹10 Lakh FD?",
         "a": "TDS applies if total FD interest from one bank exceeds ₹40,000 in a financial year. Annual interest on ₹10 Lakh at 6.5% is approximately ₹65,000. TDS will likely apply — submit Form 15G if your income is below taxable limit."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-3-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "3 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹3 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "3 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹3 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "3 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹3 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "3 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹3 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "300000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"300000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹3 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹3 LPA, monthly in-hand is approximately ₹22,420–₹24,780</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹3 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹25,000</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,200/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹23,600</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹3 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹3 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹25,000<br><strong>Step 2:</strong> Basic (40%) = ₹10,000/month<br><strong>Step 3:</strong> Employee EPF = ₹1,200/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹23,600</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹3 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹23,600/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹3 LPA?",
+        "a": "For ₹3 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹22,420–₹24,780. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹3 LPA per month?",
+        "a": "₹3 LPA (Lakh Per Annum) means ₹25,000 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹23,600 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹3 LPA a good salary in India?",
+        "a": "₹3 LPA (₹25,000/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-4-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "4 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹4 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "4 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹4 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "4 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹4 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "4 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹4 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "400000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"400000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹4 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹4 LPA, monthly in-hand is approximately ₹29,956–₹33,109</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹4 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹33,333</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,600/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹31,533</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹4 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹4 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹33,333<br><strong>Step 2:</strong> Basic (40%) = ₹13,333/month<br><strong>Step 3:</strong> Employee EPF = ₹1,600/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹31,533</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹4 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹31,533/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹4 LPA?",
+        "a": "For ₹4 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹29,956–₹33,109. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹4 LPA per month?",
+        "a": "₹4 LPA (Lakh Per Annum) means ₹33,333 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹31,533 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹4 LPA a good salary in India?",
+        "a": "₹4 LPA (₹33,333/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-6-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "6 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹6 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "6 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹6 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "6 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹6 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "6 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹6 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "600000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"600000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹6 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹6 LPA, monthly in-hand is approximately ₹45,600–₹50,400</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹6 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹50,000</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹48,000</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹6 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹6 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹50,000<br><strong>Step 2:</strong> Basic (40%) = ₹20,000/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹48,000</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹6 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹48,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹6 LPA?",
+        "a": "For ₹6 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹45,600–₹50,400. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹6 LPA per month?",
+        "a": "₹6 LPA (Lakh Per Annum) means ₹50,000 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹48,000 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹6 LPA a good salary in India?",
+        "a": "₹6 LPA (₹50,000/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-8-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "8 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹8 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "8 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹8 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "8 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹8 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "8 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹8 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "800000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"800000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹8 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹8 LPA, monthly in-hand is approximately ₹61,432–₹67,899</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹8 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹66,666</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹64,666</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹8 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹8 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹66,666<br><strong>Step 2:</strong> Basic (40%) = ₹26,666/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹64,666</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹8 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹64,666/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹8 LPA?",
+        "a": "For ₹8 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹61,432–₹67,899. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹8 LPA per month?",
+        "a": "₹8 LPA (Lakh Per Annum) means ₹66,666 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹64,666 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹8 LPA a good salary in India?",
+        "a": "₹8 LPA (₹66,666/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-9-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "9 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹9 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "9 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹9 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "9 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹9 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "9 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹9 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "900000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"900000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹9 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹9 LPA, monthly in-hand is approximately ₹69,350–₹76,650</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹9 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹75,000</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹73,000</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹9 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹9 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹75,000<br><strong>Step 2:</strong> Basic (40%) = ₹30,000/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹73,000</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹9 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹73,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹9 LPA?",
+        "a": "For ₹9 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹69,350–₹76,650. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹9 LPA per month?",
+        "a": "₹9 LPA (Lakh Per Annum) means ₹75,000 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹73,000 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹9 LPA a good salary in India?",
+        "a": "₹9 LPA (₹75,000/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-11-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "11 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹11 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "11 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹11 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "11 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹11 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "11 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹11 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "1100000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"1100000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹11 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹11 LPA, monthly in-hand is approximately ₹85,182–₹94,149</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹11 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹91,666</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹89,666</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹11 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹11 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹91,666<br><strong>Step 2:</strong> Basic (40%) = ₹36,666/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹89,666</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹11 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹89,666/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹11 LPA?",
+        "a": "For ₹11 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹85,182–₹94,149. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹11 LPA per month?",
+        "a": "₹11 LPA (Lakh Per Annum) means ₹91,666 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹89,666 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹11 LPA a good salary in India?",
+        "a": "₹11 LPA (₹91,666/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-12-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "12 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹12 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "12 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹12 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "12 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹12 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "12 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹12 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "1200000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"1200000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹12 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹12 LPA, monthly in-hand is approximately ₹93,100–₹102,900</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹12 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹100,000</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹98,000</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹12 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹12 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹100,000<br><strong>Step 2:</strong> Basic (40%) = ₹40,000/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹98,000</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹12 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹98,000/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹12 LPA?",
+        "a": "For ₹12 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹93,100–₹102,900. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹12 LPA per month?",
+        "a": "₹12 LPA (Lakh Per Annum) means ₹100,000 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹98,000 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹12 LPA a good salary in India?",
+        "a": "₹12 LPA (₹100,000/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-13-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "13 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹13 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "13 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹13 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "13 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹13 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "13 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹13 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "1300000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"1300000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹13 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹13 LPA, monthly in-hand is approximately ₹95,767–₹105,848</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹13 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹108,333</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹100,808</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹13 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹13 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹108,333<br><strong>Step 2:</strong> Basic (40%) = ₹43,333/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹100,808</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹13 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹100,808/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹13 LPA?",
+        "a": "For ₹13 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹95,767–₹105,848. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹13 LPA per month?",
+        "a": "₹13 LPA (Lakh Per Annum) means ₹108,333 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹100,808 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹13 LPA a good salary in India?",
+        "a": "₹13 LPA (₹108,333/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-14-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "14 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹14 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "14 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹14 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "14 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹14 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "14 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹14 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "1400000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"1400000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹14 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹14 LPA, monthly in-hand is approximately ₹102,448–₹113,233</strong> under the new regime with 40% basic. Income tax of ~₹81,900/year (₹6,825/month) applies under the new regime.</div><p>For ₹14 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹116,666</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ~₹6,825/month TDS</li><li><strong>Monthly in-hand:</strong> ~₹107,841</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹14 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹14 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹116,666<br><strong>Step 2:</strong> Basic (40%) = ₹46,666/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ~₹6,825/month<br><strong>Monthly in-hand = ~₹107,841</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹14 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹107,841/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>Use income tax calculator to compare both regimes for your deductions</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹14 LPA?",
+        "a": "For ₹14 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹102,448–₹113,233. Income tax is approximately ₹81,900/year under the new regime. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹14 LPA per month?",
+        "a": "₹14 LPA (Lakh Per Annum) means ₹116,666 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹107,841 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹14 LPA a good salary in India?",
+        "a": "₹14 LPA (₹116,666/month gross) places you in a comfortable income bracket. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-16-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "16 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹16 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "16 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹16 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "16 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹16 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "16 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹16 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "1600000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"1600000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹16 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹16 LPA, monthly in-hand is approximately ₹115,812–₹128,003</strong> under the new regime with 40% basic. Income tax of ~₹113,100/year (₹9,425/month) applies under the new regime.</div><p>For ₹16 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹133,333</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ~₹9,425/month TDS</li><li><strong>Monthly in-hand:</strong> ~₹121,908</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹16 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹16 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹133,333<br><strong>Step 2:</strong> Basic (40%) = ₹53,333/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ~₹9,425/month<br><strong>Monthly in-hand = ~₹121,908</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹16 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹121,908/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>Use income tax calculator to compare both regimes for your deductions</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹16 LPA?",
+        "a": "For ₹16 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹115,812–₹128,003. Income tax is approximately ₹113,100/year under the new regime. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹16 LPA per month?",
+        "a": "₹16 LPA (Lakh Per Annum) means ₹133,333 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹121,908 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹16 LPA a good salary in India?",
+        "a": "₹16 LPA (₹133,333/month gross) places you in a comfortable income bracket. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-18-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "18 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹18 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "18 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹18 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "18 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹18 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "18 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹18 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "1800000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"1800000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹18 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹18 LPA, monthly in-hand is approximately ₹128,661–₹142,204</strong> under the new regime with 40% basic. Income tax of ~₹150,800/year (₹12,566/month) applies under the new regime.</div><p>For ₹18 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹150,000</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ~₹12,566/month TDS</li><li><strong>Monthly in-hand:</strong> ~₹135,433</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹18 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹18 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹150,000<br><strong>Step 2:</strong> Basic (40%) = ₹60,000/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ~₹12,566/month<br><strong>Monthly in-hand = ~₹135,433</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹18 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹135,433/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>Use income tax calculator to compare both regimes for your deductions</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹18 LPA?",
+        "a": "For ₹18 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹128,661–₹142,204. Income tax is approximately ₹150,800/year under the new regime. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹18 LPA per month?",
+        "a": "₹18 LPA (Lakh Per Annum) means ₹150,000 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹135,433 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹18 LPA a good salary in India?",
+        "a": "₹18 LPA (₹150,000/month gross) places you in a comfortable income bracket. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-22-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "22 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹22 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "22 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹22 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "22 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹22 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "22 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹22 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "2200000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"2200000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹22 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹22 LPA, monthly in-hand is approximately ₹153,226–₹169,355</strong> under the new regime with 40% basic. Income tax of ~₹240,500/year (₹20,041/month) applies under the new regime.</div><p>For ₹22 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹183,333</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ~₹20,041/month TDS</li><li><strong>Monthly in-hand:</strong> ~₹161,291</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹22 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹22 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹183,333<br><strong>Step 2:</strong> Basic (40%) = ₹73,333/month<br><strong>Step 3:</strong> Employee EPF = ₹1,800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ~₹20,041/month<br><strong>Monthly in-hand = ~₹161,291</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹22 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹161,291/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>Use income tax calculator to compare both regimes for your deductions</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹22 LPA?",
+        "a": "For ₹22 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹153,226–₹169,355. Income tax is approximately ₹240,500/year under the new regime. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹22 LPA per month?",
+        "a": "₹22 LPA (Lakh Per Annum) means ₹183,333 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹161,291 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹22 LPA a good salary in India?",
+        "a": "₹22 LPA (₹183,333/month gross) places you in a comfortable income bracket. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-2-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "2 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹2 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "2 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹2 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "2 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹2 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "2 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹2 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "200000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"200000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹2 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹2 LPA, monthly in-hand is approximately ₹14,882–₹16,449</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹2 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹16,666</li><li><strong>Employee EPF (12% of basic):</strong> ₹800/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹15,666</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹2 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹2 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹16,666<br><strong>Step 2:</strong> Basic (40%) = ₹6,666/month<br><strong>Step 3:</strong> Employee EPF = ₹800/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹15,666</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹2 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹15,666/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹2 LPA?",
+        "a": "For ₹2 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹14,882–₹16,449. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹2 LPA per month?",
+        "a": "₹2 LPA (Lakh Per Annum) means ₹16,666 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹15,666 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹2 LPA a good salary in India?",
+        "a": "₹2 LPA (₹16,666/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
+      }
+    ]
+  },
+  {
+    "slug": "salary-in-hand-calculator-2-8-lpa",
+    "category": "salary",
+    "variant_of": "salary-in-hand-calculator",
+    "year": "2025",
+    "meta_title": "2.8 LPA In Hand Salary 2025 — Take Home Per Month | mycalcu.in",
+    "meta_description": "Calculate exact in-hand salary for ₹2.8 LPA CTC for FY 2025-26. Monthly take-home after PF, professional tax, and income tax — new and old regime.",
+    "og_title": "2.8 LPA In Hand Salary | mycalcu.in",
+    "og_description": "Exact monthly take-home for ₹2.8 LPA CTC. New vs old regime breakdown.",
+    "h1_title": "2.8 LPA In Hand Salary Calculator",
+    "subtitle": "Calculate your exact monthly take-home salary for ₹2.8 LPA CTC for FY 2025-26. Instant breakdown after PF, professional tax, and income tax.",
+    "breadcrumb_name": "2.8 LPA In Hand",
+    "schema_category": "FinanceApplication",
+    "schema_description": "Calculate in-hand salary for ₹2.8 LPA CTC for FY 2025-26.",
+    "result_label": "Monthly In-Hand Salary",
+    "js_file": "calculators/salary-calculator.js",
+    "prefill": {
+      "ctc": "280000",
+      "basic_pct": "40",
+      "regime": "new",
+      "city": "metro"
+    },
+    "inputs_html": "<div class=\"form-group\"><label for=\"ctc\">Annual CTC (₹)</label><div class=\"input-wrap\"><span class=\"input-wrap__prefix\">₹</span><input type=\"number\" id=\"ctc\" name=\"ctc\" min=\"100000\" max=\"100000000\" step=\"10000\" value=\"280000\"></div><p class=\"hint\">Enter your total annual Cost to Company</p></div><div class=\"form-group\"><label for=\"basic-pct\">Basic Salary (% of CTC)</label><input type=\"range\" id=\"basic-pct\" name=\"basic-pct\" min=\"30\" max=\"60\" value=\"40\" aria-describedby=\"basic-pct-val\"><div class=\"range-labels\"><span>30%</span><span id=\"basic-pct-val\">40%</span><span>60%</span></div></div><div class=\"form-group\"><label>Tax Regime</label><div class=\"toggle-group\" role=\"group\"><input type=\"radio\" id=\"regime-new\" name=\"regime\" value=\"new\" checked><label for=\"regime-new\">New Regime</label><input type=\"radio\" id=\"regime-old\" name=\"regime\" value=\"old\"><label for=\"regime-old\">Old Regime</label></div></div><div class=\"form-group\"><label for=\"metro\">City Type</label><select id=\"metro\" name=\"metro\"><option value=\"metro\">Metro (Mumbai, Delhi, Kolkata, Chennai)</option><option value=\"non-metro\">Non-Metro</option></select></div>",
+    "about_heading": "₹2.8 LPA In-Hand Salary — What to Expect in FY 2025-26",
+    "about_html": "<div class=\"info-callout\">💡 <strong>At ₹2.8 LPA, monthly in-hand is approximately ₹20,912–₹23,113</strong> under the new regime with 40% basic. Zero income tax applies — taxable income is within the ₹12L 87A rebate limit.</div><p>For ₹2.8 LPA CTC with 40% basic salary structure, here is what to expect:</p><ul><li><strong>Gross monthly salary:</strong> ₹23,333</li><li><strong>Employee EPF (12% of basic):</strong> ₹1,120/month</li><li><strong>Professional tax:</strong> ₹200/month (varies by state)</li><li><strong>Income tax (new regime):</strong> ₹0 (87A rebate — zero tax)</li><li><strong>Monthly in-hand:</strong> ~₹22,013</li></ul><p>Actual in-hand salary depends on your exact salary structure, city, and whether your company contributes EPF on full basic or ₹15,000 ceiling. Use the calculator above for your precise figure.</p>",
+    "formula_heading": "How is ₹2.8 LPA In-Hand Salary Calculated?",
+    "formula_html": "<div class=\"formula-box\">Monthly In-Hand = (CTC − Employer PF − Gratuity) ÷ 12 − Employee PF − PT − TDS</div><h3>Step-by-step for ₹2.8 LPA</h3><p><strong>Step 1:</strong> Gross monthly = ₹23,333<br><strong>Step 2:</strong> Basic (40%) = ₹9,333/month<br><strong>Step 3:</strong> Employee EPF = ₹1,120/month<br><strong>Step 4:</strong> Professional tax = ₹200/month<br><strong>Step 5:</strong> TDS = ₹0 (zero tax under 87A rebate)<br><strong>Monthly in-hand = ~₹22,013</strong></p><div class=\"info-callout\">⚠️ Tax slabs are for FY 2025-26. Verify after each Union Budget.</div>",
+    "example_html": "<div class=\"example-box\"><div class=\"example-box__title\">📋 ₹2.8 LPA — In-Hand at Different Basic %</div><div class=\"example-step\"><span class=\"example-step__num\">30% basic</span><span>Lower EPF deduction → slightly higher in-hand</span></div><div class=\"example-step\"><span class=\"example-step__num\">40% basic</span><span>Standard → ~₹22,013/month</span></div><div class=\"example-step\"><span class=\"example-step__num\">50% basic</span><span>Higher EPF but higher HRA exemption (old regime)</span></div><div class=\"example-step\"><span class=\"example-step__num\">New vs Old</span><span>New regime wins — zero tax</span></div></div>",
+    "related_slugs": [
+      "salary-in-hand-calculator",
+      "income-tax-calculator",
+      "hra-calculator"
+    ],
+    "faqs": [
+      {
+        "q": "What is the in-hand salary for ₹2.8 LPA?",
+        "a": "For ₹2.8 LPA CTC with 40% basic under the new tax regime for FY 2025-26, monthly in-hand salary is approximately ₹20,912–₹23,113. There is zero income tax at this salary level under the new regime — taxable income falls within the ₹12 lakh 87A rebate limit. Exact amount depends on your salary structure and city."
+      },
+      {
+        "q": "How much is ₹2.8 LPA per month?",
+        "a": "₹2.8 LPA (Lakh Per Annum) means ₹23,333 per month gross salary. After deductions (EPF, professional tax, and income tax), monthly in-hand is approximately ₹22,013 under the new tax regime with 40% basic salary structure."
+      },
+      {
+        "q": "Is ₹2.8 LPA a good salary in India?",
+        "a": "₹2.8 LPA (₹23,333/month gross) is below the income tax threshold — zero tax under new regime. Whether it is sufficient depends on your city, lifestyle, and financial goals. In metro cities like Mumbai and Delhi, cost of living is significantly higher than in tier-2 cities."
       }
     ]
   }

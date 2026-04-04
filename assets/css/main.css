@@ -1147,3 +1147,11 @@ input[type="range"]::-moz-range-thumb {
   color: var(--ink-secondary);
   font-size: 0.88rem;
 }
+
+/* Last updated date */
+.page-header__updated {
+  font-size: 0.78rem;
+  color: var(--ink-secondary);
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
